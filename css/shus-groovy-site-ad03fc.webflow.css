@@ -20,6 +20,8 @@
 }
 
 .page-padding.s0 {
+  text-align: center;
+  background-color: #000;
   padding-top: 2em;
   padding-bottom: 2em;
   overflow: hidden;
@@ -263,7 +265,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 600px;
+  height: 650px;
   padding: 64px 24px;
   text-decoration: none;
   display: flex;
@@ -368,7 +370,7 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  padding: 30px 24px;
+  padding: 0 24px;
   text-decoration: none;
   display: flex;
   overflow: hidden;
@@ -2238,7 +2240,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 800px;
+  min-height: 900px;
   padding: 64px 24px;
   text-decoration: none;
   display: flex;
@@ -2420,10 +2422,11 @@
   grid-row-gap: 40px;
   background-color: #000;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: auto;
+  min-height: 900px;
   padding: 64px 24px 40px;
   text-decoration: none;
   display: flex;
@@ -2495,7 +2498,7 @@
 
 .hero-stack-6 {
   grid-column-gap: 40px;
-  background-image: linear-gradient(90deg, #0d8929, #0b7924 73%, #000);
+  background-image: linear-gradient(0deg, #0d8929, #0b7924 0%, #000);
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -2970,10 +2973,11 @@
   grid-row-gap: 40px;
   background-color: #000;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: auto;
+  min-height: 900px;
   padding-top: 64px;
   padding-bottom: 64px;
   text-decoration: none;
@@ -3215,9 +3219,10 @@
   grid-row-gap: 80px;
   background-color: #0c8227;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 100%;
+  min-height: 900px;
   padding: 64px 24px;
   text-decoration: none;
   display: flex;
@@ -3609,7 +3614,7 @@
   align-items: center;
   width: 100%;
   max-width: 1440px;
-  height: 136px;
+  height: 80px;
   padding-left: 24px;
   padding-right: 24px;
   text-decoration: none;
@@ -4445,8 +4450,17 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .page-padding.s0, .container-large, .padding-vertical.padding-xxlarge, .logo_component-slider {
+  .page-padding.s0 {
+    background-color: #000;
     overflow: hidden;
+  }
+
+  .container-large, .padding-vertical.padding-xxlarge, .logo_component-slider {
+    overflow: hidden;
+  }
+
+  .hero-heading-left {
+    height: 650px;
   }
 
   .container {
@@ -4460,8 +4474,8 @@
 
   .logo-title {
     background-color: rgba(0, 0, 0, .95);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
     overflow: hidden;
   }
 
@@ -4792,6 +4806,7 @@
   }
 
   .hero-heading-left {
+    height: 650px;
     display: flex;
   }
 
@@ -4810,9 +4825,9 @@
   }
 
   .logo-title {
-    background-color: rgba(0, 0, 0, .95);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    background-color: #000;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .vectors-wrapper-6 {
@@ -5152,6 +5167,10 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .hero-heading-left {
+    height: 650px;
+  }
+
   .container {
     justify-content: space-between;
     align-items: center;
@@ -5172,9 +5191,9 @@
   }
 
   .logo-title {
-    background-color: rgba(0, 0, 0, .95);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    background-color: #000;
+    padding-top: 0;
+    padding-bottom: 0;
     overflow: hidden;
   }
 
@@ -5443,6 +5462,12 @@
 
   .hero-stack-5 {
     height: auto;
+    padding-bottom: 64px;
+  }
+
+  .hero-stack-6 {
+    background-image: linear-gradient(0deg, #0d8929, #0b7924 0%, #000);
+    height: 150px;
   }
 
   .vectors-wrapper-25 {
@@ -6118,7 +6143,7 @@
   }
 
   .new-page-9 {
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: auto;
     padding-bottom: 0;
@@ -6202,6 +6227,7 @@
   }
 
   .navbar-logo-left-2 {
+    height: 80px;
     padding-right: 0;
   }
 
@@ -6572,6 +6598,7 @@
   }
 
   .hero-stack-5 {
+    min-height: 600px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -6597,6 +6624,7 @@
     object-fit: contain;
     padding-left: 10px;
     padding-right: 10px;
+    display: none;
   }
 
   .hero-stack-6 {
@@ -6673,11 +6701,12 @@
   }
 
   .new-page-9 {
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     height: auto;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    min-height: 600px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
   .title-section-5 {
@@ -6692,6 +6721,7 @@
 
   .vectors-wrapper-41 {
     height: auto;
+    display: none;
   }
 
   .team-circles-3 {
@@ -6718,11 +6748,15 @@
   }
 
   .vectors-wrapper-42 {
-    width: 40%;
+    width: 100%;
     height: auto;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: block;
   }
 
   .hero-stack-8 {
+    min-height: 600px;
     padding-bottom: 32px;
   }
 
@@ -6785,6 +6819,10 @@
     font-size: 15px;
   }
 
+  .navbar-logo-left-2 {
+    height: 80px;
+  }
+
   .navbarcontainer-2 {
     justify-content: space-between;
     align-items: center;
@@ -6806,6 +6844,7 @@
   ._3-columns-2 {
     grid-column-gap: 0px;
     object-fit: contain;
+    background-image: linear-gradient(0deg, #0c8227, #000);
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
@@ -6862,6 +6901,13 @@
     width: 40%;
   }
 
+  .mobile {
+    object-fit: contain;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: block;
+  }
+
   .column-28 {
     display: none;
     overflow: hidden;
@@ -6912,6 +6958,7 @@
   }
 
   .padding-vertical.padding-xxlarge {
+    background-color: #000;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -6961,7 +7008,14 @@
   }
 
   .hero-heading-left {
-    height: 450px;
+    height: 600px;
+  }
+
+  .container {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    flex-flow: column;
+    justify-content: space-around;
   }
 
   .error-219e4751-d117-c7f2-2781-20f359b306da {
@@ -7207,10 +7261,16 @@
     line-height: 1.2em;
   }
 
+  .webflow-partner-badge {
+    width: 300px;
+    margin-top: 0;
+    display: block;
+  }
+
   .hero-heading-right {
     justify-content: center;
-    align-items: flex-start;
-    min-height: auto;
+    align-items: center;
+    min-height: 700px;
     position: static;
   }
 
@@ -7258,6 +7318,8 @@
   }
 
   .hero-stack-5 {
+    min-height: 700px;
+    padding-bottom: 64px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -7366,6 +7428,10 @@
     font-size: 15px;
   }
 
+  .new-page-9 {
+    min-height: 700px;
+  }
+
   .text-40 {
     font-size: 30px;
   }
@@ -7402,6 +7468,11 @@
     display: block;
   }
 
+  .hero-stack-8 {
+    min-height: 700px;
+    padding-bottom: 64px;
+  }
+
   .text-45 {
     text-align: left;
     font-size: 30px;
@@ -7430,6 +7501,10 @@
 
   .column-23 {
     padding: 0;
+  }
+
+  .navbar-logo-left-2 {
+    height: 80px;
   }
 
   .image-161 {
