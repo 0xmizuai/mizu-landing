@@ -4491,7 +4491,7 @@
 }
 
 .logo-6 {
-  object-fit: cover;
+  object-fit: contain;
   justify-content: center;
   align-items: center;
   width: 161px;
@@ -4509,7 +4509,7 @@
 }
 
 .logo-7 {
-  object-fit: cover;
+  object-fit: contain;
   justify-content: center;
   align-items: center;
   width: 186px;
@@ -4518,7 +4518,7 @@
 }
 
 .logo-8 {
-  object-fit: cover;
+  object-fit: contain;
   flex: 0 auto;
   justify-content: center;
   align-items: center;
@@ -4527,7 +4527,7 @@
 }
 
 .logo-9 {
-  object-fit: cover;
+  object-fit: contain;
   flex: 0 auto;
   justify-content: center;
   align-items: center;
@@ -4537,7 +4537,7 @@
 }
 
 .logo-10 {
-  object-fit: cover;
+  object-fit: contain;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -4896,6 +4896,10 @@
 
   .mobile-column, .image-163 {
     display: none;
+  }
+
+  .logo-6, .logo-7, .logo-8, .logo-9, .logo-10 {
+    object-fit: contain;
   }
 }
 
@@ -5262,6 +5266,10 @@
 
   .mobile-column, .image-163 {
     display: none;
+  }
+
+  .logo-6, .logo-7, .logo-8, .logo-9, .logo-10 {
+    object-fit: contain;
   }
 }
 
@@ -5643,6 +5651,10 @@
 
   .mobile-column, .image-163 {
     display: none;
+  }
+
+  .logo-6, .logo-7, .logo-8, .logo-9, .logo-10 {
+    object-fit: contain;
   }
 }
 
