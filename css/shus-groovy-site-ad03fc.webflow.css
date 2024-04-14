@@ -7551,7 +7551,7 @@
     grid-column-gap: 32px;
     grid-row-gap: 32px;
     object-fit: contain;
-    background-image: none;
+    background-image: linear-gradient(0deg, #0c8227, #000);
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
