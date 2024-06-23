@@ -31,7 +31,7 @@ export default function RootLayout({
 
         <AppFooter />
 
-        <div className="w-[800px] h-[700px] absolute left-0 bottom-0">
+        <div className="w-full h-[400px] md:w-[768px] md:h-[700px] absolute left-0 bottom-0">
           <Image
             src="/images/roadmap_glow.svg"
             layout="fill"

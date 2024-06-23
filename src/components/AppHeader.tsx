@@ -104,7 +104,7 @@ export const AppHeader = () => {
         onClose={() => {
           setDrawerOpen(false);
         }}
-        size="350px"
+        size="250px"
         style={{
           background: "#ffffff",
           overflow: "auto",
