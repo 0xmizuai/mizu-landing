@@ -8,11 +8,15 @@ export const Roadmap = () => {
       id="roadmap"
       className="flex flex-col items-stretch relative pb-[100px] md:pb-[120px] lg:pb-[150px] xl:pb-[200px] 2xl:pb-[300px]"
     >
+      <div className="-z-1 panel-bg-img absolute right-0 -top-[35px] md:-top-[35px] lg:-top-[50px] 2xl:-top-[80px]">
+        <Image src="/images/panel_bg4.png" layout="fill" alt="icon" />
+      </div>
+
       <div
         className={classNames(
           "self-center text-text2 mt-[105px]",
           "mt-[45px] md:mt-[75px] 2xl:mt-[105px]",
-          "text-[28px] md:text-[35px] lg:text-[40px] 2xl:text-[60px]",
+          "text-[28px] md:text-[35px] lg:text-[40px] 2xl:text-[40px]",
 
           semiBoldFont.className
         )}

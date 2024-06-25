@@ -79,47 +79,57 @@ export default function Home() {
         </div>
       </div>
 
-      <div
-        id="what-is-MIZU"
-        className={classNames(
-          "relative w-full pt-[105px] pb-[50px] md:pb-[75px] xl:pb-[100px] 2xl:pb-[125px] bg-[#012626] overflow-hidden",
-          "flex flex-col md:flex-row justify-between"
-        )}
-      >
-        <div className="z-10 w-[100px] h-[110px] 2xl:w-[220px] 2xl:h-[240px] absolute left-0 top-[-0px]">
-          <Image src="/images/home_bg1.svg" layout="fill" alt="icon" priority />
-        </div>
-
-        <div className="ml-5 mr-5 md:w-[450px] md:mix-w-[450px] md:ml-[90px] lg:ml-[120px] xl:ml-[175px] 2xl:ml-[225px]">
-          <div
-            className={classNames(
-              "text-white",
-              "text-[28px] md:text-[35px] lg:text-[40px] 2xl:text-[60px]",
-              semiBoldFont.className
-            )}
-          >
-            What Is MIZU?
+      <div id="what-is-MIZU" className={classNames("panel bg-[#012626]")}>
+        <div className="panel-content md:h-[345px]">
+          <div className="z-10 panel-bg-img absolute left-0 top-[-0px]">
+            <Image
+              src="/images/home_bg1.svg"
+              layout="fill"
+              alt="icon"
+              priority
+            />
           </div>
 
           <div
             className={classNames(
-              "mt-6 md:mt-10 xl:mt-12 text-white text-[16px] md:text-[16px] xl:text-[18px] leading-normal"
+              "md:w-[450px] md:max-w-[450px]",
+              "mr-5 md:mr-10 lg:mr-[120px] xl:mr-[150px] 2xl:mr-[150px] "
             )}
           >
-            MIZU is the very first synthetic open data layer. Our mission is to
-            build an open, collaborative, and permissionless data ecosystem that
-            empowers AI developers to create diverse AI applications and
-            supports fully open Large Language Models (LLMs) by providing
-            public, risk-free data recipes.
+            <div
+              className={classNames(
+                "text-white",
+                "z-10 relative mt-24 md:mt-0 text-[28px] md:text-[35px] lg:text-[40px] 2xl:text-[40px]",
+                semiBoldFont.className
+              )}
+            >
+              What Is MIZU?
+            </div>
+
+            <div
+              className={classNames(
+                "mt-6 md:mt-10 xl:mt-12 text-white text-[16px] md:text-[16px] xl:text-[18px] leading-normal"
+              )}
+            >
+              MIZU is the very first synthetic open data layer. Our mission is
+              to build an open, collaborative, and permissionless data ecosystem
+              that empowers AI developers to create diverse AI applications and
+              supports fully open Large Language Models (LLMs) by providing
+              public, risk-free data recipes.
+            </div>
           </div>
-        </div>
 
-        <div className="flex-1 flex mt-10 md:mt-14 -mr-[60px] md:flex overflow-hidden md:pl-[50px] xl:pl-[100px] 2xl:pl-[200px]">
-          <LogoVectors />
+          {/* <div className="flex-1 flex mt-10 md:mt-14 -mr-[60px] md:flex overflow-hidden md:pl-[50px] xl:pl-[100px] 2xl:pl-[200px]">
+            <LogoVectors />
 
-          <LogoVectors />
+            <LogoVectors />
 
-          <LogoVectors />
+            <LogoVectors />
+          </div> */}
+
+          <div className="mt-[20px] md:-mt-[0px] 2xl:-mt-[30px] w-[180px] h-[180px] md:min-w-[200px] lg:min-w-[280px] xl:min-w-[325px] md:w-[200px] md:h-[200px] lg:w-[280px] lg:h-[280px] xl:w-[325px] xl:h-[325px] relative">
+            <Image src="/images/what_is_mizu.svg" alt="icon" layout="fill" />
+          </div>
         </div>
       </div>
 
