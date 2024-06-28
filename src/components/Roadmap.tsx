@@ -6,7 +6,7 @@ export const Roadmap = () => {
   return (
     <div
       id="roadmap"
-      className="flex flex-col items-stretch relative pb-[100px] md:pb-[120px] lg:pb-[150px] xl:pb-[200px] 2xl:pb-[300px]"
+      className="flex flex-col items-stretch relative pb-[150px] md:pb-[200px] lg:pb-[250px] xl:pb-[250px] 2xl:pb-[300px]"
     >
       <div className="-z-1 panel-bg-img absolute right-0 -top-[35px] md:-top-[35px] lg:-top-[50px] 2xl:-top-[80px]">
         <Image src="/images/panel_bg4.png" layout="fill" alt="icon" />
@@ -16,7 +16,7 @@ export const Roadmap = () => {
         className={classNames(
           "self-center text-text2 mt-[105px]",
           "mt-[45px] md:mt-[75px] 2xl:mt-[105px]",
-          "text-[28px] md:text-[35px] lg:text-[40px] 2xl:text-[40px]",
+          "panel-title",
 
           semiBoldFont.className
         )}
@@ -24,8 +24,13 @@ export const Roadmap = () => {
         Roadmap
       </div>
 
-      <div className="mt-10 mx-5 flex items-stretch justify-center h-[500px] md:hidden">
-        <div className="pt-5 mr-2 flex flex-col items-end">
+      <div
+        className="mt-10 mx-5 items-stretch justify-center h-[650px] md:hidden grid"
+        style={{
+          gridTemplateColumns: "1fr 2px 1fr",
+        }}
+      >
+        <div className="pt-5 flex flex-col items-end">
           <div className="flex-1 flex justify-end">
             <div className="w-[70px] h-[25px] relative rotate-180">
               <Image
@@ -36,7 +41,7 @@ export const Roadmap = () => {
             </div>
           </div>
 
-          <div className="flex-1  flex flex-col items-end">
+          <div className="mr-3 flex-1 flex flex-col items-end">
             <div className="flex items-center">
               <div className="w-[14px] h-[14px] relative">
                 <Image src="/images/logo_blue.svg" layout="fill" alt="icon" />
@@ -48,16 +53,18 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                2025 Q1
+                August 2024
               </div>
             </div>
 
             <div className="max-w-[200px] mt-2 text-[#898989] text-[12px] leading-snug text-end">
-              Decentralized prover network with all the node clients
+              Release the testnet for the MIZU data network, featuring
+              capabilities for both synthetic data generation and public data
+              collection
             </div>
           </div>
 
-          <div className="flex-1  flex justify-end">
+          <div className="flex-1 flex justify-end">
             <div className="w-[70px] h-[25px] relative rotate-180">
               <Image
                 src="/images/roadmap_indicator_h.svg"
@@ -67,7 +74,7 @@ export const Roadmap = () => {
             </div>
           </div>
 
-          <div className="flex-1  flex flex-col items-end">
+          <div className="mr-3 flex-1 flex flex-col items-end">
             <div className="flex items-center">
               <div className="w-[14px] h-[14px] relative">
                 <Image src="/images/logo_blue.svg" layout="fill" alt="icon" />
@@ -79,21 +86,22 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                2025 Q4
+                Q1 2025
               </div>
             </div>
 
-            <div className="max-w-[200px] mt-2 text-[#898989] text-[12px] leading-snug">
-              Browse zkWASM prover
-              <br /> by jusr opening
+            <div className="max-w-[200px] mt-2 text-[#898989] text-[12px] leading-snug text-end">
+              Focus on ecosystem development, fostering the creation of AI
+              applications directly from the data repository and supporting
+              developers in utilizing the platform effectively
             </div>
           </div>
         </div>
 
-        <div className="w-[4px] bg-[#898989]" />
+        <div className="w-[2px] bg-[#898989]" />
 
-        <div className="ml-2 pt-5 flex flex-col">
-          <div className="flex-1 flex flex-col items-start">
+        <div className="pt-5 flex flex-col">
+          <div className="ml-3 flex-1 flex flex-col items-start">
             <div className="flex items-center">
               <div className="w-[14px] h-[14px] relative">
                 <Image src="/images/logo_blue.svg" layout="fill" alt="icon" />
@@ -105,12 +113,13 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                2024 Q3
+                July 2024
               </div>
             </div>
 
             <div className="mt-2 max-w-[200px] text-[#898989] text-[12px] leading-snug">
-              zkIndexing Demo for Uniswap V2 on Ethereum
+              Launch the MIZU data repository and import initial open-source
+              datasets into the MIZU data network
             </div>
           </div>
 
@@ -124,7 +133,7 @@ export const Roadmap = () => {
             </div>
           </div>
 
-          <div className="flex-1 ">
+          <div className="ml-3 flex-1 ">
             <div className="flex items-center">
               <div className="w-[17px] h-[17px] relative">
                 <Image src="/images/logo_blue.svg" layout="fill" alt="icon" />
@@ -136,14 +145,15 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                2025 Q3
+                Q4 2024
               </div>
             </div>
 
             <div className="mt-2 text-[#898989] text-[12px] leading-snug">
-              Specialized circuits further <br />
-              accelerate 90% of <br />
-              zkIndexing usage
+              Official launch of the mainnet
+              <br /> and Token Generation Event (TGE), <br />
+              marking the full deployment and <br />
+              operational launch of the MIZU data network
             </div>
           </div>
 
@@ -160,7 +170,7 @@ export const Roadmap = () => {
       </div>
 
       <div className="hidden md:block">
-        <div className="mt-[110px] pl-[100px] 2xl:pl-[300px] md:content-wrapper grid grid-cols-4 justify-between">
+        <div className="mt-[110px] pl-[100px] 2xl:pl-[300px] md:content-wrapper grid grid-cols-4 justify-between items-end">
           <div className="w-[32px] h-[96px] relative">
             <Image
               src="/images/roadmap_indicator.svg"
@@ -169,7 +179,7 @@ export const Roadmap = () => {
             />
           </div>
 
-          <div>
+          <div className="mb-3">
             <div className="flex items-center">
               <div className="w-[17px] h-[17px] relative">
                 <Image src="/images/logo_blue.svg" layout="fill" alt="icon" />
@@ -181,14 +191,14 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                2025 Q1
+                August 2024
               </div>
             </div>
 
-            <div className="mt-4 text-[#898989] text-[14px] leading-snug">
-              Decentralized prover network
-              <br />
-              with all the node clients
+            <div className="mt-4 text-[#898989] text-[14px] leading-snug  pr-5">
+              Release the testnet for the MIZU data network, featuring
+              capabilities for both synthetic data generation and public data
+              collection
             </div>
           </div>
 
@@ -200,7 +210,7 @@ export const Roadmap = () => {
             />
           </div>
 
-          <div>
+          <div className="mb-3 ">
             <div className="flex items-center">
               <div className="w-[17px] h-[17px] relative">
                 <Image src="/images/logo_blue.svg" layout="fill" alt="icon" />
@@ -212,14 +222,14 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                2025 Q4
+                Q1 2025
               </div>
             </div>
 
-            <div className="mt-4 text-[#898989] text-[14px] leading-snug">
-              Browse zkWASM prover
-              <br />
-              by jusr opening
+            <div className="mt-4 text-[#898989] text-[14px] leading-snug   pr-5">
+              Focus on ecosystem development, fostering the creation of AI
+              applications directly from the data repository and supporting
+              developers in utilizing the platform effectively
             </div>
           </div>
         </div>
@@ -239,14 +249,14 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                2024 Q3
+                July 2024
               </div>
             </div>
 
-            <div className="mt-4 text-[#898989] text-[14px] leading-snug">
-              zkIndexing Demo for
-              <br />
-              Uniswap V2 on Ethereum
+            <div className="mt-4 text-[#898989] text-[14px] leading-snug   pr-5">
+              Launch the MIZU data repository
+              <br /> and import initial open-source datasets into the MIZU data
+              network
             </div>
           </div>
 
@@ -270,14 +280,14 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                2025 Q3
+                Q4 2024
               </div>
             </div>
 
-            <div className="mt-4 text-[#898989] text-[14px] leading-snug">
-              Specialized circuits further
-              <br /> accelerate 90% of
-              <br /> zkIndexing usage
+            <div className="mt-4 text-[#898989] text-[14px] leading-snug   pr-5">
+              Official launch of the mainnet and Token Generation Event (TGE),
+              marking the full deployment and operational launch of the MIZU
+              data network
             </div>
           </div>
 

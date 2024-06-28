@@ -5,22 +5,22 @@ import Link from "next/link";
 
 export const AppFooter = () => {
   return (
-    <div className="z-20 relative h-[60px] md:h-[80px] left-0 right-0 top-0 flex items-center justify-center">
+    <div className="z-10 relative h-[60px] md:h-[80px] left-0 right-0 top-0 flex items-center justify-center">
       <div className="pl-12 md:pl-12 2xl:pl-14 pr-8 w-full flex justify-between items-center">
         <Image
           src="/images/logo.svg"
           alt="MIZU Logo"
           className="cursor-pointer hidden lg:block"
-          width={130}
+          width={83}
           height={35}
           priority
         />
 
         <Image
-          src="/images/logo_icon.svg"
+          src="/images/logo.svg"
           alt="MIZU Logo"
           className="cursor-pointer block lg:hidden"
-          width={35}
+          width={83}
           height={35}
           priority
         />

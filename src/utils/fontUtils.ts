@@ -1,16 +1,16 @@
-import { Inter } from "next/font/google";
+import { Inter, Rubik } from "next/font/google";
 
-export const regularFont = Inter({
+export const regularFont = Rubik({
   weight: "400",
   subsets: ["latin"],
 });
 
-export const semiBoldFont = Inter({
+export const semiBoldFont = Rubik({
   weight: "500",
   subsets: ["latin"],
 });
 
-export const boldFont = Inter({
+export const boldFont = Rubik({
   weight: "700",
   subsets: ["latin"],
 });

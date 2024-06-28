@@ -11,7 +11,10 @@ export default function Home() {
     <main className="relative min-h-screen">
       <Introduction />
 
-      <div className="w-full py-3 md:py-3 lg:py-5 bg-[#C3F4F4] flex justify-center">
+      <div
+        id="partners"
+        className="w-full py-3 md:py-3 lg:py-5 bg-[#C3F4F4] flex justify-center"
+      >
         <div
           className={classNames(
             "w-full md:content-wrapper",
@@ -79,8 +82,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="what-is-MIZU" className={classNames("panel bg-[#012626]")}>
-        <div className="panel-content md:h-[345px]">
+      <div id="what-is-MIZU" className={classNames("panel1 bg-[#012626]")}>
+        <div className="panel1-content pb-16 md:pb-0 md:h-[345px]">
           <div className="z-10 panel-bg-img absolute left-0 top-[-0px]">
             <Image
               src="/images/home_bg1.svg"
@@ -92,14 +95,14 @@ export default function Home() {
 
           <div
             className={classNames(
-              "md:w-[450px] md:max-w-[450px]",
+              "w-[250px] max-w-[250px] md:w-[450px] md:max-w-[450px]",
               "mr-5 md:mr-10 lg:mr-[120px] xl:mr-[150px] 2xl:mr-[150px] "
             )}
           >
             <div
               className={classNames(
                 "text-white",
-                "z-10 relative mt-24 md:mt-0 text-[28px] md:text-[35px] lg:text-[40px] 2xl:text-[40px]",
+                "z-10 relative mt-16 md:mt-0 panel-title text-end md:text-start",
                 semiBoldFont.className
               )}
             >
@@ -108,14 +111,16 @@ export default function Home() {
 
             <div
               className={classNames(
-                "mt-6 md:mt-10 xl:mt-12 text-white text-[16px] md:text-[16px] xl:text-[18px] leading-normal"
+                "mt-14 md:mt-14 xl:mt-12 text-white text-[16px] md:text-[16px] xl:text-[18px] leading-normal"
               )}
             >
-              MIZU is the very first synthetic open data layer. Our mission is
-              to build an open, collaborative, and permissionless data ecosystem
-              that empowers AI developers to create diverse AI applications and
-              supports fully open Large Language Models (LLMs) by providing
-              public, risk-free data recipes.
+              MIZU pioneers as the world's first and largest decentralized
+              open-source data network. Through our data repository and
+              decentralized data processing network, we establish an open,
+              collaborative, and permissionless ecosystem. This empowers AI
+              developers to innovate and create diverse applications, while
+              supporting fully open Large Language Models (LLMs) with public,
+              risk-free data recipes.
             </div>
           </div>
 
@@ -127,7 +132,7 @@ export default function Home() {
             <LogoVectors />
           </div> */}
 
-          <div className="mt-[20px] md:-mt-[0px] 2xl:-mt-[30px] w-[180px] h-[180px] md:min-w-[200px] lg:min-w-[280px] xl:min-w-[325px] md:w-[200px] md:h-[200px] lg:w-[280px] lg:h-[280px] xl:w-[325px] xl:h-[325px] relative">
+          <div className="mt-[48px] md:-mt-[0px] 2xl:-mt-[30px] w-[255px] h-[255px] md:min-w-[255px] lg:min-w-[280px] xl:min-w-[325px] md:w-[255px] md:h-[255px] lg:w-[280px] lg:h-[280px] xl:w-[325px] xl:h-[325px] relative">
             <Image src="/images/what_is_mizu.svg" alt="icon" layout="fill" />
           </div>
         </div>

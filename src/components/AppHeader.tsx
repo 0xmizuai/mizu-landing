@@ -2,7 +2,7 @@
 
 import { semiBoldFont } from "@/utils/fontUtils";
 import classNames from "classnames";
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -15,7 +15,7 @@ export const AppHeader = () => {
     <div className="z-20 h-[60px] md:h-[80px] fixed left-0 right-0 top-0 bg-white flex items-center justify-center">
       <div
         className={classNames(
-          "px-5 w-full flex justify-between items-center",
+          "px-5 w-full flex justify-between items-center flex-row-reverse md:flex-row",
           "md:pl-10 md:pr-6 lg:pl-16 lg:pr-8"
         )}
       >
@@ -32,11 +32,11 @@ export const AppHeader = () => {
 
         <Link href="/" className="block lg:hidden">
           <Image
-            src="/images/logo_icon.svg"
+            src="/images/logo.svg"
             alt="MIZU Logo"
             className="cursor-pointer "
-            width={35}
-            height={35}
+            width={83}
+            height={30}
             priority
           />
         </Link>
@@ -60,17 +60,6 @@ export const AppHeader = () => {
             </div>
           </Link>
 
-          <a href="#partners">
-            <div
-              className={classNames(
-                "ml-16 text-[16px] text-black cursor-pointer",
-                semiBoldFont.className
-              )}
-            >
-              Partners
-            </div>
-          </a>
-
           <Link href="#why-different">
             <div
               className={classNames(
@@ -90,6 +79,20 @@ export const AppHeader = () => {
               )}
             >
               Roadmap
+            </div>
+          </Link>
+
+          <Link href={"https://docs.mizu.global/overview"} target="_blank">
+            <div
+              className={classNames(
+                "ml-16 text-[16px] text-black cursor-pointer",
+                semiBoldFont.className
+              )}
+              onClick={() => {
+                setDrawerOpen(false);
+              }}
+            >
+              Docs
             </div>
           </Link>
         </div>
@@ -104,76 +107,88 @@ export const AppHeader = () => {
         onClose={() => {
           setDrawerOpen(false);
         }}
-        size="250px"
+        size="100%"
         style={{
           background: "#ffffff",
           overflow: "auto",
         }}
       >
-        <div className="p-5">
-          <Image
-            src="/images/logo.svg"
-            alt="MIZU Logo"
-            width={83}
-            height={30}
-            priority
-          />
-
-          <Link href="#what-is-MIZU">
-            <div
-              className={classNames(
-                "mt-16 text-[16px] text-black cursor-pointer",
-                semiBoldFont.className
-              )}
+        <div className="p-5 flex flex-col h-full">
+          <div className="flex justify-between items-center">
+            <X
+              size="30px"
+              className="cursor-pointer"
               onClick={() => {
                 setDrawerOpen(false);
               }}
-            >
-              What is MIZU
-            </div>
-          </Link>
+            />
 
-          <a href="#partners">
-            <div
-              className={classNames(
-                "mt-8 text-[16px] text-black cursor-pointer",
-                semiBoldFont.className
-              )}
-              onClick={() => {
-                setDrawerOpen(false);
-              }}
-            >
-              Partners
-            </div>
-          </a>
+            <Image
+              src="/images/logo.svg"
+              alt="MIZU Logo"
+              width={83}
+              height={30}
+              priority
+            />
+          </div>
 
-          <Link href="#why-different">
-            <div
-              className={classNames(
-                "mt-8 text-[16px] text-black cursor-pointer",
-                semiBoldFont.className
-              )}
-              onClick={() => {
-                setDrawerOpen(false);
-              }}
-            >
-              Why We Are Different
-            </div>
-          </Link>
+          <div className="flex-1 flex flex-col justify-center items-center pb-[100px]">
+            <Link href="#what-is-MIZU">
+              <div
+                className={classNames(
+                  "mt-16 text-[16px] text-black cursor-pointer",
+                  semiBoldFont.className
+                )}
+                onClick={() => {
+                  setDrawerOpen(false);
+                }}
+              >
+                What is MIZU
+              </div>
+            </Link>
 
-          <Link href="#roadmap">
-            <div
-              className={classNames(
-                "mt-8 text-[16px] text-black cursor-pointer",
-                semiBoldFont.className
-              )}
-              onClick={() => {
-                setDrawerOpen(false);
-              }}
-            >
-              Roadmap
-            </div>
-          </Link>
+            <Link href="#why-different">
+              <div
+                className={classNames(
+                  "mt-14 text-[16px] text-black cursor-pointer",
+                  semiBoldFont.className
+                )}
+                onClick={() => {
+                  setDrawerOpen(false);
+                }}
+              >
+                Why We Are Different
+              </div>
+            </Link>
+
+            <Link href="#roadmap">
+              <div
+                className={classNames(
+                  "mt-14 text-[16px] text-black cursor-pointer",
+                  semiBoldFont.className
+                )}
+                onClick={() => {
+                  setDrawerOpen(false);
+                }}
+              >
+                Roadmap
+              </div>
+            </Link>
+
+            <Link href={"https://docs.mizu.global/overview"} target="_blank">
+              <div
+                className={classNames(
+                  "mt-14 text-[16px] text-black cursor-pointer",
+                  semiBoldFont.className
+                )}
+                onClick={() => {
+                  setDrawerOpen(false);
+                }}
+              >
+                Docs
+              </div>
+            </Link>
+          </div>
         </div>
       </Drawer>
     </div>
