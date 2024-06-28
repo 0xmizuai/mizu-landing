@@ -26,24 +26,6 @@ export default function Home() {
             "grid gap-2 items-center justify-between grid-cols-auto3 md:grid-cols-auto6 lg:grid-cols-auto6 2xl:grid-cols-auto6"
           )}
         >
-          <div className="w-[52px] h-[22px] lg:w-[82px] lg:h-[39px] relative">
-            <Image
-              src="/images/capital_icon1.png"
-              layout="fill"
-              alt="icon"
-              priority
-            />
-          </div>
-
-          <div className="w-[70px] h-[19px] lg:w-[122px] lg:h-[29px] relative">
-            <Image
-              src="/images/capital_icon2.png"
-              layout="fill"
-              alt="icon"
-              priority
-            />
-          </div>
-
           <div className="w-[50px] h-[40px] lg:w-[92px] lg:h-[79px] relative">
             <Image
               src="/images/capital_icon3.png"
@@ -53,9 +35,18 @@ export default function Home() {
             />
           </div>
 
-          <div className="w-[90px] h-[12px] lg:w-[159px] lg:h-[24px] relative">
+          <div className="w-[80px] h-[18px] lg:w-[122px] lg:h-[29px] relative">
             <Image
-              src="/images/capital_icon4.png"
+              src="/images/capital_icon2.png"
+              layout="fill"
+              alt="icon"
+              priority
+            />
+          </div>
+
+          <div className="w-[40px] h-[19px] lg:w-[65px] lg:h-[30px] relative">
+            <Image
+              src="/images/capital_icon6.png"
               layout="fill"
               alt="icon"
               priority
@@ -71,9 +62,18 @@ export default function Home() {
             />
           </div>
 
-          <div className="w-[40px] h-[19px] lg:w-[65px] lg:h-[30px] relative">
+          <div className="w-[52px] h-[25px] lg:w-[82px] lg:h-[39px] relative">
             <Image
-              src="/images/capital_icon6.png"
+              src="/images/capital_icon1.png"
+              layout="fill"
+              alt="icon"
+              priority
+            />
+          </div>
+
+          <div className="w-[90px] h-[12px] lg:w-[159px] lg:h-[24px] relative">
+            <Image
+              src="/images/capital_icon4.png"
               layout="fill"
               alt="icon"
               priority
