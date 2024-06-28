@@ -37,11 +37,11 @@ export const AppFooter = () => {
             />
           </Link>
 
-          <Link href={"https://www.x.com"} target="_blank">
+          <Link href={"https://docs.mizu.global"} target="_blank">
             <Image
               src="/images/link_mirror.png"
               alt="x"
-              className="ml-5 cursor-pointer hidden"
+              className="ml-5 cursor-pointer"
               width={25}
               height={25}
               priority
