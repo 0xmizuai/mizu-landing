@@ -26,7 +26,7 @@ export const AppFooter = () => {
         />
 
         <div className="flex items-center">
-          <Link href={"https://www.x.com"} target="_blank">
+          <Link href={"https://x.com/0xmizu_ai"} target="_blank">
             <Image
               src="/images/link_x.png"
               alt="x"
@@ -41,7 +41,7 @@ export const AppFooter = () => {
             <Image
               src="/images/link_mirror.png"
               alt="x"
-              className="ml-5 cursor-pointer "
+              className="ml-5 cursor-pointer hidden"
               width={25}
               height={25}
               priority
