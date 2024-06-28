@@ -113,7 +113,7 @@ export const AppHeader = () => {
           overflow: "auto",
         }}
       >
-        <div className="p-5 flex flex-col h-full">
+        <div className="p-5 flex flex-col h-[100vh]">
           <div className="flex justify-between items-center">
             <X
               size="30px"

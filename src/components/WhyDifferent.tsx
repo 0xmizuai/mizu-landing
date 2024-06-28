@@ -29,7 +29,7 @@ export const WhyDifferent = () => {
           className={classNames(
             " mt-[40px] md:pt-[55px] 2xl:mt-[70px]  relative",
             "ml-[10px] 2xl:ml-[300px]",
-            "w-[400px] h-[250px] md:w-[550px] md:h-[380px] xl:w-[750px] xl:h-[480px] 2xl:w-[860px] 2xl:h-[580px]"
+            "w-[350px] h-[220px] md:w-[550px] md:h-[380px] xl:w-[750px] xl:h-[480px] 2xl:w-[860px] 2xl:h-[580px]"
           )}
         >
           <Image
