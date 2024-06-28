@@ -1,10 +1,15 @@
 import { Introduction } from "@/components/Introduction";
-import { LogoVectors } from "@/components/LogoVectors";
 import { Roadmap } from "@/components/Roadmap";
 import { WhyDifferent } from "@/components/WhyDifferent";
-import { boldFont, semiBoldFont } from "@/utils/fontUtils";
+import { semiBoldFont } from "@/utils/fontUtils";
 import classNames from "classnames";
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "MIZU Home",
+  description: "The first decentralized open source data layer",
+};
 
 export default function Home() {
   return (
