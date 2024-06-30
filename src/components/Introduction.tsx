@@ -93,7 +93,7 @@ export const Introduction = () => {
                   boldFont.className
                 )}
               >
-                Read Our White Paper
+                System Deep Dive
               </div>
             </Link>
           </div>
