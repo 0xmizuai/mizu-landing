@@ -1,6 +1,6 @@
 "use client";
 
-import { semiBoldFont } from "@/utils/fontUtils";
+import { boldFont, semiBoldFont } from "@/utils/fontUtils";
 import classNames from "classnames";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
@@ -15,7 +15,7 @@ export const AppHeader = () => {
     <div className="z-20 h-[60px] md:h-[80px] fixed left-0 right-0 top-0 bg-white flex items-center justify-center">
       <div
         className={classNames(
-          "px-5 w-full flex justify-between items-center flex-row-reverse md:flex-row",
+          "px-5 w-full flex justify-between items-center flex-row-reverse lg:flex-row",
           "md:pl-10 md:pr-6 lg:pl-16 lg:pr-8"
         )}
       >
@@ -41,14 +41,27 @@ export const AppHeader = () => {
           />
         </Link>
 
-        <div
-          className="text-black block md:hidden cursor-pointer"
-          onClick={() => setDrawerOpen(true)}
-        >
-          <Menu size="25px" className="" />
+        <div className="flex lg:hidden items-center">
+          <div
+            className="text-black cursor-pointer"
+            onClick={() => setDrawerOpen(true)}
+          >
+            <Menu size="25px" className="" />
+          </div>
+
+          <Link href={"https://app.mizu.global"} target="_blank">
+            <div
+              className={classNames(
+                "ml-5 bg-lightButtonBg rounded-lg px-6 py-2 cursor-pointer text-[12px] lg:text-[16px] text-black leading-tight flex justify-center",
+                semiBoldFont.className
+              )}
+            >
+              Launch App
+            </div>
+          </Link>
         </div>
 
-        <div className="hidden items-center md:flex">
+        <div className="hidden items-center lg:flex">
           <Link href="#what-is-MIZU">
             <div
               className={classNames(
@@ -93,6 +106,17 @@ export const AppHeader = () => {
               }}
             >
               Docs
+            </div>
+          </Link>
+
+          <Link href={"https://app.mizu.global"} target="_blank">
+            <div
+              className={classNames(
+                "ml-16 bg-lightButtonBg rounded-lg px-6 py-2 cursor-pointer text-[12px] lg:text-[16px] text-black leading-tight flex justify-center",
+                semiBoldFont.className
+              )}
+            >
+              Launch App
             </div>
           </Link>
         </div>

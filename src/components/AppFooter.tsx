@@ -1,5 +1,6 @@
 "use client";
 
+import { Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -37,15 +38,16 @@ export const AppFooter = () => {
             />
           </Link>
 
-          <Link href={"https://docs.mizu.global"} target="_blank">
-            <Image
+          <Link href={"mailto:contact@mizu.global"} target="_blank">
+            {/* <Image
               src="/images/link_mirror.png"
               alt="x"
               className="ml-5 cursor-pointer"
               width={25}
               height={25}
               priority
-            />
+            /> */}
+            <Mail size={25} className="cursor-pointer ml-5 text-black" />
           </Link>
         </div>
       </div>
