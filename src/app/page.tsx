@@ -131,13 +131,14 @@ export default function Home() {
                 "mt-14 md:mt-14 xl:mt-12 text-white text-[16px] md:text-[16px] xl:text-[18px] leading-normal"
               )}
             >
-              MIZU pioneers as the world's first and largest decentralized
-              open-source data network. Through our data repository and
-              decentralized data processing network, we establish an open,
-              collaborative, and permissionless ecosystem. This empowers AI
-              developers to innovate and create diverse applications, while
-              supporting fully open Large Language Models (LLMs) with public,
-              risk-free data recipes.
+              MIZU aims to establish the world's largest decentralized
+              open-source data network. We offer a platform featuring a data
+              repository and decentralized processing network, promoting an
+              open, collaborative and permission-less data ecosystem for both
+              public and synthetic data. This setup enables AI developers to
+              innovate and build various applications while supporting the
+              development of fully open Large Language Models (LLMs) through
+              easily accessible, low-risk data resources.
             </div>
           </div>
 

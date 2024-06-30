@@ -39,6 +39,7 @@ export const Introduction = () => {
             className={classNames(
               "text-[32px] leading-tight text-black",
               "text-center md:text-start md:text-[35px] lg:text-[40px] 2xl:text-[60px]",
+              "block md:hidden",
               boldFont.className
             )}
           >
@@ -52,11 +53,30 @@ export const Introduction = () => {
               <span className="text-primary">MIZU</span>,
             </span>
             the first <br className="hidden md:inline" />
-            <span className="text-primary">
-              synthetic
-              <br className="md:hidden" /> open data
+            and largest
+            <span className="text-primary ml-2">
+              decentralized open data network
+              {/* <br className="md:hidden" /> open data */}
             </span>{" "}
-            layer.
+            {/* layer. */}
+          </div>
+
+          <div
+            className={classNames(
+              "text-[32px] leading-tight text-black",
+              "text-center md:text-start md:text-[35px] lg:text-[40px] 2xl:text-[60px]",
+              "hidden md:block",
+              boldFont.className
+            )}
+          >
+            Introducing <span className="text-primary">MIZU</span>, the first{" "}
+            <br className="hidden md:inline" />
+            and largest
+            <span className="ml-2 text-primary">
+              decentralized <br /> open data network
+              {/* <br className="md:hidden" /> open data */}
+            </span>{" "}
+            {/* layer. */}
           </div>
 
           <div
