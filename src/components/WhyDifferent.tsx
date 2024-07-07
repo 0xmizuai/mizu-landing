@@ -71,7 +71,7 @@ export const WhyDifferent = () => {
             </div>
           </div>
 
-          <div className="mt-[0px] md:-mt-[0px] 2xl:-mt-[30px] w-[90px] h-[110px] min-w-[90px] md:min-w-[140px] lg:min-w-[160px] xl:min-w-[210px] md:w-[140px] md:h-[170px] lg:w-[160px] lg:h-[200px] xl:w-[210px] xl:h-[260px] relative">
+          <div className="mt-[0px] md:-mt-[0px] 2xl:-mt-[30px] w-[110px] h-[110px] min-w-[110px] md:min-w-[170px] lg:min-w-[200px] xl:min-w-[260px] md:w-[170px] md:h-[170px] lg:w-[200px] lg:h-[200px] xl:w-[260px] xl:h-[260px] relative">
             <Image src="/images/open_source.svg" alt="icon" layout="fill" />
           </div>
         </div>
@@ -79,7 +79,12 @@ export const WhyDifferent = () => {
 
       <div className="bg-[#FAF3B8] panel">
         <div className="panel-content content-wrapper items-end md:items-center">
-          <div className="mt-[20px] md:mt-0 w-[100px] h-[90px] min-w-[100px] md:min-w-[140px] lg:min-w-[160px] xl:min-w-[235px] md:w-[140px] md:h-[130px] lg:w-[160px] lg:h-[150px] xl:w-[235px] xl:h-[215px] relative">
+          <div
+            className={classNames(
+              "mt-[20px] md:mt-0 relative",
+              "w-[110px] h-[110px] min-w-[110px] md:min-w-[170px] lg:min-w-[200px] xl:min-w-[260px] md:w-[170px] md:h-[170px] lg:w-[200px] lg:h-[200px] xl:w-[260px] xl:h-[260px] "
+            )}
+          >
             <Image
               src="/images/application_driven.svg"
               alt="icon"
@@ -141,7 +146,12 @@ export const WhyDifferent = () => {
             </div>
           </div>
 
-          <div className="mt-[20px] md:-mt-[0px] 2xl:-mt-[30px] w-[110px] h-[75px]  min-w-[110px] md:min-w-[180px] lg:min-w-[200px] xl:min-w-[230px] md:w-[180px] md:h-[160px] lg:w-[200px] lg:h-[150px] xl:w-[230px] xl:h-[170px] relative">
+          <div
+            className={classNames(
+              "mt-[20px] md:-mt-[0px] 2xl:-mt-[30px] relative",
+              "w-[110px] h-[110px] min-w-[110px] md:min-w-[170px] lg:min-w-[200px] xl:min-w-[260px] md:w-[170px] md:h-[170px] lg:w-[200px] lg:h-[200px] xl:w-[260px] xl:h-[260px] "
+            )}
+          >
             <Image src="/images/data_centric.svg" alt="icon" layout="fill" />
           </div>
         </div>

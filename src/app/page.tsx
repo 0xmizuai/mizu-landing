@@ -100,7 +100,7 @@ export default function Home() {
       </div>
 
       <div id="what-is-MIZU" className={classNames("panel1 bg-[#012626]")}>
-        <div className="panel1-content pb-16 md:pb-0 md:h-[345px]">
+        <div className="panel1-content pb-16 md:pb-0 md:h-[465px]">
           <div className="z-10 panel-bg-img absolute left-0 top-[-0px]">
             <Image
               src="/images/home_bg1.svg"
@@ -112,7 +112,7 @@ export default function Home() {
 
           <div
             className={classNames(
-              "w-[250px] max-w-[250px] md:w-[450px] md:max-w-[450px]",
+              "pt-2 md:pt-4 xl:pt-[] w-[250px] max-w-[250px] md:w-[450px] md:max-w-[450px]",
               "mr-5 md:mr-10 lg:mr-[120px] xl:mr-[150px] 2xl:mr-[150px] "
             )}
           >
@@ -150,7 +150,7 @@ export default function Home() {
             <LogoVectors />
           </div> */}
 
-          <div className="mt-[48px] md:-mt-[0px] 2xl:-mt-[30px] w-[255px] h-[255px] md:min-w-[255px] lg:min-w-[280px] xl:min-w-[325px] md:w-[255px] md:h-[255px] lg:w-[280px] lg:h-[280px] xl:w-[325px] xl:h-[325px] relative">
+          <div className="mt-[48px] md:-mt-[0px] 2xl:-mt-[30px] w-[325px] h-[255px] md:min-w-[325px] lg:min-w-[350px] xl:min-w-[405px] md:w-325px] md:h-[255px] lg:w-[350px] lg:h-[280px] xl:w-[485px] xl:h-[355px] relative">
             <Image src="/images/what_is_mizu.svg" alt="icon" layout="fill" />
           </div>
         </div>
