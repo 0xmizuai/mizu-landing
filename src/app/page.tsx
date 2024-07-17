@@ -3,6 +3,7 @@ import { Roadmap } from "@/components/Roadmap";
 import { WhyDifferent } from "@/components/WhyDifferent";
 import { semiBoldFont } from "@/utils/fontUtils";
 import classNames from "classnames";
+import Lottie from "lottie-react";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -98,7 +99,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div id="what-is-MIZU" className={classNames("panel1 bg-[#012626]")}>
         <div className="panel1-content pb-16 md:pb-0 md:h-[465px]">
           <div className="z-10 panel-bg-img absolute left-0 top-[-0px]">
@@ -155,7 +155,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div id="why-different" className="h-[1px]" />
 
       <WhyDifferent />

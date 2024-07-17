@@ -1,6 +1,12 @@
+"use client";
+
 import { semiBoldFont } from "@/utils/fontUtils";
 import classNames from "classnames";
+import Lottie from "lottie-react";
 import Image from "next/image";
+import applicationDrivenData from "public/lotties/application_driven.json";
+import dataCentricData from "public/lotties/data_centric.json";
+import openSourceData from "public/lotties/open_source.json";
 
 export const WhyDifferent = () => {
   return (
@@ -40,7 +46,6 @@ export const WhyDifferent = () => {
           />
         </div>
       </div>
-
       <div className="bg-[#D7F8FF] panel mt-20">
         <div className="panel-content content-wrapper">
           <div className="-z-1 panel-bg-img absolute left-0 -top-[20px] md:-top-[25px] lg:-top-[35px] 2xl:-top-[40px]">
@@ -72,11 +77,15 @@ export const WhyDifferent = () => {
           </div>
 
           <div className="mt-[0px] md:-mt-[0px] 2xl:-mt-[30px] w-[110px] h-[110px] min-w-[110px] md:min-w-[170px] lg:min-w-[200px] xl:min-w-[260px] md:w-[170px] md:h-[170px] lg:w-[200px] lg:h-[200px] xl:w-[260px] xl:h-[260px] relative">
-            <Image src="/images/open_source.svg" alt="icon" layout="fill" />
+            {/* <Image src="/images/open_source.svg" alt="icon" layout="fill" /> */}
+            <Lottie
+              animationData={openSourceData}
+              loop={true}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
       </div>
-
       <div className="bg-[#FAF3B8] panel">
         <div className="panel-content content-wrapper items-end md:items-center">
           <div
@@ -85,10 +94,16 @@ export const WhyDifferent = () => {
               "w-[110px] h-[110px] min-w-[110px] md:min-w-[170px] lg:min-w-[200px] xl:min-w-[260px] md:w-[170px] md:h-[170px] lg:w-[200px] lg:h-[200px] xl:w-[260px] xl:h-[260px] "
             )}
           >
-            <Image
+            {/* <Image
               src="/images/application_driven.svg"
               alt="icon"
               layout="fill"
+            /> */}
+
+            <Lottie
+              animationData={applicationDrivenData}
+              loop={true}
+              style={{ width: "100%", height: "100" }}
             />
           </div>
 
@@ -117,7 +132,6 @@ export const WhyDifferent = () => {
           </div>
         </div>
       </div>
-
       <div className="bg-[#E6FEC7] panel">
         <div className="panel-content content-wrapper">
           <div className="mr-5 md:mr-10 lg:mr-14 xl:mr-[100px] 2xl:mr-[120px] lg:w-[420px] lg:max-w-[420px] xl:w-[620px] xl:max-w-[620px]">
@@ -152,7 +166,12 @@ export const WhyDifferent = () => {
               "w-[110px] h-[110px] min-w-[110px] md:min-w-[170px] lg:min-w-[200px] xl:min-w-[260px] md:w-[170px] md:h-[170px] lg:w-[200px] lg:h-[200px] xl:w-[260px] xl:h-[260px] "
             )}
           >
-            <Image src="/images/data_centric.svg" alt="icon" layout="fill" />
+            {/* <Image src="/images/data_centric.svg" alt="icon" layout="fill" /> */}
+            <Lottie
+              animationData={dataCentricData}
+              loop={true}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
       </div>

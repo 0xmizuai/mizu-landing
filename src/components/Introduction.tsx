@@ -24,11 +24,11 @@ export const Introduction = () => {
           <div
             className={classNames(
               "relative block md:hidden",
-              "w-[150px] h-[175px] mb-[60px]"
+              "w-[225px] h-[225px] mb-[20px]"
             )}
           >
             <Image
-              src="/images/logo_large.png"
+              src="/videos/home_header.gif"
               layout="fill"
               alt="logo"
               priority
@@ -69,7 +69,7 @@ export const Introduction = () => {
               boldFont.className
             )}
           >
-            Introducing <span className="text-primary">MIZU</span>, the first{" "}
+            Introducing <span className="text-primary">MIZU</span>, the first
             <br className="hidden md:inline" />
             and largest
             <span className="ml-2 text-primary">
@@ -123,13 +123,13 @@ export const Introduction = () => {
           className={classNames(
             "relative self-start mt-8 lg:mt-0",
             "hidden md:block",
-            "md:w-[200px] md:h-[235px] md:min-w-[200px]",
-            "lg:w-[250px] lg:h-[275px] lg:min-w-[250px]",
-            "xl:w-[300px] xl:h-[345px] xl:min-w-[300px]"
+            "md:w-[235px] md:h-[235px] md:min-w-[235px]",
+            "lg:w-[275px] lg:h-[275px] lg:min-w-[275px]",
+            "xl:w-[345px] xl:h-[345px] xl:min-w-[345px]"
           )}
         >
           <Image
-            src="/images/logo_large.png"
+            src="/videos/home_header.gif"
             layout="fill"
             alt="logo"
             priority
