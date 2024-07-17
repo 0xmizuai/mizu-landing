@@ -20,7 +20,7 @@ export const Introduction = () => {
           "2xl:pl-[170px] 2xl:pr-[120px] 2xl:pt-[90px] 2xl:pb-[127px]"
         )}
       >
-        <div className="flex flex-col items-center md:items-start mr-0 md:mr-[20px] xl:mr-[100px] 2xl:mr-[150px]">
+        <div className="flex flex-col items-center md:items-start mr-0 md:mr-[10px] xl:mr-[70px] 2xl:mr-[100px]">
           <div
             className={classNames(
               "relative block md:hidden",
@@ -123,9 +123,9 @@ export const Introduction = () => {
           className={classNames(
             "relative self-start mt-8 lg:mt-0",
             "hidden md:block",
-            "md:w-[235px] md:h-[235px] md:min-w-[235px]",
-            "lg:w-[275px] lg:h-[275px] lg:min-w-[275px]",
-            "xl:w-[345px] xl:h-[345px] xl:min-w-[345px]"
+            "md:w-[265px] md:h-[265px] md:min-w-[265px]",
+            "lg:w-[335px] lg:h-[335px] lg:min-w-[335px]",
+            "xl:w-[405px] xl:h-[405px] xl:min-w-[405px]"
           )}
         >
           <Image
