@@ -39,44 +39,13 @@ export const Introduction = () => {
             className={classNames(
               "text-[32px] leading-tight text-black",
               "text-center md:text-start md:text-[35px] lg:text-[40px] 2xl:text-[60px]",
-              "block md:hidden",
               boldFont.className
             )}
           >
-            Introducing{" "}
-            <span className="md:hidden">
-              <span className="text-primary">MIZU</span>
-              ,
-              <br />
-            </span>
-            <span className="hidden md:inline mr-2">
-              <span className="text-primary">MIZU</span>,
-            </span>
-            the first <br className="hidden md:inline" />
-            and largest
-            <span className="text-primary ml-2">
-              decentralized open data network
-              {/* <br className="md:hidden" /> open data */}
-            </span>{" "}
-            {/* layer. */}
-          </div>
-
-          <div
-            className={classNames(
-              "text-[32px] leading-tight text-black",
-              "text-center md:text-start md:text-[35px] lg:text-[40px] 2xl:text-[60px]",
-              "hidden md:block",
-              boldFont.className
-            )}
-          >
-            Introducing <span className="text-primary">MIZU</span>, the first
-            <br className="hidden md:inline" />
-            and largest
-            <span className="ml-2 text-primary">
-              decentralized <br /> open data network
-              {/* <br className="md:hidden" /> open data */}
-            </span>{" "}
-            {/* layer. */}
+            We build the largest{" "}
+            <span className="text-primary">open source datasets</span>
+            <div className="md:hidden" />
+            <span className="md:ml-2">in the world</span>
           </div>
 
           <div
@@ -84,9 +53,7 @@ export const Introduction = () => {
               "mt-[20px] lg:mt-[40px] text-[18px] leading-snug text-text2 text-center md:text-start"
             )}
           >
-            We are pioneering the creation of the world's largest decentralized
-            open-source data network to foster a vibrant future for open-source
-            AI.
+            Shape the future of AI with us
           </div>
 
           <div className="mt-[65px] lg:mt-[40px] flex flex-col md:flex-row items-start md:items-center">
