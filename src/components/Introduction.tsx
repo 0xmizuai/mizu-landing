@@ -68,19 +68,14 @@ export const Introduction = () => {
               </div>
             </Link>
 
-            <Link
-              href={
-                "https://docs.mizu.global/data-network/architecture#architecture"
-              }
-              target="_blank"
-            >
+            <Link href={"https://t.me/mizuai_bot"} target="_blank">
               <div
                 className={classNames(
                   "mt-4 md:mt-0 md:ml-7 bg-lightButtonBg rounded-lg w-[210px] lg:w-[210px] py-[14px] cursor-pointer text-[16px] lg:text-xl text-black leading-tight flex justify-center",
                   boldFont.className
                 )}
               >
-                System Deep Dive
+                Telegram Bot
               </div>
             </Link>
           </div>
