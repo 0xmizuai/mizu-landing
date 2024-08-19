@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import "react-modern-drawer/dist/index.css";
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "MIZU Home",
@@ -19,6 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Script
+        async
+        src="https://analytics.mizu.global/script.js"
+        data-website-id="0fc4fc18-f011-4500-9b81-f80591cd977e"
+      />
+
       <body
         className={classNames(
           regularFont.className,
