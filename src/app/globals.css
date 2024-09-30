@@ -9,10 +9,18 @@
 }
 
 body {
-  background: #f0f8fd;
+  background: #000000;
 }
 
 @layer utilities {
+  .primary-button {
+    @apply leading-none bg-white text-black rounded-full flex items-center justify-center cursor-pointer;
+  }
+
+  .stroke-button {
+    @apply leading-none text-text1 border border-white rounded-full flex items-center justify-center cursor-pointer;
+  }
+
   .text-balance {
     text-wrap: balance;
   }

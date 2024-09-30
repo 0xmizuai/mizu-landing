@@ -19,7 +19,7 @@ export default function Home() {
 
       <div
         id="partners"
-        className="w-full py-8 lg:py-9 xl:py-12 bg-[#C3F4F4] flex justify-center"
+        className="w-full py-8 lg:py-9 xl:py-12 bg-bgPage flex justify-center"
       >
         <div
           className={classNames(

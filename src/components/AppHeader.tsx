@@ -7,36 +7,24 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import Drawer from "react-modern-drawer";
+import logo from "public/images/logo.svg";
 
 export const AppHeader = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
-    <div className="z-20 h-[60px] md:h-[80px] fixed left-0 right-0 top-0 bg-white flex items-center justify-center">
+    <div className="z-20 h-[60px] md:h-[80px] fixed left-0 right-0 top-0 bg-bgPage flex items-center justify-center">
       <div
         className={classNames(
           "px-5 w-full flex justify-between items-center flex-row-reverse lg:flex-row",
           "md:pl-10 md:pr-6 lg:pl-16 lg:pr-8"
         )}
       >
-        <Link href="/" className="hidden lg:block">
+        <Link href="/" className="">
           <Image
-            src="/images/logo.svg"
+            src={logo}
             alt="MIZU Logo"
-            className="cursor-pointer"
-            width={83}
-            height={30}
-            priority
-          />
-        </Link>
-
-        <Link href="/" className="block lg:hidden">
-          <Image
-            src="/images/logo.svg"
-            alt="MIZU Logo"
-            className="cursor-pointer "
-            width={83}
-            height={30}
+            className="cursor-pointer w-[83px] h-[30px]"
             priority
           />
         </Link>
@@ -65,19 +53,17 @@ export const AppHeader = () => {
           <Link href="#what-is-MIZU">
             <div
               className={classNames(
-                "text-[16px] text-black cursor-pointer",
-                semiBoldFont.className
+                "primary-button text-[16px] px-[14px] py-[6px]"
               )}
             >
-              What is MIZU
+              What Is MIZU
             </div>
           </Link>
 
           <Link href="#why-different">
             <div
               className={classNames(
-                "ml-16 text-[16px] text-black cursor-pointer",
-                semiBoldFont.className
+                "ml-8 stroke-button text-[16px] px-[14px] py-[6px]"
               )}
             >
               Why We Are Different
@@ -87,8 +73,7 @@ export const AppHeader = () => {
           <Link href="#roadmap">
             <div
               className={classNames(
-                "ml-16 text-[16px] text-black cursor-pointer",
-                semiBoldFont.className
+                "ml-8 stroke-button text-[16px] px-[14px] py-[6px]"
               )}
             >
               Roadmap
@@ -98,8 +83,7 @@ export const AppHeader = () => {
           <Link href={"https://docs.mizu.global/overview"} target="_blank">
             <div
               className={classNames(
-                "ml-16 text-[16px] text-black cursor-pointer",
-                semiBoldFont.className
+                "ml-8 stroke-button text-[16px] px-[14px] py-[6px]"
               )}
               onClick={() => {
                 setDrawerOpen(false);
@@ -109,7 +93,7 @@ export const AppHeader = () => {
             </div>
           </Link>
 
-          <Link href={"https://app.mizu.global"} target="_blank">
+          {/* <Link href={"https://app.mizu.global"} target="_blank">
             <div
               className={classNames(
                 "ml-16 bg-lightButtonBg rounded-lg px-6 py-2 cursor-pointer text-[12px] lg:text-[16px] text-black leading-tight flex justify-center",
@@ -118,7 +102,7 @@ export const AppHeader = () => {
             >
               Launch App
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
 

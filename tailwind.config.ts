@@ -16,9 +16,10 @@ const config: Config = {
       lightButtonBg: "#C3F4F4",
       secondaryButtonBg: "#FFEDEB",
       borderLight: "#EEEEEE",
-      text1: "#272727",
-      text2: "#003740",
-      text3: "#6A6867",
+      bgPage: "#000000",
+      text1: "#ffffff",
+      text2: "#D9D9D9",
+      text3: "#D9D9D9",
     },
     fontSize: {
       xs: "0.65rem",
