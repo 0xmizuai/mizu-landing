@@ -59,7 +59,7 @@ export const Roadmap = () => {
 
             <div className="max-w-[200px] mt-2 text-[#898989] text-[12px] leading-snug text-end">
               Release the testnet for the MIZU data network, featuring
-              capabilities for data hosting and data pre-processing.
+              capabilities for data hosting and data pre-processing
             </div>
           </div>
 
@@ -197,8 +197,7 @@ export const Roadmap = () => {
 
             <div className="mt-4 text-[#898989] text-[14px] leading-snug  pr-5">
               Release the testnet for the MIZU data network, featuring
-              capabilities for both synthetic data generation and public data
-              collection
+              capabilities for data hosting and data pre-processing
             </div>
           </div>
 
