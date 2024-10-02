@@ -109,6 +109,20 @@ export const AppHeader = () => {
             </div>
           </Link>
 
+          <Link href={"https://medium.com/@0xmizu_ai"} target="_blank">
+            <div
+              className={classNames(
+                "ml-16 text-[16px] text-black cursor-pointer",
+                semiBoldFont.className
+              )}
+              onClick={() => {
+                setDrawerOpen(false);
+              }}
+            >
+              Blogs
+            </div>
+          </Link>
+
           <Link href={"https://app.mizu.global"} target="_blank">
             <div
               className={classNames(
@@ -210,6 +224,20 @@ export const AppHeader = () => {
                 }}
               >
                 Docs
+              </div>
+            </Link>
+
+            <Link href={"https://medium.com/@0xmizu_ai"} target="_blank">
+              <div
+                className={classNames(
+                  "mt-14 text-[16px] text-black cursor-pointer",
+                  semiBoldFont.className
+                )}
+                onClick={() => {
+                  setDrawerOpen(false);
+                }}
+              >
+                Blogs
               </div>
             </Link>
           </div>
