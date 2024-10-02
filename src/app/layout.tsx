@@ -34,7 +34,9 @@ export default function RootLayout({
       >
         <AppHeader />
 
-        <div className="pt-[60px] md:pt-[80px]">{children}</div>
+        <div className="pt-headerHeight md:pt-headerHeightLarge">
+          {children}
+        </div>
 
         <AppFooter />
 

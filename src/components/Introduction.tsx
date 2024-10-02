@@ -7,17 +7,27 @@ export const Introduction = () => {
   return (
     <div
       className={classNames(
-        "z-10 flex flex-col items-center",
-        "bg-gradient-to-b from-white to-[#ECFFFF]"
+        "z-10  relative",
+        // "bg-gradient-to-b from-white to-[#ECFFFF]"
+        "bg-bgPage border border-white"
       )}
     >
+      <div className="h-[78px] flex items-stretch">
+        <div className="flex-1 bg-secondary"></div>
+        <div className="w-full md:content-wrapper "></div>
+        <div className="flex-1 bg-secondary"></div>
+      </div>
+
+      <div className="absolute top-0 left-0 bottom-[100px] right-[100px]"></div>
+
       <div
         className={classNames(
           "pb-16 md:pb-10 items-stretch justify-between text-sm ",
           "w-full px-5 pt-[35px] flex flex-col lg:flex-row lg:items-center",
           "md:content-wrapper md:pl-[70px] md:pr-[50px] md:pt-[50px] md:pb-[70px]",
           "lg:pl-[100px] lg:pr-[70px] lg:pt-[70px] xl:pb-[100px]",
-          "2xl:pl-[170px] 2xl:pr-[120px] 2xl:pt-[90px] 2xl:pb-[127px]"
+          "2xl:pl-[170px] 2xl:pr-[120px] 2xl:pt-[90px] 2xl:pb-[127px]",
+          "border border-white"
         )}
       >
         <div className="flex flex-col items-center md:items-start mr-0 md:mr-[10px] xl:mr-[70px] 2xl:mr-[100px]">
@@ -42,7 +52,7 @@ export const Introduction = () => {
               boldFont.className
             )}
           >
-            The DePIN for 
+            The DePIN for
             <span className="text-primary"> Hyperscale</span>
             <div className="md:hidden" />
             <span className="md:ml-2">AI Dataset</span>

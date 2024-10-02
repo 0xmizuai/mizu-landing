@@ -38,6 +38,8 @@ const config: Config = {
       spacing: {
         contentWidth: "1440px",
         contentWidthLarge: "1800px",
+        headerHeight: "60px",
+        headerHeightLarge: "98px",
       },
       gridTemplateColumns: {
         auto2: "repeat(2, auto)",

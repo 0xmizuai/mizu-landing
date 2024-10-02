@@ -13,7 +13,7 @@ export const AppHeader = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
-    <div className="z-20 h-[60px] md:h-[80px] fixed left-0 right-0 top-0 bg-bgPage flex items-center justify-center">
+    <div className="z-20 h-headerHeight md:h-headerHeightLarge fixed left-0 right-0 top-0 bg-bgPage flex items-center justify-center">
       <div
         className={classNames(
           "px-5 w-full flex justify-between items-center flex-row-reverse lg:flex-row",
