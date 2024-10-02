@@ -67,7 +67,7 @@ export const WhyUnique = () => {
             <div
               className={classNames(
                 "self-stretch mt-[36px] md:mt-[45px] lg:mt-[56px] flex flex-col-reverse md:flex-row items-center justify-start",
-                "border-t border-t-white",
+                "border-t border-t-white border-b border-b-white",
                 "md:border md:border-white",
                 "px-[35px] md:px-[50px] xl:px-[120px] 2xl:px-[150px]",
                 "py-[32px] md:py-[44px]"
@@ -119,7 +119,7 @@ export const WhyUnique = () => {
 
             <div
               className={classNames(
-                "mt-[16px] self-stretch md:mt-[45px] lg:mt-[56px] flex flex-col-reverse md:flex-row items-center justify-center",
+                "self-stretch mt-[16px] md:mt-[45px] lg:mt-[56px] flex flex-col-reverse md:flex-row items-center justify-center",
                 "border-t border-t-white border-b border-b-white",
                 "md:border md:border-white",
                 "px-[35px] md:pl-[50px] xl:pl-[120px] 2xl:pl-[150px]",
