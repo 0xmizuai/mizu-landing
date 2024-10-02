@@ -42,10 +42,10 @@ export const Introduction = () => {
               boldFont.className
             )}
           >
-            We build the largest{" "}
-            <span className="text-primary">open source datasets</span>
+            The DePIN for 
+            <span className="text-primary"> Hyperscale</span>
             <div className="md:hidden" />
-            <span className="md:ml-2">in the world</span>
+            <span className="md:ml-2">AI Dataset</span>
           </div>
 
           <div

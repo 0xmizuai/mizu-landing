@@ -3,13 +3,12 @@ import { Roadmap } from "@/components/Roadmap";
 import { WhyDifferent } from "@/components/WhyDifferent";
 import { semiBoldFont } from "@/utils/fontUtils";
 import classNames from "classnames";
-import Lottie from "lottie-react";
 import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "MIZU Home",
-  description: "The first decentralized open source data layer",
+  description: "The DePIN for Hyperscale AI Dataset",
 };
 
 export default function Home() {
@@ -123,7 +122,7 @@ export default function Home() {
                 semiBoldFont.className
               )}
             >
-              What Is MIZU?
+              What is MIZU?
             </div>
 
             <div
@@ -131,14 +130,15 @@ export default function Home() {
                 "mt-14 md:mt-14 xl:mt-12 text-white text-[16px] md:text-[16px] xl:text-[18px] leading-normal"
               )}
             >
-              MIZU aims to establish the world's largest decentralized
-              open-source data network. We offer a platform featuring a data
-              repository and decentralized processing network, promoting an
-              open, collaborative and permission-less data ecosystem for both
-              public and synthetic data. This setup enables AI developers to
-              innovate and build various applications while supporting the
-              development of fully open Large Language Models (LLMs) through
-              easily accessible, low-risk data resources.
+              MIZU is the pioneering DePIN solution for hyperscale AI datasets.
+              By simply running a MIZU data node, any data holder can
+              effortlessly join our ecosystem, securely sharing their valuable
+              information. Our innovative network leverages edge computing for
+              comprehensive data pre-processing, ensuring exceptional data
+              quality and integrity. Combined with our standardized query
+              interface, MIZU offers easily accessible and low-risk data
+              resources to the AI community, empowering developers to innovate
+              and build a wide range of AI solutions.
             </div>
           </div>
 

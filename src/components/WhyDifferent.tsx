@@ -28,7 +28,7 @@ export const WhyDifferent = () => {
             semiBoldFont.className
           )}
         >
-          Why Is MIZU Different?
+          Why is MIZU Different?
         </div>
 
         <div
@@ -60,7 +60,7 @@ export const WhyDifferent = () => {
                 semiBoldFont.className
               )}
             >
-              Open & Collaborative
+              Hyperscale
             </div>
 
             <div
@@ -68,11 +68,15 @@ export const WhyDifferent = () => {
                 "mt-4 xl:mt-6 text-[#012626] text-[12px] md:text-[14px] xl:text-[18px] leading-tight"
               )}
             >
-              Our platform embraces an open and collaborative approach to data,
-              where all datasets are publicly accessible. This openness fosters
-              transparency and encourages a community-driven environment where
-              users can collaborate on datasets, make improvements, and share
-              insights openly.
+              While traditional cloud services offer scalability, MIZU's Data
+              Decentralized Physical Infrastructure Network (DePIN) delivers
+              true hyperscale capabilities. By leveraging our innovative data
+              DePIN, we can seamlessly merge and host vast amounts of data at an
+              exceptionally low cost. This groundbreaking approach empowers any
+              data provider to effortlessly contribute to the MIZU data network.
+              Simply by running a MIZU data node and importing their data,
+              providers can become part of this expansive ecosystem, pushing the
+              boundaries of data scale and accessibility.
             </div>
           </div>
 
@@ -115,7 +119,7 @@ export const WhyDifferent = () => {
                 semiBoldFont.className
               )}
             >
-              Data-centric Approach
+              Incentivized
             </div>
 
             <div
@@ -123,11 +127,14 @@ export const WhyDifferent = () => {
                 "mt-4 xl:mt-6 text-[#012626] text-[12px] md:text-[14px] xl:text-[18px] leading-tight md:text-end"
               )}
             >
-              Our framework adopts a data-centric approach that optimizes every
-              aspect of data management. From generating and collecting data to
-              processing and committing it, our platform streamlines the entire
-              data lifecycle, making it easier for users to manage and utilize
-              datasets effectively
+              Data providers are incentivized through a comprehensive
+              three-metric system. The first metric, new data imported,
+              encourages continuous data growth and fresh inputs. The second,
+              total data hosted, rewards the scale and breadth of data
+              maintained. The third, data query frequency, prioritizes
+              high-quality, relevant data that meets user needs. This balanced
+              approach optimizes for data growth, scale, and quality
+              simultaneously, ensuring a robust and valuable data ecosystem.
             </div>
           </div>
         </div>
@@ -142,7 +149,7 @@ export const WhyDifferent = () => {
                 semiBoldFont.className
               )}
             >
-              Application Focused
+              AI-ready
             </div>
 
             <div
@@ -150,13 +157,13 @@ export const WhyDifferent = () => {
                 "mt-4 xl:mt-6 text-[#012626] text-[12px] md:text-[14px] xl:text-[18px] leading-tight"
               )}
             >
-              By integrating data repositories directly into the application
-              development process, we simplify and accelerate the creation of AI
-              applications. This integration not only enhances efficiency but
-              also encourages rapid prototyping and iteration. Furthermore, our
-              framework incentivizes application users to contribute back to the
-              data repository, ensuring that applications continually improve in
-              performance and accuracy over time.
+              All data integrated into the MIZU data network undergoes
+              comprehensive pre-processing, including precise data tagging and
+              quality refinement. This processed data is then stored using a
+              standardized schema and made accessible through a unified query
+              interface. This streamlined approach empowers AI developers to
+              effortlessly build customized datasets tailored to their specific
+              needs.
             </div>
           </div>
 
