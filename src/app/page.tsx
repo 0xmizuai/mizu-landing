@@ -1,10 +1,10 @@
 import { Introduction } from "@/components/Introduction";
-import { Roadmap } from "@/components/Roadmap";
-import { WhyDifferent } from "@/components/WhyDifferent";
-import { semiBoldFont } from "@/utils/fontUtils";
-import classNames from "classnames";
+import { LargestDataset } from "@/components/LargestDataset";
+import { Partnership } from "@/components/Partnership";
+import { Roadmap } from "@/components/RoadmapV2";
+import { Whatis } from "@/components/Whatis";
+import { WhyUnique } from "@/components/WhyUnique";
 import { Metadata } from "next";
-import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "MIZU Home",
@@ -16,89 +16,17 @@ export default function Home() {
     <main className="relative min-h-screen">
       <Introduction />
 
-      <div
-        id="partners"
-        className="w-full py-8 lg:py-9 xl:py-12 bg-bgPage flex justify-center"
-      >
-        <div
-          className={classNames(
-            "w-full md:content-wrapper",
-            "pl-[30px] pr-[30px]",
-            "md:pl-[100px] md:pr-[70px]",
-            "lg:pl-[130px] lg:pr-[90px]",
-            "2xl:pl-[170px] 2xl:pr-[120px]",
-            // "flex items-center justify-between flex-wrap"
-            "grid gap-2 items-center justify-between grid-cols-auto3 md:grid-cols-auto6 lg:grid-cols-auto6 2xl:grid-cols-auto6"
-          )}
-        >
-          <div className=" flex justify-center">
-            <div className="w-[50px] h-[40px] lg:w-[92px] lg:h-[79px] relative">
-              <Image
-                src="/images/capital_icon3.png"
-                layout="fill"
-                alt="icon"
-                priority
-              />
-            </div>
-          </div>
+      <Partnership />
 
-          <div className="ml-4 md:ml-0 flex justify-center">
-            <div className="w-[80px] h-[18px] lg:w-[122px] lg:h-[29px] relative">
-              <Image
-                src="/images/capital_icon2.png"
-                layout="fill"
-                alt="icon"
-                priority
-              />
-            </div>
-          </div>
+      <Whatis />
 
-          <div className=" flex justify-center">
-            <div className="w-[40px] h-[19px] lg:w-[65px] lg:h-[30px] relative">
-              <Image
-                src="/images/capital_icon6.png"
-                layout="fill"
-                alt="icon"
-                priority
-              />
-            </div>
-          </div>
+      <LargestDataset />
 
-          <div className=" flex justify-center">
-            <div className="w-[40px] h-[15px] lg:w-[65px] lg:h-[22px] relative">
-              <Image
-                src="/images/capital_icon5.png"
-                layout="fill"
-                alt="icon"
-                priority
-              />
-            </div>
-          </div>
+      <WhyUnique />
 
-          <div className="ml-4 md:ml-0 flex justify-center">
-            <div className="w-[52px] h-[25px] lg:w-[82px] lg:h-[39px] relative">
-              <Image
-                src="/images/capital_icon1.png"
-                layout="fill"
-                alt="icon"
-                priority
-              />
-            </div>
-          </div>
+      <Roadmap />
 
-          <div className=" flex justify-center">
-            <div className="w-[90px] h-[12px] lg:w-[159px] lg:h-[20px] relative">
-              <Image
-                src="/images/capital_icon4.png"
-                layout="fill"
-                alt="icon"
-                priority
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="what-is-MIZU" className={classNames("panel1 bg-[#012626]")}>
+      {/* <div className={classNames("panel1 bg-[#012626]")}>
         <div className="panel1-content pb-16 md:pb-0 md:h-[465px]">
           <div className="z-10 panel-bg-img absolute left-0 top-[-0px]">
             <Image
@@ -142,24 +70,15 @@ export default function Home() {
             </div>
           </div>
 
-          {/* <div className="flex-1 flex mt-10 md:mt-14 -mr-[60px] md:flex overflow-hidden md:pl-[50px] xl:pl-[100px] 2xl:pl-[200px]">
-            <LogoVectors />
-
-            <LogoVectors />
-
-            <LogoVectors />
-          </div> */}
 
           <div className="mt-[48px] md:-mt-[0px] 2xl:-mt-[30px] w-[325px] h-[255px] md:min-w-[325px] lg:min-w-[350px] xl:min-w-[405px] md:w-325px] md:h-[255px] lg:w-[350px] lg:h-[280px] xl:w-[485px] xl:h-[355px] relative">
             <Image src="/images/what_is_mizu.svg" alt="icon" layout="fill" />
           </div>
         </div>
       </div>
-      <div id="why-different" className="h-[1px]" />
+      <div id="why-different" className="h-[1px]" /> */}
 
-      <WhyDifferent />
-
-      <Roadmap />
+      {/* <WhyDifferent /> */}
     </main>
   );
 }

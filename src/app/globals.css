@@ -9,16 +9,17 @@
 }
 
 body {
-  background: #000000;
+  background: #131313;
+  box-sizing: border-box;
 }
 
 @layer utilities {
   .primary-button {
-    @apply leading-none bg-white text-black rounded-full flex items-center justify-center cursor-pointer;
+    @apply leading-none bg-white text-black rounded-full flex items-center justify-center cursor-pointer active:opacity-70;
   }
 
   .stroke-button {
-    @apply leading-none text-text1 border border-white rounded-full flex items-center justify-center cursor-pointer;
+    @apply leading-none text-text1 border border-white rounded-full flex items-center justify-center cursor-pointer active:opacity-70;
   }
 
   .text-balance {
@@ -27,6 +28,10 @@ body {
 
   .content-wrapper {
     @apply max-w-contentWidth largeScreen:max-w-contentWidthLarge;
+  }
+
+  .layout-panel {
+    @apply grid-cols-layout3 lg:grid-cols-layout3Medium 2xl:grid-cols-layout3Large;
   }
 
   .panel1 {
@@ -65,36 +70,24 @@ body {
   }
 }
 
-.diag {
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M1 0 L0 1 L99 100 L100 99' fill='black' /><path d='M0 99 L99 0 L100 1 L1 100' fill='black' /></svg>");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100% 100%, auto;
+.crossed-left {
+  background: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) calc(50% - 1px),
+    rgba(255, 255, 255, 1) 50%,
+    rgba(0, 0, 0, 0) calc(50% + 1px),
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
-.crossed {
-}
-
-.crossed:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 1px;
-  bottom: 1px;
-  border-width: 149px;
-  border-style: solid;
-  border-color: black white;
-}
-
-.crossed:after {
-  content: "";
-  position: absolute;
-  left: 1px;
-  right: 1px;
-  top: 0;
-  bottom: 0;
-  border-width: 149px;
-  border-style: solid;
-  border-color: white transparent;
+.crossed-right {
+  background: linear-gradient(
+    to top right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) calc(50% - 1px),
+    rgba(255, 255, 255, 1) 50%,
+    rgba(0, 0, 0, 0) calc(50% + 1px),
+    rgba(0, 0, 0, 0) 100%
+  );
 }
