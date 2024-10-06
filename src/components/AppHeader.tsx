@@ -53,7 +53,7 @@ export const AppHeader = () => {
           <Link href="#what-is-MIZU">
             <div
               className={classNames(
-                "primary-button text-[16px] px-[14px] py-[6px]"
+                "stroke-button active:primary-button text-[16px] px-[14px] py-[6px]"
               )}
             >
               What Is MIZU
@@ -63,7 +63,7 @@ export const AppHeader = () => {
           <Link href="#why-different">
             <div
               className={classNames(
-                "ml-8 stroke-button text-[16px] px-[14px] py-[6px]"
+                "ml-8 stroke-button active:primary-button text-[16px] px-[14px] py-[6px]"
               )}
             >
               Why We Are Different
@@ -73,7 +73,7 @@ export const AppHeader = () => {
           <Link href="#roadmap">
             <div
               className={classNames(
-                "ml-8 stroke-button text-[16px] px-[14px] py-[6px]"
+                "ml-8 stroke-button active:primary-button text-[16px] px-[14px] py-[6px]"
               )}
             >
               Roadmap
@@ -83,7 +83,7 @@ export const AppHeader = () => {
           <Link href={"https://docs.mizu.global/overview"} target="_blank">
             <div
               className={classNames(
-                "ml-8 stroke-button text-[16px] px-[14px] py-[6px]"
+                "ml-8 stroke-button active:primary-button text-[16px] px-[14px] py-[6px]"
               )}
               onClick={() => {
                 setDrawerOpen(false);
@@ -157,7 +157,7 @@ export const AppHeader = () => {
             <Link href="#what-is-MIZU">
               <div
                 className={classNames(
-                  "primary-button mt-16 text-[21px] w-full h-[44px]"
+                  "stroke-button mt-16 text-[16px] w-full h-[44px] active:primary-button"
                 )}
                 onClick={() => {
                   setDrawerOpen(false);
@@ -170,7 +170,7 @@ export const AppHeader = () => {
             <Link href="#why-different">
               <div
                 className={classNames(
-                  "mt-12 stroke-button text-[16px] w-full h-[44px]"
+                  "mt-12 stroke-button active:primary-button text-[16px] w-full h-[44px]"
                 )}
                 onClick={() => {
                   setDrawerOpen(false);
@@ -183,7 +183,7 @@ export const AppHeader = () => {
             <Link href="#roadmap">
               <div
                 className={classNames(
-                  "mt-12 stroke-button text-[16px] w-full h-[44px]"
+                  "mt-12 stroke-button active:primary-button text-[16px] w-full h-[44px]"
                 )}
                 onClick={() => {
                   setDrawerOpen(false);
@@ -196,7 +196,7 @@ export const AppHeader = () => {
             <Link href={"https://docs.mizu.global/overview"} target="_blank">
               <div
                 className={classNames(
-                  "mt-12 stroke-button text-[16px] w-full h-[44px]"
+                  "mt-12 stroke-button active:primary-button text-[16px] w-full h-[44px]"
                 )}
                 onClick={() => {
                   setDrawerOpen(false);
@@ -209,7 +209,7 @@ export const AppHeader = () => {
             <Link href={"https://medium.com/@0xmizu_ai"} target="_blank">
               <div
                 className={classNames(
-                  "mt-12 stroke-button text-[16px] w-full h-[44px]"
+                  "mt-12 stroke-button active:primary-button text-[16px] w-full h-[44px]"
                 )}
                 onClick={() => {
                   setDrawerOpen(false);
