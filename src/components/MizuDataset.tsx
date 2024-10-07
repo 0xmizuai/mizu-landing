@@ -54,7 +54,7 @@ export const MizuDataset = () => {
               <div
                 className={classNames(
                   "text-[32px] leading-tight text-text1",
-                  "text-center md:text-start md:text-[35px] lg:text-[40px] 2xl:text-[60px]",
+                  "text-center title-text",
                   boldFont.className
                 )}
               >

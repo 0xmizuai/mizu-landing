@@ -14,6 +14,10 @@ body {
 }
 
 @layer utilities {
+  .title-text {
+    @apply text-center md:text-start text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[55px];
+  }
+
   .primary-button {
     @apply leading-none bg-white text-black rounded-full flex items-center justify-center cursor-pointer active:opacity-70;
   }

@@ -39,7 +39,7 @@ export const Introduction = () => {
 
         <div
           className={classNames(
-            "flex flex-col md:flex-row md:items-start",
+            "flex flex-col md:flex-row md:items-center",
             "justify-start text-sm",
             "px-[20px] md:px-[30px] lg:px-[40px] 2xl:px-[50px]",
             "py-[30px] md:py-[30px] lg:py-[40px] xl:py-[50px] 2xl:py-[65px]",
@@ -48,11 +48,11 @@ export const Introduction = () => {
             "border border-white"
           )}
         >
-          <div className="mt-0 md:mt-5 flex flex-col items-start mr-0 md:mr-[10px] xl:mr-[70px]">
+          <div className="flex flex-col items-start mr-0 md:mr-[10px] xl:mr-[70px]">
             <div
               className={classNames(
-                "text-[32px] leading-tight text-text1",
-                "text-start md:text-[35px] lg:text-[40px] 2xl:text-[60px]"
+                "leading-tight text-text1",
+                "text-start text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[55px]"
               )}
             >
               The DePIN for
@@ -72,7 +72,7 @@ export const Introduction = () => {
               Shape the future of AI with us
             </div>
 
-            <div className="mt-[45px] lg:mt-[55px] flex flex-col md:flex-row items-start md:items-center">
+            <div className="mt-[36px] lg:mt-[55px] flex flex-col md:flex-row items-start md:items-center">
               {/* <Link href={"https://docs.mizu.global/overview"} target="_blank">
                 <div
                   className={classNames(
@@ -87,7 +87,7 @@ export const Introduction = () => {
               <Link href="https://docs.mizu.global/overview" target="_blank">
                 <div
                   className={classNames(
-                    "primary-button text-textBlack text-[16px] md:text-[20px] lg:text-[24px] px-[12px] lg:px-[24px] xl:px-[33px] h-[44px] md:h-[50px] lg:h-[80px]",
+                    "primary-button text-textBlack text-[16px] md:text-[18px] lg:text-[20px] xl:text-[24px] px-[12px] lg:px-[24px] xl:px-[33px] h-[36px] md:h-[40px] lg:h-[50px] xl:h-[60px] 2xl:h-[70px]",
                     semiBoldFont.className
                   )}
                 >
@@ -98,7 +98,7 @@ export const Introduction = () => {
               <Link href={"https://t.me/mizuai_bot"} target="_blank">
                 <div
                   className={classNames(
-                    "mt-6 md:mt-0 md:ml-8 stroke-button text-textBlack text-[16px] md:text-[20px] lg:text-[24px] px-[12px]  lg:px-[24px] xl:px-[33px] h-[44px] md:h-[50px] lg:h-[80px]"
+                    "mt-6 md:mt-0 md:ml-8 stroke-button text-textBlack text-[16px] md:text-[18px] lg:text-[20px] xl:text-[24px] px-[12px]  lg:px-[24px] xl:px-[33px] h-[36px] md:h-[40px] lg:h-[50px] xl:h-[60px] 2xl:h-[70px]"
                   )}
                 >
                   Telegram Bot

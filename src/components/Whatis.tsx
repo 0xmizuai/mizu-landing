@@ -41,62 +41,14 @@ export const Whatis = () => {
         <div
           className={classNames(
             "border border-white",
-            "py-[55px] md:py-[65px] lg:py-[80px] xl:py-[100px] 2xl:py-[120px]"
+            "pt-[24px] pb-[56px] md:py-[65px] lg:py-[80px] xl:py-[100px] 2xl:py-[120px]"
           )}
         >
           <div
             className={classNames(
-              "flex flex-col md:flex-row md:items-start",
+              "flex flex-col-reverse md:flex-row md:items-center",
               "justify-start text-sm",
               "px-[20px] md:px-[50px] lg:px-[80px] 2xl:px-[100px]",
-              "md:content-wrapper"
-            )}
-          >
-            <div className="flex flex-col items-start mr-0 md:mr-[30px] xl:mr-[70px]">
-              <div
-                className={classNames(
-                  "text-[32px] leading-tight text-text1",
-                  "text-start md:text-[35px] lg:text-[40px] 2xl:text-[60px]",
-                  boldFont.className
-                )}
-              >
-                Foundational Model Training
-              </div>
-
-              <div
-                className={classNames(
-                  "mt-[36px] lg:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
-                  lightFont.className
-                )}
-              >
-                Lorem ipsum dolor sit amet consectetur. Amet varius sed morbi et
-                pellentesque sed sem mauris elit. Id erat augue suspendisse
-                suspendisse viverra accumsan id facilisi pretium. Quam in turpis
-                porttitor varius egestas. In urna ornare quis felis in egestas.
-              </div>
-            </div>
-
-            <Image
-              src={modelProgress}
-              className={classNames(
-                "mt-[56px] md:mt-[30px] lg:mt-[40px] xl:mt-[60px]",
-                "relative self-start",
-                "w-full",
-                "md:w-[300px] md:min-w-[300px]",
-                "lg:w-[360px] lg:min-w-[360px]",
-                "xl:w-[416px] xl:min-w-[416px]"
-              )}
-              alt="logo"
-              priority
-            />
-          </div>
-
-          <div
-            className={classNames(
-              "flex flex-col-reverse md:flex-row md:items-start",
-              "justify-start text-sm",
-              "px-[20px] md:px-[50px] lg:px-[80px] 2xl:px-[100px]",
-              "mt-[100px] md:mt-[160px] lg:mt-[160px] xl:mt-[160px] 2xl:mt-[160px]",
               "md:content-wrapper"
               // "mx-[32px] md:mx-[60px] lg:mx-[80px] xl:mx-[100px] 2xl:mx-[128px]",
             )}
@@ -117,8 +69,8 @@ export const Whatis = () => {
             <div className="mt-[24px] md:mt-0 flex flex-col items-start ml-0 md:ml-[30px] xl:ml-[70px]">
               <div
                 className={classNames(
-                  "text-[32px] leading-tight text-text1",
-                  "text-start md:text-[35px] lg:text-[40px] 2xl:text-[60px]",
+                  "leading-tight text-text1",
+                  "title-text",
                   boldFont.className
                 )}
               >
@@ -141,7 +93,7 @@ export const Whatis = () => {
 
           <div
             className={classNames(
-              "flex flex-col md:flex-row md:items-start",
+              "flex flex-col md:flex-row md:items-center",
               "justify-start text-sm",
               "px-[20px] md:px-[50px] lg:px-[80px] 2xl:px-[100px]",
               "mt-[100px] md:mt-[65px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[120px]",
@@ -150,15 +102,17 @@ export const Whatis = () => {
           >
             <div
               className={classNames(
-                "flex flex-col items-start mr-0 md:mr-[30px] xl:mr-[70px]",
-                "md:max-w-[380px] lg:max-w-[450px] xl:max-w-[543px]",
-                "mt-0 md:mt-[80px] lg:mt-[120px] xl:mt-[120px]"
+                "flex flex-col items-center md:items-start mr-0 md:mr-[30px] xl:mr-[70px]",
+                "md:w-[300px] md:min-w-[400px]",
+                "lg:w-[360px] lg:min-w-[460px]",
+                "xl:w-[490px] xl:min-w-[590px]"
+                // "mt-0 md:mt-[80px] lg:mt-[120px] xl:mt-[120px]"
               )}
             >
               <div
                 className={classNames(
-                  "text-[32px] leading-tight text-text1",
-                  "text-start md:text-[35px] lg:text-[40px] 2xl:text-[60px]",
+                  "leading-tight text-text1",
+                  "title-text",
                   boldFont.className
                 )}
               >
@@ -202,6 +156,54 @@ export const Whatis = () => {
               alt="logo"
               priority
             />
+          </div>
+
+          <div
+            className={classNames(
+              "mt-[100px] md:mt-[65px] lg:mt-[80px] xl:mt-[100px] 2xl:mt-[120px]",
+              "flex flex-col-reverse md:flex-row md:items-center",
+              "justify-start text-sm",
+              "px-[20px] md:px-[50px] lg:px-[80px] 2xl:px-[100px]",
+              "md:content-wrapper"
+            )}
+          >
+            <Image
+              src={modelProgress}
+              className={classNames(
+                "mt-[56px] md:mt-[30px] lg:mt-[40px] xl:mt-[60px]",
+                "relative self-start",
+                "w-full",
+                "md:w-[300px] md:min-w-[300px]",
+                "lg:w-[360px] lg:min-w-[360px]",
+                "xl:w-[490px] xl:min-w-[490px]"
+              )}
+              alt="logo"
+              priority
+            />
+
+            <div className="flex flex-col items-start mr-0 md:ml-[30px] xl:ml-[70px]">
+              <div
+                className={classNames(
+                  "leading-tight text-text1",
+                  "title-text",
+                  boldFont.className
+                )}
+              >
+                Foundational Model Training
+              </div>
+
+              <div
+                className={classNames(
+                  "mt-[36px] lg:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
+                  lightFont.className
+                )}
+              >
+                Lorem ipsum dolor sit amet consectetur. Amet varius sed morbi et
+                pellentesque sed sem mauris elit. Id erat augue suspendisse
+                suspendisse viverra accumsan id facilisi pretium. Quam in turpis
+                porttitor varius egestas. In urna ornare quis felis in egestas.
+              </div>
+            </div>
           </div>
         </div>
 

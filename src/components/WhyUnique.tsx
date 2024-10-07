@@ -55,8 +55,8 @@ export const WhyUnique = () => {
             <div className="mx-[20px] md:mx-0 flex flex-col items-center">
               <div
                 className={classNames(
-                  "text-[28px] leading-tight text-text1",
-                  "text-center md:text-start md:text-[35px] lg:text-[40px] 2xl:text-[60px]",
+                  "leading-tight text-text1",
+                  "text-center title-text",
                   boldFont.className
                 )}
               >
@@ -85,7 +85,7 @@ export const WhyUnique = () => {
               >
                 <div
                   className={classNames(
-                    "text-[28px] leading-tight text-text1",
+                    "text-[24px] leading-tight text-text1",
                     "text-center md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
                     boldFont.className
                   )}
@@ -155,7 +155,7 @@ export const WhyUnique = () => {
               <div className="mt-[32px] md:mt-0 w-full">
                 <div
                   className={classNames(
-                    "text-[28px] leading-tight text-text1",
+                    "text-[24px] leading-tight text-text1",
                     "text-center md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
                     boldFont.className
                   )}
@@ -200,7 +200,7 @@ export const WhyUnique = () => {
               >
                 <div
                   className={classNames(
-                    "text-[28px] leading-tight text-text1",
+                    "text-[24px] leading-tight text-text1",
                     "text-center md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
                     boldFont.className
                   )}
