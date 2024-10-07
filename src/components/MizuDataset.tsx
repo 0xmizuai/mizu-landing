@@ -65,7 +65,7 @@ export const MizuDataset = () => {
                 <Image
                   src={datasetExplain}
                   className={classNames(
-                    "relative self-start",
+                    "relative self-start md:self-center",
                     "w-full",
                     "md:w-[300px] md:min-w-[300px]",
                     "lg:w-[360px] lg:min-w-[360px]",
