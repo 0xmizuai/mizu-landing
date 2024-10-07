@@ -1,5 +1,5 @@
 import { Introduction } from "@/components/Introduction";
-import { LargestDataset } from "@/components/LargestDataset";
+import { MizuDataset } from "@/components/MizuDataset";
 import { Partnership } from "@/components/Partnership";
 import { Roadmap } from "@/components/RoadmapV2";
 import { Whatis } from "@/components/Whatis";
@@ -18,9 +18,9 @@ export default function Home() {
 
       <Partnership />
 
-      <Whatis />
+      <MizuDataset />
 
-      <LargestDataset />
+      <Whatis />
 
       <WhyUnique />
 
