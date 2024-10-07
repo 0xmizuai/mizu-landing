@@ -122,7 +122,7 @@ export const Whatis = () => {
                   boldFont.className
                 )}
               >
-                What is MIZU?
+                Decentralized Data Hosting
               </div>
 
               <div
@@ -134,12 +134,7 @@ export const Whatis = () => {
                 MIZU is the pioneering DePIN solution for hyperscale AI
                 datasets. By simply running a MIZU data node, any data holder
                 can effortlessly join our ecosystem, securely sharing their
-                valuable information. Our innovative network leverages edge
-                computing for comprehensive data pre-processing, ensuring
-                exceptional data quality and integrity. Combined with our
-                standardized query interface, MIZU offers easily accessible and
-                low-risk data resources to the AI community, empowering
-                developers to innovate and build a wide range of AI solutions.
+                valuable information.
               </div>
             </div>
           </div>
@@ -167,7 +162,7 @@ export const Whatis = () => {
                   boldFont.className
                 )}
               >
-                Meet Mizu Bot
+                MIZU Edge Network
               </div>
 
               <div
@@ -176,9 +171,9 @@ export const Whatis = () => {
                   lightFont.className
                 )}
               >
-                Lorem ipsum dolor sit amet consectetur. Venenatis mauris orci
-                tellus adipiscing odio luctus nunc rhoncus morbi. Commodo sit
-                tempus aenean viverra tortor libero magna nullam tortor.
+                Our innovative network leverages edge computing for
+                comprehensive data pre-processing, ensuring exceptional data
+                quality and integrity.
               </div>
 
               <div
@@ -187,10 +182,10 @@ export const Whatis = () => {
                   lightFont.className
                 )}
               >
-                Lorem ipsum dolor sit amet consectetur. Amet varius sed morbi et
-                pellentesque sed sem mauris elit. Id erat augue suspendisse
-                suspendisse viverra accumsan id facilisi pretium. Quam in turpis
-                porttitor varius egestas.
+                Join our edge network using your mobile device or laptop. Run
+                the MIZU Telegram bot to contribute computational resources for
+                data tagging and refinement. Earn MIZU points for your
+                participation.
               </div>
             </div>
 

@@ -1,17 +1,15 @@
 import { boldFont, lightFont } from "@/utils/fontUtils";
 import classNames from "classnames";
 import Image from "next/image";
-import mizuBot from "public/images/whatis/mizu_bot.png";
-import detail from "public/images/largest/detail.svg";
-import whatis from "public/images/whatis/whatis.svg";
-import datasetExplain from "public/images/largest/dataset_explain.svg";
+import detail from "public/images/dataset/detail.svg";
+import datasetExplain from "public/images/dataset/dataset_explain.svg";
 
-export const LargestDataset = () => {
+export const MizuDataset = () => {
   return (
     <div
       className={classNames(
         "z-10 relative",
-        "bg-bgPage border-b border-b-white"
+        "bg-bgPage border-t border-t-white border-b border-b-white"
       )}
     >
       <div
@@ -60,7 +58,7 @@ export const LargestDataset = () => {
                   boldFont.className
                 )}
               >
-                World’s largest commuity-built datasets
+                The Community-built AI Dataset
               </div>
 
               <div className="mt-[36px] md:mt-[45px] lg:mt-[56px] flex flex-col md:flex-row items-center">
@@ -83,9 +81,12 @@ export const LargestDataset = () => {
                     lightFont.className
                   )}
                 >
-                  Lorem ipsum dolor sit amet consectetur. Amet varius sed morbi
-                  et pellentesque sed sem mauris elit. Id erat augue suspendisse
-                  suspendisse viverra accumsan.
+                  Data is the currency of AI, but existing datasets are
+                  fragmented, outdated, and limited in scale. MIZU addresses
+                  this by aggregating data from diverse sources using DePIN to
+                  build a comprehensive, fresh, and large-scale open-source
+                  dataset that's easily accessible and queryable by AI
+                  developers.
                 </div>
               </div>
             </div>
