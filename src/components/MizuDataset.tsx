@@ -65,9 +65,10 @@ export const MizuDataset = () => {
                 <Image
                   src={datasetExplain}
                   className={classNames(
-                    "relative self-start md:self-center",
-                    "w-full",
-                    "md:w-[300px] md:min-w-[300px]",
+                    "relative self-center md:self-center",
+                    "w-full px-3 md:px-0",
+                    "max-w-[270px] md:max-w-[405px]",
+                    "md:w-[360px] md:min-w-[360px]",
                     "lg:w-[360px] lg:min-w-[360px]",
                     "xl:w-[405px] xl:min-w-[405px]"
                   )}
@@ -77,7 +78,7 @@ export const MizuDataset = () => {
 
                 <div
                   className={classNames(
-                    "mt-[36px] xl:mt-0 xl:ml-[30px] 2xl:ml-[40px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
+                    "mt-[16px] xl:mt-0 xl:ml-[30px] 2xl:ml-[40px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
                     lightFont.className
                   )}
                 >
