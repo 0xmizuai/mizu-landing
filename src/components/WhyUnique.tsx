@@ -46,7 +46,7 @@ export const WhyUnique = () => {
         >
           <div
             className={classNames(
-              "flex flex-col items-center",
+              "flex flex-col items-start md:items-center",
               "justify-start text-sm",
               "px-[0] md:px-[50px] lg:px-[80px] 2xl:px-[100px]",
               "md:content-wrapper"
@@ -56,7 +56,7 @@ export const WhyUnique = () => {
               <div
                 className={classNames(
                   "leading-tight text-text1",
-                  "text-center title-text",
+                  "title-text",
                   boldFont.className
                 )}
               >
