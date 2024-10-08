@@ -189,7 +189,7 @@ export const Whatis = () => {
                   boldFont.className
                 )}
               >
-                Foundational Model Training
+                Application-driven Dataset
               </div>
 
               <div
@@ -198,10 +198,10 @@ export const Whatis = () => {
                   lightFont.className
                 )}
               >
-                Lorem ipsum dolor sit amet consectetur. Amet varius sed morbi et
-                pellentesque sed sem mauris elit. Id erat augue suspendisse
-                suspendisse viverra accumsan id facilisi pretium. Quam in turpis
-                porttitor varius egestas. In urna ornare quis felis in egestas.
+                MIZU’s AI-ready dataset is designed to serve various AI applications,
+                including foundation model training, fine-tuning and RAG.
+                Our dataset is meticulously curated to ensure
+                high-quality, diverse, and unbiased data.
               </div>
             </div>
           </div>
