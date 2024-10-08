@@ -15,7 +15,7 @@ body {
 
 @layer utilities {
   .title-text {
-    @apply text-center md:text-start text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[55px];
+    @apply text-start md:text-start text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[55px];
   }
 
   .primary-button {

@@ -54,9 +54,9 @@ export const Partnership = () => {
 
         <div className=" flex justify-center">
           <Image
-            src={fraction}
+            src={og}
             alt="icon"
-            className="w-[100px] md:w-[120px] xl:w-[160px] h-auto"
+            className="w-[36px] md:w-[45px] xl:w-[55px] h-auto"
             priority
           />
         </div>
@@ -72,9 +72,9 @@ export const Partnership = () => {
 
         <div className=" flex justify-center">
           <Image
-            src={og}
+            src={fraction}
             alt="icon"
-            className="w-[36px] md:w-[45px] xl:w-[55px] h-auto"
+            className="w-[100px] md:w-[120px] xl:w-[160px] h-auto"
             priority
           />
         </div>

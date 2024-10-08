@@ -69,7 +69,7 @@ export const WhyUnique = () => {
                 "self-stretch mt-[36px] md:mt-[45px] lg:mt-[56px] flex flex-col-reverse md:flex-row items-center justify-start",
                 "border-t border-t-white border-b border-b-white",
                 "md:border md:border-white",
-                "px-[35px] md:px-[50px] xl:px-[120px] 2xl:px-[150px]",
+                "px-[24px] md:px-[50px] xl:px-[120px] 2xl:px-[150px]",
                 "py-[32px] md:py-[44px]"
               )}
             >
@@ -86,7 +86,7 @@ export const WhyUnique = () => {
                 <div
                   className={classNames(
                     "text-[24px] leading-tight text-text1",
-                    "text-center md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
+                    "text-start md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
                     boldFont.className
                   )}
                 >
@@ -95,7 +95,7 @@ export const WhyUnique = () => {
 
                 <div
                   className={classNames(
-                    "mt-[16px] md:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-center md:text-start",
+                    "mt-[16px] md:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-start md:text-start",
                     lightFont.className
                   )}
                 >
@@ -121,17 +121,17 @@ export const WhyUnique = () => {
 
             <div
               className={classNames(
-                "self-stretch mt-[16px] md:mt-[45px] lg:mt-[56px] flex flex-col-reverse md:flex-row items-center justify-center",
+                "self-stretch mt-[16px] md:mt-[45px] lg:mt-[56px] flex flex-col md:flex-row items-center justify-center",
                 "border-t border-t-white border-b border-b-white",
                 "md:border md:border-white",
-                "px-[35px] md:pl-[50px] xl:pl-[120px] 2xl:pl-[150px]",
+                "px-[24px] md:pl-[50px] xl:pl-[120px] 2xl:pl-[150px]",
                 "py-[24px] md:py-[32px]"
               )}
             >
               <div
                 className={classNames(
                   "flex justify-center md:block",
-                  "mt-[32px] md:mt-0 ",
+                  "md:mt-0 ",
                   "w-full ",
                   "md:w-[300px] md:min-w-[300px] md:max-w-[300px]",
                   "lg:w-[360px] lg:min-w-[360px] lg:max-w-[360px]",
@@ -156,7 +156,7 @@ export const WhyUnique = () => {
                 <div
                   className={classNames(
                     "text-[24px] leading-tight text-text1",
-                    "text-center md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
+                    "text-start md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
                     boldFont.className
                   )}
                 >
@@ -165,7 +165,7 @@ export const WhyUnique = () => {
 
                 <div
                   className={classNames(
-                    "mt-[16px] md:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-center md:text-start",
+                    "mt-[16px] md:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-start md:text-start",
                     lightFont.className
                   )}
                 >
@@ -184,7 +184,7 @@ export const WhyUnique = () => {
                 "self-stretch mt-[16px] md:mt-[45px] lg:mt-[56px] flex flex-col-reverse md:flex-row items-center justify-start",
                 "border-t border-t-white border-b border-b-white",
                 "md:border md:border-white",
-                "px-[35px] md:px-[50px] xl:px-[120px] 2xl:px-[150px]",
+                "px-[24px] md:px-[50px] xl:px-[120px] 2xl:px-[150px]",
                 "py-[32px] md:py-[44px]"
               )}
             >
@@ -201,7 +201,7 @@ export const WhyUnique = () => {
                 <div
                   className={classNames(
                     "text-[24px] leading-tight text-text1",
-                    "text-center md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
+                    "text-start md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
                     boldFont.className
                   )}
                 >
@@ -210,7 +210,7 @@ export const WhyUnique = () => {
 
                 <div
                   className={classNames(
-                    "mt-[16px] md:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-center md:text-start",
+                    "mt-[16px] md:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-start md:text-start",
                     lightFont.className
                   )}
                 >

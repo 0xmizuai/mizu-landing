@@ -50,18 +50,18 @@ export const MizuDataset = () => {
               "md:content-wrapper"
             )}
           >
-            <div className="mx-[20px] md:mx-0 flex flex-col items-center">
+            <div className="mx-[20px] md:mx-0 flex flex-col items-start md:items-center">
               <div
                 className={classNames(
                   "text-[32px] leading-tight text-text1",
-                  "text-center title-text",
+                  "title-text",
                   boldFont.className
                 )}
               >
                 The Community-built AI Dataset
               </div>
 
-              <div className="mt-[36px] md:mt-[45px] lg:mt-[56px] flex flex-col md:flex-row items-center">
+              <div className="mt-[36px] md:mt-[45px] lg:mt-[56px] flex flex-col xl:flex-row items-center">
                 <Image
                   src={datasetExplain}
                   className={classNames(
@@ -77,7 +77,7 @@ export const MizuDataset = () => {
 
                 <div
                   className={classNames(
-                    "mt-[36px] md:mt-0 md:ml-[30px] lg:ml-[40px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
+                    "mt-[36px] xl:mt-0 xl:ml-[30px] 2xl:ml-[40px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
                     lightFont.className
                   )}
                 >

@@ -79,7 +79,7 @@ export const Whatis = () => {
 
               <div
                 className={classNames(
-                  "mt-[36px] lg:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
+                  "mt-[16px] lg:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
                   lightFont.className
                 )}
               >
@@ -102,10 +102,10 @@ export const Whatis = () => {
           >
             <div
               className={classNames(
-                "flex flex-col items-center md:items-start mr-0 md:mr-[30px] xl:mr-[70px]",
-                "md:w-[300px] md:min-w-[400px]",
-                "lg:w-[360px] lg:min-w-[460px]",
-                "xl:w-[490px] xl:min-w-[590px]"
+                "flex flex-col items-start md:items-start mr-0 md:mr-[30px] xl:mr-[70px]",
+                "md:w-[300px] md:min-w-[350]",
+                "lg:w-[360px] lg:min-w-[440px]",
+                "xl:w-[490px] xl:min-w-[550px]"
                 // "mt-0 md:mt-[80px] lg:mt-[120px] xl:mt-[120px]"
               )}
             >
@@ -121,7 +121,7 @@ export const Whatis = () => {
 
               <div
                 className={classNames(
-                  "mt-[36px] lg:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
+                  "mt-[16px] lg:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
                   lightFont.className
                 )}
               >
@@ -148,7 +148,7 @@ export const Whatis = () => {
               className={classNames(
                 "mt-[56px] md:mt-0",
                 "relative self-start mt-8 lg:mt-0",
-                "w-full",
+                "w-full px-10  md:px-5 lg:px-0",
                 "md:w-[250px] md:min-w-[250px]",
                 "lg:w-[280px] lg:min-w-[280px]",
                 "xl:w-[334px] xl:min-w-[334px]"
@@ -194,13 +194,13 @@ export const Whatis = () => {
 
               <div
                 className={classNames(
-                  "mt-[36px] lg:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
+                  "mt-[16px] lg:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text2 text-start",
                   lightFont.className
                 )}
               >
-                MIZU’s AI-ready dataset is designed to serve various AI applications,
-                including foundation model training, fine-tuning and RAG.
-                Our dataset is meticulously curated to ensure
+                MIZU’s AI-ready dataset is designed to serve various AI
+                applications, including foundation model training, fine-tuning
+                and RAG. Our dataset is meticulously curated to ensure
                 high-quality, diverse, and unbiased data.
               </div>
             </div>
