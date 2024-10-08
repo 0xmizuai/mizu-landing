@@ -1,16 +1,21 @@
-import { Inter, Rubik } from "next/font/google";
+import { Inter, Rubik, Space_Grotesk } from "next/font/google";
 
-export const regularFont = Rubik({
+export const lightFont = Space_Grotesk({
+  weight: "300",
+  subsets: ["latin"],
+});
+
+export const regularFont = Space_Grotesk({
   weight: "400",
   subsets: ["latin"],
 });
 
-export const semiBoldFont = Rubik({
+export const semiBoldFont = Space_Grotesk({
   weight: "500",
   subsets: ["latin"],
 });
 
-export const boldFont = Rubik({
+export const boldFont = Space_Grotesk({
   weight: "700",
   subsets: ["latin"],
 });

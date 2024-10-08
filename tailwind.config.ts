@@ -9,16 +9,18 @@ const config: Config = {
   theme: {
     colors: {
       white: "#ffffff",
-      black: "#000000",
+      black: "#131313",
       primary: "#37D8FA",
       primaryDark: "#07AAFF",
       secondary: "#FF7A00",
       lightButtonBg: "#C3F4F4",
       secondaryButtonBg: "#FFEDEB",
       borderLight: "#EEEEEE",
-      text1: "#272727",
-      text2: "#003740",
-      text3: "#6A6867",
+      bgPage: "#131313",
+      text1: "#ffffff",
+      text2: "#D9D9D9",
+      text3: "#D9D9D9",
+      textBlack: "#131313",
     },
     fontSize: {
       xs: "0.65rem",
@@ -37,12 +39,17 @@ const config: Config = {
       spacing: {
         contentWidth: "1440px",
         contentWidthLarge: "1800px",
+        headerHeight: "60px",
+        headerHeightLarge: "98px",
       },
       gridTemplateColumns: {
         auto2: "repeat(2, auto)",
         auto3: "repeat(3, auto)",
         auto4: "repeat(4, auto)",
         auto6: "repeat(6, auto)",
+        layout3: "10% 80% 10%",
+        layout3Medium: "10% 80% 10%",
+        layout3Large: "12% 76% 12%",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

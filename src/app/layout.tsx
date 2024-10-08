@@ -34,11 +34,13 @@ export default function RootLayout({
       >
         <AppHeader />
 
-        <div className="pt-[60px] md:pt-[80px]">{children}</div>
+        <div className="pt-headerHeight md:pt-headerHeightLarge">
+          {children}
+        </div>
 
         <AppFooter />
 
-        <div className="w-full h-[400px] md:w-[768px] md:h-[700px] absolute left-0 bottom-0">
+        {/* <div className="w-full h-[400px] md:w-[768px] md:h-[700px] absolute left-0 bottom-0">
           <Image
             src="/images/roadmap_glow.svg"
             layout="fill"
@@ -49,7 +51,7 @@ export default function RootLayout({
 
         <div className="w-[180px] h-[180px] 2xl:w-[260px] 2xl:h-[260px] absolute left-0 bottom-0">
           <Image src="/images/home_bg2.svg" layout="fill" alt="icon" priority />
-        </div>
+        </div> */}
       </body>
     </html>
   );
