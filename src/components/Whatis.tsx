@@ -71,7 +71,7 @@ export const Whatis = () => {
 };
 
 const ContentCarousel = () => {
-  const [index, setIndex] = useState(1);
+  const [index, setIndex] = useState(0);
 
   return (
     <div className="relative">

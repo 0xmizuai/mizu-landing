@@ -65,7 +65,7 @@ export const WhyUnique = () => {
             </div>
 
             <div className="mt-12 flex flex-col md:flex-row gap-10 px-6 md:px-0">
-              <div className="border border-white p-4 w-full md:w-[330px] bg-[#101010]">
+              <div className="border border-white p-2 md:p-3 w-full md:w-[330px] bg-[#101010]">
                 <div
                   className={classNames(
                     "self-stretch flex flex-col items-center justify-between",
@@ -115,7 +115,7 @@ export const WhyUnique = () => {
                 </div>
               </div>
 
-              <div className="border border-white p-4 w-full md:w-[330px] bg-[#101010]">
+              <div className="border border-white p-2 md:p-3 w-full md:w-[330px] bg-[#101010]">
                 <div
                   className={classNames(
                     "self-stretch flex flex-col items-center justify-between",
@@ -166,7 +166,7 @@ export const WhyUnique = () => {
                 </div>
               </div>
 
-              <div className="border border-white p-4 w-full md:w-[330px] bg-[#101010]">
+              <div className="border border-white p-2 md:p-3 w-full md:w-[330px] bg-[#101010]">
                 <div
                   className={classNames(
                     "self-stretch flex flex-col items-center justify-between",
