@@ -16,7 +16,8 @@ export const Whatis = () => {
       id="what-is-MIZU"
       className={classNames(
         "z-10 relative",
-        "bg-bgPage border-t border-t-white"
+        "bg-bgPage border-t border-t-white",
+        "scroll-mt-headerHeight md:scroll-mt-[100px]"
       )}
     >
       <div

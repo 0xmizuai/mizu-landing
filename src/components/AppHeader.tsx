@@ -75,6 +75,11 @@ export const AppHeader = () => {
               className={classNames(
                 "ml-8 stroke-button active:primary-button text-[16px] px-[14px] py-[6px]"
               )}
+              // onClick={() => {
+              //   document
+              //     .getElementById("roadmap")
+              //     ?.scrollIntoView({ block: "center", behavior: "smooth" });
+              // }}
             >
               Roadmap
             </div>

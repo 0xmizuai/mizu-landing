@@ -8,7 +8,11 @@ export const Roadmap = () => {
   return (
     <div
       id="roadmap"
-      className={classNames("z-10 relative", "md:border-b md:border-b-white")}
+      className={classNames(
+        "z-10 relative",
+        "md:border-b md:border-b-white",
+        "scroll-mt-headerHeight md:scroll-mt-[100px]"
+      )}
     >
       <div
         className={classNames(

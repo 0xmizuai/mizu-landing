@@ -41,7 +41,7 @@ export const Introduction = () => {
           <div
             className={classNames(
               "flex flex-col md:flex-row md:items-center",
-              "justify-start text-sm",
+              "justify-center text-sm",
               "px-[20px] md:px-[30px] lg:px-[40px] 2xl:px-[50px]",
               "py-[30px] md:py-[30px] lg:py-[40px] xl:py-[50px] 2xl:py-[65px]",
               "md:content-wrapper",

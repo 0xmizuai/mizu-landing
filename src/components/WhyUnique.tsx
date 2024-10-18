@@ -11,7 +11,8 @@ export const WhyUnique = () => {
       id="why-different"
       className={classNames(
         "z-10 relative",
-        "bg-bgPage border-b border-b-white"
+        "bg-bgPage border-b border-b-white",
+        "scroll-mt-headerHeight md:scroll-mt-[100px]"
       )}
     >
       <div
