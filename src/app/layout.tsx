@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import "react-modern-drawer/dist/index.css";
 import "./globals.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Script from "next/script";
 
 export const metadata: Metadata = {

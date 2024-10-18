@@ -9,7 +9,7 @@ export const MizuDataset = () => {
     <div
       className={classNames(
         "z-10 relative",
-        "bg-bgPage border-t border-t-white border-b border-b-white"
+        "bg-bgPage border-t border-t-white"
       )}
     >
       <div
@@ -21,12 +21,7 @@ export const MizuDataset = () => {
       >
         <div className="crossed-right"></div>
 
-        <div
-          className={classNames(
-            "md:content-wrapper",
-            "border-r border-r-white"
-          )}
-        ></div>
+        <div className={classNames("md:content-wrapper")}></div>
 
         <div className=""></div>
       </div>
@@ -34,7 +29,7 @@ export const MizuDataset = () => {
       {/* <div className="absolute top-0 left-0 bottom-[100px] right-[100px]"></div> */}
 
       <div className="grid items-stretch layout-panel">
-        <div className="border-b border-b-white"></div>
+        <div className=""></div>
 
         <div
           className={classNames(
@@ -107,7 +102,7 @@ export const MizuDataset = () => {
           </div>
         </div>
 
-        <div className="border-b border-b-white"></div>
+        <div className="border-t border-t-white"></div>
       </div>
 
       <div
@@ -117,7 +112,7 @@ export const MizuDataset = () => {
           "layout-panel"
         )}
       >
-        <div className=""></div>
+        <div className="crossed-left"></div>
 
         <div className={classNames("md:content-wrapper")}></div>
 

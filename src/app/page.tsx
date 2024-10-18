@@ -18,9 +18,9 @@ export default function Home() {
 
       <Partnership />
 
-      <MizuDataset />
-
       <Whatis />
+
+      <MizuDataset />
 
       <WhyUnique />
 
