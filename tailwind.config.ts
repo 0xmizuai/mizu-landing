@@ -50,6 +50,9 @@ const config: Config = {
         layout3: "10% 80% 10%",
         layout3Medium: "10% 80% 10%",
         layout3Large: "12% 76% 12%",
+        layout2: "90% 10%",
+        layout2Medium: "90% 10%",
+        layout2Large: "88% 12%",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

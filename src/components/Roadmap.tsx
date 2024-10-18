@@ -57,7 +57,7 @@ export const Roadmap = () => {
               </div>
             </div>
 
-            <div className="max-w-[200px] mt-2 text-[#898989] text-[12px] leading-snug text-end">
+            <div className="max-w-[200px] mt-2 text-[#898989] text-[12px] leading-normal text-end">
               Release the testnet for the MIZU data network, featuring
               capabilities for data hosting and data pre-processing
             </div>
@@ -89,11 +89,11 @@ export const Roadmap = () => {
               </div>
             </div>
 
-            <div className="max-w-[200px] mt-2 text-[#898989] text-[12px] leading-snug text-end">
+            <div className="max-w-[200px] mt-2 text-[#898989] text-[12px] leading-normal text-end">
               Focus on ecosystem development, fostering the creation of AI
-              applications from the tailored datasets created from MIZU AI
-              data network and supporting developers in utilizing the
-              platform effectively
+              applications from the tailored datasets created from MIZU AI data
+              network and supporting developers in utilizing the platform
+              effectively
             </div>
           </div>
         </div>
@@ -117,7 +117,7 @@ export const Roadmap = () => {
               </div>
             </div>
 
-            <div className="mt-2 max-w-[200px] text-[#898989] text-[12px] leading-snug">
+            <div className="mt-2 max-w-[200px] text-[#898989] text-[12px] leading-normal">
               Launch the MIZU edge network and import initial open-source
               datasets into the MIZU data network
             </div>
@@ -149,7 +149,7 @@ export const Roadmap = () => {
               </div>
             </div>
 
-            <div className="mt-2 text-[#898989] text-[12px] leading-snug">
+            <div className="mt-2 text-[#898989] text-[12px] leading-normal">
               Official launch of the mainnet
               <br /> and Token Generation Event (TGE), <br />
               marking the full deployment and <br />
@@ -195,7 +195,7 @@ export const Roadmap = () => {
               </div>
             </div>
 
-            <div className="mt-4 text-[#898989] text-[14px] leading-snug  pr-5">
+            <div className="mt-4 text-[#898989] text-[14px] leading-normal  pr-5">
               Release the testnet for the MIZU data network, featuring
               capabilities for data hosting and data pre-processing
             </div>
@@ -225,7 +225,7 @@ export const Roadmap = () => {
               </div>
             </div>
 
-            <div className="mt-4 text-[#898989] text-[14px] leading-snug   pr-5">
+            <div className="mt-4 text-[#898989] text-[14px] leading-normal   pr-5">
               Focus on ecosystem development, fostering the creation of AI
               applications directly from the data repository and supporting
               developers in utilizing the platform effectively
@@ -252,7 +252,7 @@ export const Roadmap = () => {
               </div>
             </div>
 
-            <div className="mt-4 text-[#898989] text-[14px] leading-snug   pr-5">
+            <div className="mt-4 text-[#898989] text-[14px] leading-normal   pr-5">
               Launch the MIZU data repository
               <br /> and import initial open-source datasets into the MIZU data
               network
@@ -283,7 +283,7 @@ export const Roadmap = () => {
               </div>
             </div>
 
-            <div className="mt-4 text-[#898989] text-[14px] leading-snug   pr-5">
+            <div className="mt-4 text-[#898989] text-[14px] leading-normal   pr-5">
               Official launch of the mainnet and Token Generation Event (TGE),
               marking the full deployment and operational launch of the MIZU
               data network

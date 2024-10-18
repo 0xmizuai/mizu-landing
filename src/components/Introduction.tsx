@@ -37,7 +37,7 @@ export const Introduction = () => {
       <div className="grid items-stretch layout-panel">
         <div className=""></div>
 
-        <div className="p-3 border border-white">
+        <div className="p-2 md:p-3 border border-white">
           <div
             className={classNames(
               "flex flex-col md:flex-row md:items-center",
@@ -67,7 +67,7 @@ export const Introduction = () => {
 
               <div
                 className={classNames(
-                  "mt-[20px] lg:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text1 text-start"
+                  "mt-[20px] lg:mt-[28px] text-[16px] md:text-[18px] leading-normal text-text1 text-start"
                 )}
               >
                 Shape the future of AI with us

@@ -7,12 +7,12 @@ import logo from "public/images/logo.svg";
 
 export const AppFooter = () => {
   return (
-    <div className="z-10 relative h-[98px] left-0 right-0 top-0 flex items-center justify-center">
-      <div className="pl-12 md:pl-12 2xl:pl-14 pr-8 w-full flex justify-between items-center">
+    <div className="z-10 relative h-[60px] md:h-[75px] xl:h-[98px] left-0 right-0 top-0 flex items-center justify-center">
+      <div className="pl-8 md:pl-12 2xl:pl-14 pr-8 w-full flex justify-between items-center">
         <Image
           src={logo}
           alt="MIZU Logo"
-          className="w-[83px] h-[30px]"
+          className="w-[85px] h-auto"
           priority
         />
 
