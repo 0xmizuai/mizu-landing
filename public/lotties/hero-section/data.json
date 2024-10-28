@@ -1,0 +1,1471 @@
+{
+  "v": "5.9.6",
+  "fr": 60,
+  "ip": 0,
+  "op": 539,
+  "w": 5780,
+  "h": 4570,
+  "nm": "合成 2",
+  "ddd": 1,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 136,
+      "h": 136,
+      "u": "lotties/hero-section/images/",
+      "p": "img_0.png",
+      "e": 0
+    },
+    {
+      "id": "image_1",
+      "w": 502,
+      "h": 731,
+      "u": "lotties/hero-section/images/",
+      "p": "img_1.png",
+      "e": 0
+    },
+    {
+      "id": "image_2",
+      "w": 1980,
+      "h": 2155,
+      "u": "lotties/hero-section/images/",
+      "p": "img_2.png",
+      "e": 0
+    },
+    {
+      "id": "image_3",
+      "w": 191,
+      "h": 260,
+      "u": "lotties/hero-section/images/",
+      "p": "img_3.png",
+      "e": 0
+    },
+    {
+      "id": "image_4",
+      "w": 620,
+      "h": 722,
+      "u": "lotties/hero-section/images/",
+      "p": "img_4.png",
+      "e": 0
+    },
+    {
+      "id": "image_5",
+      "w": 82,
+      "h": 82,
+      "u": "lotties/hero-section/images/",
+      "p": "img_5.png",
+      "e": 0
+    },
+    {
+      "id": "image_6",
+      "w": 8143,
+      "h": 4702,
+      "u": "lotties/hero-section/images/",
+      "p": "img_6.png",
+      "e": 0
+    },
+    {
+      "id": "image_7",
+      "w": 8143,
+      "h": 4702,
+      "u": "lotties/hero-section/images/",
+      "p": "img_7.png",
+      "e": 0
+    },
+    {
+      "id": "comp_0",
+      "nm": "合成 1",
+      "fr": 60,
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 13,
+          "nm": "摄像机 1",
+          "sr": 1,
+          "pe": { "a": 0, "k": 5619.444, "ix": 1 },
+          "ks": {
+            "a": { "a": 0, "k": [2890, 2285, 0], "ix": 1 },
+            "p": { "a": 0, "k": [2890, 2285, -5619.444], "ix": 2 },
+            "or": { "a": 0, "k": [0, 0, 0], "ix": 7 },
+            "rx": { "a": 0, "k": 0, "ix": 8 },
+            "ry": { "a": 0, "k": 0, "ix": 9 },
+            "rz": { "a": 0, "k": 0, "ix": 10 }
+          },
+          "ip": 0,
+          "op": 360,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 1,
+          "ind": 2,
+          "ty": 4,
+          "nm": "“$”轮廓",
+          "parent": 3,
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 103,
+                  "s": [0]
+                },
+                { "t": 171, "s": [100] }
+              ],
+              "ix": 11
+            },
+            "rx": { "a": 0, "k": 0, "ix": 8 },
+            "ry": { "a": 0, "k": 0, "ix": 9 },
+            "rz": { "a": 0, "k": 0, "ix": 10 },
+            "or": { "a": 0, "k": [0, 0, 0], "ix": 7 },
+            "p": { "a": 0, "k": [7.441, 13.822, -3.774], "ix": 2 },
+            "a": { "a": 0, "k": [128.291, -128.781, 11.224], "ix": 1 },
+            "s": { "a": 0, "k": [114, 114, 114], "ix": 6 }
+          },
+          "ao": 0,
+          "shapes": [
+            {
+              "ty": "gr",
+              "it": [
+                {
+                  "ind": 0,
+                  "ty": "sh",
+                  "ix": 1,
+                  "ks": {
+                    "a": 0,
+                    "k": {
+                      "i": [
+                        [0, 0],
+                        [15.308, -10.876],
+                        [0, -26.587],
+                        [-28.198, -15.308],
+                        [0, 0],
+                        [0, 0],
+                        [6.848, 6.445],
+                        [1.611, 20.947],
+                        [0, 0],
+                        [-16.919, -16.113],
+                        [-27.393, -2.014],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [-16.113, 10.474],
+                        [0, 28.601],
+                        [27.795, 15.71],
+                        [31.824, 11.682],
+                        [0, 0],
+                        [-6.042, -4.431],
+                        [-2.417, -16.919],
+                        [0, 0],
+                        [16.516, 12.891],
+                        [24.17, 1.611],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "o": [
+                        [-23.364, 1.611],
+                        [-20.544, 14.099],
+                        [0, 29.81],
+                        [0, 0],
+                        [0, 0],
+                        [-12.488, -1.611],
+                        [-9.265, -8.862],
+                        [0, 0],
+                        [2.417, 33.032],
+                        [14.502, 13.696],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [24.573, -1.611],
+                        [21.753, -14.502],
+                        [0, -29.407],
+                        [-2.417, -1.611],
+                        [0, 0],
+                        [10.071, 1.208],
+                        [9.668, 6.848],
+                        [0, 0],
+                        [-4.028, -29.407],
+                        [-14.099, -11.279],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "v": [
+                        [106.75, -292.859],
+                        [49.146, -274.329],
+                        [18.53, -213.501],
+                        [60.425, -145.825],
+                        [106.75, -128.906],
+                        [106.75, -34.644],
+                        [77.747, -46.729],
+                        [61.633, -91.846],
+                        [14.905, -91.846],
+                        [43.909, -18.127],
+                        [106.75, 5.237],
+                        [106.75, 40.686],
+                        [133.337, 40.686],
+                        [133.337, 5.237],
+                        [194.165, -12.891],
+                        [226.794, -77.344],
+                        [184.9, -145.02],
+                        [133.337, -164.758],
+                        [133.337, -253.381],
+                        [157.507, -244.922],
+                        [175.635, -209.473],
+                        [221.558, -209.473],
+                        [190.942, -273.12],
+                        [133.337, -292.859],
+                        [133.337, -325.891],
+                        [106.75, -325.891]
+                      ],
+                      "c": true
+                    },
+                    "ix": 2
+                  },
+                  "nm": "$",
+                  "mn": "ADBE Vector Shape - Group",
+                  "hd": false
+                },
+                {
+                  "ind": 1,
+                  "ty": "sh",
+                  "ix": 2,
+                  "ks": {
+                    "a": 0,
+                    "k": {
+                      "i": [
+                        [0, 0],
+                        [-1.611, -0.806],
+                        [0, -18.127],
+                        [11.279, -7.251],
+                        [11.279, -1.611]
+                      ],
+                      "o": [
+                        [1.611, 0.403],
+                        [27.795, 9.668],
+                        [0, 13.293],
+                        [-8.057, 5.237],
+                        [0, 0]
+                      ],
+                      "v": [
+                        [133.337, -119.238],
+                        [137.769, -117.627],
+                        [179.663, -75.732],
+                        [162.744, -44.714],
+                        [133.337, -34.644]
+                      ],
+                      "c": true
+                    },
+                    "ix": 2
+                  },
+                  "nm": "$",
+                  "mn": "ADBE Vector Shape - Group",
+                  "hd": false
+                },
+                {
+                  "ind": 2,
+                  "ty": "sh",
+                  "ix": 3,
+                  "ks": {
+                    "a": 0,
+                    "k": {
+                      "i": [
+                        [0, 0],
+                        [0, 15.308],
+                        [-10.876, 6.445],
+                        [-10.474, 1.208]
+                      ],
+                      "o": [
+                        [-27.393, -10.474],
+                        [0, -14.905],
+                        [6.042, -4.028],
+                        [0, 0]
+                      ],
+                      "v": [
+                        [106.75, -174.829],
+                        [65.662, -213.501],
+                        [81.775, -245.728],
+                        [106.75, -253.784]
+                      ],
+                      "c": true
+                    },
+                    "ix": 2
+                  },
+                  "nm": "$",
+                  "mn": "ADBE Vector Shape - Group",
+                  "hd": false
+                },
+                {
+                  "ty": "mm",
+                  "mm": 1,
+                  "nm": "合并路径 1",
+                  "mn": "ADBE Vector Filter - Merge",
+                  "hd": false
+                },
+                {
+                  "ty": "fl",
+                  "c": { "a": 0, "k": [0, 0, 0, 1], "ix": 4 },
+                  "o": { "a": 0, "k": 100, "ix": 5 },
+                  "r": 1,
+                  "bm": 0,
+                  "nm": "填充 1",
+                  "mn": "ADBE Vector Graphic - Fill",
+                  "hd": false
+                },
+                {
+                  "ty": "tr",
+                  "p": { "a": 0, "k": [0, 0], "ix": 2 },
+                  "a": { "a": 0, "k": [0, 0], "ix": 1 },
+                  "s": { "a": 0, "k": [100, 100], "ix": 3 },
+                  "r": { "a": 0, "k": 0, "ix": 6 },
+                  "o": { "a": 0, "k": 100, "ix": 7 },
+                  "sk": { "a": 0, "k": 0, "ix": 4 },
+                  "sa": { "a": 0, "k": 0, "ix": 5 },
+                  "nm": "变换"
+                }
+              ],
+              "nm": "$",
+              "np": 6,
+              "cix": 2,
+              "bm": 0,
+              "ix": 1,
+              "mn": "ADBE Vector Group",
+              "hd": false
+            }
+          ],
+          "ip": 32,
+          "op": 392,
+          "st": 32,
+          "ct": 1,
+          "bm": 0
+        },
+        {
+          "ddd": 1,
+          "ind": 3,
+          "ty": 4,
+          "nm": "形状图层 1",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 103,
+                  "s": [0]
+                },
+                { "t": 161, "s": [100] }
+              ],
+              "ix": 11
+            },
+            "rx": { "a": 0, "k": 0, "ix": 8 },
+            "ry": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 116,
+                  "s": [33]
+                },
+                { "t": 172, "s": [393] }
+              ],
+              "ix": 9
+            },
+            "rz": { "a": 0, "k": 0, "ix": 10 },
+            "or": { "a": 0, "k": [0, 0, 0], "ix": 7 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.833, "y": 0.833 },
+                  "o": { "x": 0.167, "y": 0.167 },
+                  "t": 103,
+                  "s": [2843, 2439, 0],
+                  "to": [16.167, -97.333, 0],
+                  "ti": [-16.167, 97.333, 0]
+                },
+                { "t": 171, "s": [2940, 1855, 0] }
+              ],
+              "ix": 2,
+              "x": "var $bm_rt;\nvar amp, freq, decay, n, n, t, t, v;\ntry {\n    amp = $bm_div(effect('Elastic: 位置')(1), 200);\n    freq = $bm_div(effect('Elastic: 位置')(2), 30);\n    decay = $bm_div(effect('Elastic: 位置')(3), 10);\n    $bm_rt = n = 0;\n    if (numKeys > 0) {\n        $bm_rt = n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    if (n == 0) {\n        $bm_rt = t = 0;\n    } else {\n        $bm_rt = t = $bm_sub(time, key(n).time);\n    }\n    if (n > 0) {\n        v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10)));\n        $bm_rt = $bm_sum(value, $bm_div($bm_mul($bm_mul(v, amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))));\n    } else {\n        $bm_rt = value;\n    }\n} catch (e$$4) {\n    $bm_rt = value = value;\n}"
+            },
+            "a": { "a": 0, "k": [0, 0, 0], "ix": 1 },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 103,
+                  "s": [25, 25, 25]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 171,
+                  "s": [33, 33, 33]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 256,
+                  "s": [26, 26, 26]
+                },
+                { "t": 355, "s": [33, 33, 33] }
+              ],
+              "ix": 6,
+              "x": "var $bm_rt;\nvar amp, freq, decay, n, n, t, t, v;\ntry {\n    amp = $bm_div(effect('Elastic: 缩放')(1), 200);\n    freq = $bm_div(effect('Elastic: 缩放')(2), 30);\n    decay = $bm_div(effect('Elastic: 缩放')(3), 10);\n    $bm_rt = n = 0;\n    if (numKeys > 0) {\n        $bm_rt = n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    if (n == 0) {\n        $bm_rt = t = 0;\n    } else {\n        $bm_rt = t = $bm_sub(time, key(n).time);\n    }\n    if (n > 0) {\n        v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10)));\n        $bm_rt = $bm_sum(value, $bm_div($bm_mul($bm_mul(v, amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))));\n    } else {\n        $bm_rt = value;\n    }\n} catch (e$$4) {\n    $bm_rt = value = value;\n}"
+            }
+          },
+          "ao": 0,
+          "ef": [
+            {
+              "ty": 5,
+              "nm": "Elastic: 位置",
+              "np": 5,
+              "mn": "Pseudo/MDS Elastic Controller",
+              "ix": 1,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Amplitude",
+                  "mn": "Pseudo/MDS Elastic Controller-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 20, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Frequency",
+                  "mn": "Pseudo/MDS Elastic Controller-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 40, "ix": 2 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Decay",
+                  "mn": "Pseudo/MDS Elastic Controller-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 60, "ix": 3 }
+                }
+              ]
+            },
+            {
+              "ty": 5,
+              "nm": "Elastic: 缩放",
+              "np": 5,
+              "mn": "Pseudo/MDS Elastic Controller",
+              "ix": 2,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Amplitude",
+                  "mn": "Pseudo/MDS Elastic Controller-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 20, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Frequency",
+                  "mn": "Pseudo/MDS Elastic Controller-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 40, "ix": 2 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Decay",
+                  "mn": "Pseudo/MDS Elastic Controller-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 60, "ix": 3 }
+                }
+              ]
+            }
+          ],
+          "shapes": [
+            {
+              "d": 1,
+              "ty": "el",
+              "s": { "a": 0, "k": [870, 870], "ix": 2 },
+              "p": { "a": 0, "k": [0, 0], "ix": 3 },
+              "nm": "椭圆路径 1",
+              "mn": "ADBE Vector Shape - Ellipse",
+              "hd": false
+            },
+            {
+              "ty": "gs",
+              "o": { "a": 0, "k": 100, "ix": 9 },
+              "w": { "a": 0, "k": 7, "ix": 10 },
+              "g": {
+                "p": 2,
+                "k": { "a": 0, "k": [0, 1, 1, 1, 1, 0, 0, 0], "ix": 8 }
+              },
+              "s": { "a": 0, "k": [379, 200], "ix": 4 },
+              "e": { "a": 0, "k": [327, 424], "ix": 5 },
+              "t": 1,
+              "lc": 1,
+              "lj": 1,
+              "ml": 4,
+              "ml2": { "a": 0, "k": 4, "ix": 13 },
+              "bm": 0,
+              "nm": "渐变描边 1",
+              "mn": "ADBE Vector Graphic - G-Stroke",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": { "a": 0, "k": [1, 1, 1, 1], "ix": 4 },
+              "o": { "a": 0, "k": 100, "ix": 5 },
+              "r": 1,
+              "bm": 0,
+              "nm": "填充 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            }
+          ],
+          "ip": 32,
+          "op": 392,
+          "st": 32,
+          "ct": 1,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 5,
+          "ty": 2,
+          "nm": "Frame 1984077931.png",
+          "cl": "png",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 156,
+                  "s": [0]
+                },
+                { "t": 189, "s": [100] }
+              ],
+              "ix": 11
+            },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.833, "y": 0.833 },
+                  "o": { "x": 0.167, "y": 0.167 },
+                  "t": 156,
+                  "s": [3176, 2583, 0],
+                  "to": [10.833, -56.5, 0],
+                  "ti": [-10.833, 56.5, 0]
+                },
+                { "t": 189, "s": [3241, 2244, 0] }
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\nvar amp, freq, decay, n, n, t, t, v;\ntry {\n    amp = $bm_div(effect('Elastic: 位置')(1), 200);\n    freq = $bm_div(effect('Elastic: 位置')(2), 30);\n    decay = $bm_div(effect('Elastic: 位置')(3), 10);\n    $bm_rt = n = 0;\n    if (numKeys > 0) {\n        $bm_rt = n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    if (n == 0) {\n        $bm_rt = t = 0;\n    } else {\n        $bm_rt = t = $bm_sub(time, key(n).time);\n    }\n    if (n > 0) {\n        v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10)));\n        $bm_rt = $bm_sum(value, $bm_div($bm_mul($bm_mul(v, amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))));\n    } else {\n        $bm_rt = value;\n    }\n} catch (e$$4) {\n    $bm_rt = value = value;\n}"
+            },
+            "a": { "a": 0, "k": [68, 68, 0], "ix": 1, "l": 2 },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 156,
+                  "s": [64, 64, 100]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 189,
+                  "s": [100, 100, 100]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 270,
+                  "s": [120, 120, 100]
+                },
+                { "t": 357, "s": [100, 100, 100] }
+              ],
+              "ix": 6,
+              "l": 2
+            }
+          },
+          "ao": 0,
+          "ef": [
+            {
+              "ty": 5,
+              "nm": "Elastic: 位置",
+              "np": 5,
+              "mn": "Pseudo/MDS Elastic Controller",
+              "ix": 1,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Amplitude",
+                  "mn": "Pseudo/MDS Elastic Controller-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 20, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Frequency",
+                  "mn": "Pseudo/MDS Elastic Controller-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 40, "ix": 2 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Decay",
+                  "mn": "Pseudo/MDS Elastic Controller-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 60, "ix": 3 }
+                }
+              ]
+            }
+          ],
+          "ip": 0,
+          "op": 360,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 6,
+          "ty": 2,
+          "nm": "AI.png",
+          "cl": "png",
+          "refId": "image_1",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 30,
+                  "s": [0]
+                },
+                { "t": 76, "s": [100] }
+              ],
+              "ix": 11
+            },
+            "r": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 31,
+                  "s": [-27]
+                },
+                { "t": 76, "s": [0] }
+              ],
+              "ix": 10
+            },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.833, "y": 0.833 },
+                  "o": { "x": 0.167, "y": 0.167 },
+                  "t": 31,
+                  "s": [3866, 2131, 0],
+                  "to": [0, -89, 0],
+                  "ti": [0, 82.5, 0]
+                },
+                {
+                  "i": { "x": 0.833, "y": 0.833 },
+                  "o": { "x": 0.167, "y": 0.167 },
+                  "t": 76,
+                  "s": [3866, 1597, 0],
+                  "to": [0, -82.5, 0],
+                  "ti": [0, 0, 0]
+                },
+                {
+                  "i": { "x": 0.833, "y": 0.833 },
+                  "o": { "x": 0.167, "y": 0.167 },
+                  "t": 196,
+                  "s": [3866, 1636, 0],
+                  "to": [0, 0, 0],
+                  "ti": [0, 6.5, 0]
+                },
+                { "t": 344, "s": [3866, 1597, 0] }
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\nvar amp, freq, decay, n, n, t, t, v;\ntry {\n    amp = $bm_div(effect('Elastic: 位置')(1), 200);\n    freq = $bm_div(effect('Elastic: 位置')(2), 30);\n    decay = $bm_div(effect('Elastic: 位置')(3), 10);\n    $bm_rt = n = 0;\n    if (numKeys > 0) {\n        $bm_rt = n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    if (n == 0) {\n        $bm_rt = t = 0;\n    } else {\n        $bm_rt = t = $bm_sub(time, key(n).time);\n    }\n    if (n > 0) {\n        v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10)));\n        $bm_rt = $bm_sum(value, $bm_div($bm_mul($bm_mul(v, amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))));\n    } else {\n        $bm_rt = value;\n    }\n} catch (e$$4) {\n    $bm_rt = value = value;\n}"
+            },
+            "a": { "a": 0, "k": [251, 365.5, 0], "ix": 1, "l": 2 },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 31,
+                  "s": [36, 36, 100]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 76,
+                  "s": [100, 100, 100]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 193,
+                  "s": [91, 91, 100]
+                },
+                { "t": 346, "s": [100, 100, 100] }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar amp, freq, decay, n, n, t, t, v;\ntry {\n    amp = $bm_div(effect('Elastic: 缩放')(1), 200);\n    freq = $bm_div(effect('Elastic: 缩放')(2), 30);\n    decay = $bm_div(effect('Elastic: 缩放')(3), 10);\n    $bm_rt = n = 0;\n    if (numKeys > 0) {\n        $bm_rt = n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    if (n == 0) {\n        $bm_rt = t = 0;\n    } else {\n        $bm_rt = t = $bm_sub(time, key(n).time);\n    }\n    if (n > 0) {\n        v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10)));\n        $bm_rt = $bm_sum(value, $bm_div($bm_mul($bm_mul(v, amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))));\n    } else {\n        $bm_rt = value;\n    }\n} catch (e$$4) {\n    $bm_rt = value = value;\n}"
+            }
+          },
+          "ao": 0,
+          "ef": [
+            {
+              "ty": 5,
+              "nm": "Elastic: 位置",
+              "np": 5,
+              "mn": "Pseudo/MDS Elastic Controller",
+              "ix": 1,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Amplitude",
+                  "mn": "Pseudo/MDS Elastic Controller-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 26, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Frequency",
+                  "mn": "Pseudo/MDS Elastic Controller-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 45, "ix": 2 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Decay",
+                  "mn": "Pseudo/MDS Elastic Controller-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 60, "ix": 3 }
+                }
+              ]
+            },
+            {
+              "ty": 5,
+              "nm": "Elastic: 缩放",
+              "np": 5,
+              "mn": "Pseudo/MDS Elastic Controller",
+              "ix": 2,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Amplitude",
+                  "mn": "Pseudo/MDS Elastic Controller-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 20, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Frequency",
+                  "mn": "Pseudo/MDS Elastic Controller-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 40, "ix": 2 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Decay",
+                  "mn": "Pseudo/MDS Elastic Controller-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 60, "ix": 3 }
+                }
+              ]
+            }
+          ],
+          "ip": 0,
+          "op": 360,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 1,
+          "ind": 7,
+          "ty": 2,
+          "nm": "mizu logo.png",
+          "cl": "png",
+          "refId": "image_2",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "rx": { "a": 0, "k": 0, "ix": 8 },
+            "ry": { "a": 0, "k": 0, "ix": 9 },
+            "rz": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 7,
+                  "s": [4]
+                },
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 179,
+                  "s": [0]
+                },
+                { "t": 337, "s": [4] }
+              ],
+              "ix": 10
+            },
+            "or": { "a": 0, "k": [0, 0, 0], "ix": 7 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.667, "y": 1 },
+                  "o": { "x": 0.333, "y": 0 },
+                  "t": 7,
+                  "s": [2906, 1341, 0],
+                  "to": [0, -22.5, 0],
+                  "ti": [0, 0, 0]
+                },
+                {
+                  "i": { "x": 0.833, "y": 1 },
+                  "o": { "x": 0.333, "y": 0 },
+                  "t": 179,
+                  "s": [2906, 1206, 0],
+                  "to": [0, 0, 0],
+                  "ti": [0, -22.5, 0]
+                },
+                { "t": 337, "s": [2906, 1341, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [990, 1077.5, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 360,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 8,
+          "ty": 2,
+          "nm": "Star 11.png",
+          "cl": "png",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 97,
+                  "s": [1]
+                },
+                { "t": 122, "s": [100] }
+              ],
+              "ix": 11
+            },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.833, "y": 0.833 },
+                  "o": { "x": 0.167, "y": 0.167 },
+                  "t": 97,
+                  "s": [4302, 463, 0],
+                  "to": [0, 58.333, 0],
+                  "ti": [0, -58.333, 0]
+                },
+                { "t": 122, "s": [4302, 813, 0] }
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\nvar amp, freq, decay, n, n, t, t, v;\ntry {\n    amp = $bm_div(effect('Elastic: 位置')(1), 200);\n    freq = $bm_div(effect('Elastic: 位置')(2), 30);\n    decay = $bm_div(effect('Elastic: 位置')(3), 10);\n    $bm_rt = n = 0;\n    if (numKeys > 0) {\n        $bm_rt = n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    if (n == 0) {\n        $bm_rt = t = 0;\n    } else {\n        $bm_rt = t = $bm_sub(time, key(n).time);\n    }\n    if (n > 0) {\n        v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10)));\n        $bm_rt = $bm_sum(value, $bm_div($bm_mul($bm_mul(v, amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))));\n    } else {\n        $bm_rt = value;\n    }\n} catch (e$$4) {\n    $bm_rt = value = value;\n}"
+            },
+            "a": { "a": 0, "k": [95.5, 130, 0], "ix": 1, "l": 2 },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 97,
+                  "s": [82, 82, 100]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 121,
+                  "s": [100, 100, 100]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 231,
+                  "s": [87, 87, 100]
+                },
+                { "t": 344, "s": [100, 100, 100] }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar amp, freq, decay, n, n, t, t, v;\ntry {\n    amp = $bm_div(effect('Elastic: 缩放')(1), 200);\n    freq = $bm_div(effect('Elastic: 缩放')(2), 30);\n    decay = $bm_div(effect('Elastic: 缩放')(3), 10);\n    $bm_rt = n = 0;\n    if (numKeys > 0) {\n        $bm_rt = n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    if (n == 0) {\n        $bm_rt = t = 0;\n    } else {\n        $bm_rt = t = $bm_sub(time, key(n).time);\n    }\n    if (n > 0) {\n        v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10)));\n        $bm_rt = $bm_sum(value, $bm_div($bm_mul($bm_mul(v, amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))));\n    } else {\n        $bm_rt = value;\n    }\n} catch (e$$4) {\n    $bm_rt = value = value;\n}"
+            }
+          },
+          "ao": 0,
+          "ef": [
+            {
+              "ty": 5,
+              "nm": "Elastic: 位置",
+              "np": 5,
+              "mn": "Pseudo/MDS Elastic Controller",
+              "ix": 1,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Amplitude",
+                  "mn": "Pseudo/MDS Elastic Controller-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 20, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Frequency",
+                  "mn": "Pseudo/MDS Elastic Controller-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 40, "ix": 2 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Decay",
+                  "mn": "Pseudo/MDS Elastic Controller-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 60, "ix": 3 }
+                }
+              ]
+            },
+            {
+              "ty": 5,
+              "nm": "Elastic: 缩放",
+              "np": 5,
+              "mn": "Pseudo/MDS Elastic Controller",
+              "ix": 2,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Amplitude",
+                  "mn": "Pseudo/MDS Elastic Controller-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 20, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Frequency",
+                  "mn": "Pseudo/MDS Elastic Controller-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 40, "ix": 2 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Decay",
+                  "mn": "Pseudo/MDS Elastic Controller-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 60, "ix": 3 }
+                }
+              ]
+            }
+          ],
+          "ip": -113,
+          "op": 362,
+          "st": -113,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 9,
+          "ty": 2,
+          "nm": "mizu.png",
+          "cl": "png",
+          "refId": "image_4",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 61,
+                  "s": [0]
+                },
+                { "t": 105, "s": [100] }
+              ],
+              "ix": 11
+            },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.833, "y": 0.833 },
+                  "o": { "x": 0.167, "y": 0.167 },
+                  "t": 61,
+                  "s": [1714, 2169, 0],
+                  "to": [0, -38.5, 0],
+                  "ti": [0, 38.5, 0]
+                },
+                { "t": 105, "s": [1714, 1938, 0] }
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\nvar amp, freq, decay, n, n, t, t, v;\ntry {\n    amp = $bm_div(effect('Elastic: 位置')(1), 200);\n    freq = $bm_div(effect('Elastic: 位置')(2), 30);\n    decay = $bm_div(effect('Elastic: 位置')(3), 10);\n    $bm_rt = n = 0;\n    if (numKeys > 0) {\n        $bm_rt = n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    if (n == 0) {\n        $bm_rt = t = 0;\n    } else {\n        $bm_rt = t = $bm_sub(time, key(n).time);\n    }\n    if (n > 0) {\n        v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10)));\n        $bm_rt = $bm_sum(value, $bm_div($bm_mul($bm_mul(v, amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))));\n    } else {\n        $bm_rt = value;\n    }\n} catch (e$$4) {\n    $bm_rt = value = value;\n}"
+            },
+            "a": { "a": 0, "k": [310, 361, 0], "ix": 1, "l": 2 },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 61,
+                  "s": [75, 75, 100]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 105,
+                  "s": [100, 100, 100]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 218,
+                  "s": [93, 93, 100]
+                },
+                { "t": 350, "s": [100, 100, 100] }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar amp, freq, decay, n, n, t, t, v;\ntry {\n    amp = $bm_div(effect('Elastic: 缩放')(1), 200);\n    freq = $bm_div(effect('Elastic: 缩放')(2), 30);\n    decay = $bm_div(effect('Elastic: 缩放')(3), 10);\n    $bm_rt = n = 0;\n    if (numKeys > 0) {\n        $bm_rt = n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    if (n == 0) {\n        $bm_rt = t = 0;\n    } else {\n        $bm_rt = t = $bm_sub(time, key(n).time);\n    }\n    if (n > 0) {\n        v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10)));\n        $bm_rt = $bm_sum(value, $bm_div($bm_mul($bm_mul(v, amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))));\n    } else {\n        $bm_rt = value;\n    }\n} catch (e$$4) {\n    $bm_rt = value = value;\n}"
+            }
+          },
+          "ao": 0,
+          "ef": [
+            {
+              "ty": 5,
+              "nm": "Elastic: 位置",
+              "np": 5,
+              "mn": "Pseudo/MDS Elastic Controller",
+              "ix": 1,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Amplitude",
+                  "mn": "Pseudo/MDS Elastic Controller-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 20, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Frequency",
+                  "mn": "Pseudo/MDS Elastic Controller-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 40, "ix": 2 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Decay",
+                  "mn": "Pseudo/MDS Elastic Controller-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 60, "ix": 3 }
+                }
+              ]
+            },
+            {
+              "ty": 5,
+              "nm": "Elastic: 缩放",
+              "np": 5,
+              "mn": "Pseudo/MDS Elastic Controller",
+              "ix": 2,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Amplitude",
+                  "mn": "Pseudo/MDS Elastic Controller-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 20, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Frequency",
+                  "mn": "Pseudo/MDS Elastic Controller-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 40, "ix": 2 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Decay",
+                  "mn": "Pseudo/MDS Elastic Controller-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 60, "ix": 3 }
+                }
+              ]
+            }
+          ],
+          "ip": 0,
+          "op": 360,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 10,
+          "ty": 2,
+          "nm": "Frame 1984077911.png",
+          "cl": "png",
+          "refId": "image_5",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.833], "y": [0.833] },
+                  "o": { "x": [0.167], "y": [0.167] },
+                  "t": 83,
+                  "s": [3]
+                },
+                { "t": 99, "s": [100] }
+              ],
+              "ix": 11
+            },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.833, "y": 0.833 },
+                  "o": { "x": 0.167, "y": 0.167 },
+                  "t": 83,
+                  "s": [1909, 1582, 0],
+                  "to": [0, -43, 0],
+                  "ti": [0, 43, 0]
+                },
+                { "t": 99, "s": [1909, 1324, 0] }
+              ],
+              "ix": 2,
+              "l": 2,
+              "x": "var $bm_rt;\nvar amp, freq, decay, n, n, t, t, v;\ntry {\n    amp = $bm_div(effect('Elastic: 位置')(1), 200);\n    freq = $bm_div(effect('Elastic: 位置')(2), 30);\n    decay = $bm_div(effect('Elastic: 位置')(3), 10);\n    $bm_rt = n = 0;\n    if (numKeys > 0) {\n        $bm_rt = n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    if (n == 0) {\n        $bm_rt = t = 0;\n    } else {\n        $bm_rt = t = $bm_sub(time, key(n).time);\n    }\n    if (n > 0) {\n        v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10)));\n        $bm_rt = $bm_sum(value, $bm_div($bm_mul($bm_mul(v, amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))));\n    } else {\n        $bm_rt = value;\n    }\n} catch (e$$4) {\n    $bm_rt = value = value;\n}"
+            },
+            "a": { "a": 0, "k": [41, 41, 0], "ix": 1, "l": 2 },
+            "s": {
+              "a": 1,
+              "k": [
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 83,
+                  "s": [71, 71, 100]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 99,
+                  "s": [100, 100, 100]
+                },
+                {
+                  "i": {
+                    "x": [0.833, 0.833, 0.833],
+                    "y": [0.833, 0.833, 0.833]
+                  },
+                  "o": {
+                    "x": [0.167, 0.167, 0.167],
+                    "y": [0.167, 0.167, 0.167]
+                  },
+                  "t": 237,
+                  "s": [115, 115, 100]
+                },
+                { "t": 357, "s": [100, 100, 100] }
+              ],
+              "ix": 6,
+              "l": 2,
+              "x": "var $bm_rt;\nvar amp, freq, decay, n, n, t, t, v;\ntry {\n    amp = $bm_div(effect('Elastic: 缩放')(1), 200);\n    freq = $bm_div(effect('Elastic: 缩放')(2), 30);\n    decay = $bm_div(effect('Elastic: 缩放')(3), 10);\n    $bm_rt = n = 0;\n    if (numKeys > 0) {\n        $bm_rt = n = nearestKey(time).index;\n        if (key(n).time > time) {\n            n--;\n        }\n    }\n    if (n == 0) {\n        $bm_rt = t = 0;\n    } else {\n        $bm_rt = t = $bm_sub(time, key(n).time);\n    }\n    if (n > 0) {\n        v = velocityAtTime($bm_sub(key(n).time, $bm_div(thisComp.frameDuration, 10)));\n        $bm_rt = $bm_sum(value, $bm_div($bm_mul($bm_mul(v, amp), Math.sin($bm_mul($bm_mul($bm_mul(freq, t), 2), Math.PI))), Math.exp($bm_mul(decay, t))));\n    } else {\n        $bm_rt = value;\n    }\n} catch (e$$4) {\n    $bm_rt = value = value;\n}"
+            }
+          },
+          "ao": 0,
+          "ef": [
+            {
+              "ty": 5,
+              "nm": "Elastic: 位置",
+              "np": 5,
+              "mn": "Pseudo/MDS Elastic Controller",
+              "ix": 1,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Amplitude",
+                  "mn": "Pseudo/MDS Elastic Controller-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 20, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Frequency",
+                  "mn": "Pseudo/MDS Elastic Controller-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 40, "ix": 2 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Decay",
+                  "mn": "Pseudo/MDS Elastic Controller-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 60, "ix": 3 }
+                }
+              ]
+            },
+            {
+              "ty": 5,
+              "nm": "Elastic: 缩放",
+              "np": 5,
+              "mn": "Pseudo/MDS Elastic Controller",
+              "ix": 2,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 0,
+                  "nm": "Amplitude",
+                  "mn": "Pseudo/MDS Elastic Controller-0001",
+                  "ix": 1,
+                  "v": { "a": 0, "k": 20, "ix": 1 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Frequency",
+                  "mn": "Pseudo/MDS Elastic Controller-0002",
+                  "ix": 2,
+                  "v": { "a": 0, "k": 40, "ix": 2 }
+                },
+                {
+                  "ty": 0,
+                  "nm": "Decay",
+                  "mn": "Pseudo/MDS Elastic Controller-0003",
+                  "ix": 3,
+                  "v": { "a": 0, "k": 60, "ix": 3 }
+                }
+              ]
+            }
+          ],
+          "ip": 0,
+          "op": 360,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 11,
+          "ty": 2,
+          "nm": "Frame 1984077905.png",
+          "cl": "png",
+          "refId": "image_6",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": { "a": 0, "k": [2890, 2317, 0], "ix": 2, "l": 2 },
+            "a": { "a": 0, "k": [4071.5, 2351, 0], "ix": 1, "l": 2 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6, "l": 2 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 360,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 13,
+          "ty": 2,
+          "nm": "Union.png",
+          "cl": "png",
+          "refId": "image_7",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": { "a": 0, "k": [2890, 2317, 0], "ix": 2, "l": 2 },
+            "a": { "a": 0, "k": [4071.5, 2351, 0], "ix": 1, "l": 2 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6, "l": 2 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 360,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 0,
+      "nm": "合成 1",
+      "refId": "comp_0",
+      "sr": 1.5,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [2890, 2285, 0], "ix": 2, "l": 2 },
+        "a": { "a": 0, "k": [2890, 2285, 0], "ix": 1, "l": 2 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6, "l": 2 }
+      },
+      "ao": 0,
+      "w": 5780,
+      "h": 4570,
+      "ip": 0,
+      "op": 540,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

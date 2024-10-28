@@ -2,11 +2,12 @@
 
 import { boldFont, lightFont } from "@/utils/fontUtils";
 import classNames from "classnames";
+import Lottie from "lottie-react";
 import Image from "next/image";
+import carouselArrow from "public/images/whatis/carousel_arrow.svg";
 import mizuBot from "public/images/whatis/mizu_bot.png";
 import modelProgress from "public/images/whatis/model_progress.png";
-import whatis from "public/images/whatis/whatis.svg";
-import carouselArrow from "public/images/whatis/carousel_arrow.svg";
+import dataHosting from "public/lotties/data-hosting/data.json";
 import { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 
@@ -170,8 +171,7 @@ const ContentCarousel = () => {
             // "mx-[32px] md:mx-[60px] lg:mx-[80px] xl:mx-[100px] 2xl:mx-[128px]",
           )}
         >
-          <Image
-            src={whatis}
+          <div
             className={classNames(
               "relative ",
               "w-full",
@@ -180,9 +180,13 @@ const ContentCarousel = () => {
               "xl:w-[400px] xl:min-w-[400px]",
               "2xl:w-[440px] 2xl:min-w-[440px]"
             )}
-            alt="logo"
-            priority
-          />
+          >
+            <Lottie
+              animationData={dataHosting}
+              loop={true}
+              style={{ width: "100%", height: "100%" }}
+            />
+          </div>
 
           <div className="mt-[24px] md:mt-0 flex flex-col items-start ml-0 md:ml-[30px] xl:ml-[70px]">
             <div
@@ -303,8 +307,7 @@ const MobileContent = () => {
           // "mx-[32px] md:mx-[60px] lg:mx-[80px] xl:mx-[100px] 2xl:mx-[128px]",
         )}
       >
-        <Image
-          src={whatis}
+        <div
           className={classNames(
             "relative self-start mt-[56px] md:mt-0",
             "w-full",
@@ -312,9 +315,13 @@ const MobileContent = () => {
             "lg:w-[360px] lg:min-w-[360px]",
             "xl:w-[490px] xl:min-w-[490px]"
           )}
-          alt="logo"
-          priority
-        />
+        >
+          <Lottie
+            animationData={dataHosting}
+            loop={true}
+            style={{ width: "100%", height: "100%" }}
+          />
+        </div>
 
         <div className="mt-[24px] md:mt-0 flex flex-col items-start ml-0 md:ml-[30px] xl:ml-[70px]">
           <div
