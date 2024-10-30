@@ -5,7 +5,7 @@ import classNames from "classnames";
 import Lottie from "lottie-react";
 import Image from "next/image";
 import Link from "next/link";
-import introduction from "public/images/introduction.svg";
+import introduction from "public/images/introduction.gif";
 import introductionSmall from "public/images/introduction_small.svg";
 import heroSection from "public/lotties/hero-section/data.json";
 
@@ -101,7 +101,8 @@ export const Introduction = () => {
               </div>
             </div>
 
-            <div
+            <Image
+              src={introduction}
               className={classNames(
                 "hidden md:block",
                 "relative self-start mt-8 lg:mt-4",
@@ -110,29 +111,24 @@ export const Introduction = () => {
                 "md:w-[260px] md:min-w-[260px]",
                 "lg:w-[320px] lg:min-w-[320px]",
                 "xl:w-[400px] xl:min-w-[400px]",
-                "2xl:w-[490px] 2xl:min-w-[490px]"
+                "2xl:w-[490px] 2xl:min-w-[490px]",
+                "-z-10"
               )}
-            >
-              <Lottie
-                animationData={heroSection}
-                loop={true}
-                style={{ width: "100%", height: "100%" }}
-              />
-            </div>
+              alt="logo"
+              priority
+            />
 
-            <div
+            <Image
+              src={introduction}
               className={classNames(
                 "md:hidden",
                 "relative self-center mt-8 lg:mt-0",
-                "w-full max-w-[300px]"
+                "w-full max-w-[300px]",
+                "-z-10"
               )}
-            >
-              <Lottie
-                animationData={heroSection}
-                loop={true}
-                style={{ width: "100%", height: "100%" }}
-              />
-            </div>
+              alt="logo"
+              priority
+            />
           </div>
         </div>
 

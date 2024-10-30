@@ -1,15 +1,9 @@
-"use client";
-
 import { boldFont, lightFont } from "@/utils/fontUtils";
 import classNames from "classnames";
-import Lottie from "lottie-react";
 import Image from "next/image";
-import applicationDriven from "public/images/unique/application_driven.svg";
-import dataCentric from "public/images/unique/data_centric.svg";
-import openSource from "public/images/unique/open_source.svg";
-import aiReady from "public/lotties/AI-ready/data.json";
-import hyperscale from "public/lotties/hyperscale/data.json";
-import incentivized from "public/lotties/incentivized/data.json";
+import applicationDriven from "public/images/unique/Incentivized.gif";
+import dataCentric from "public/images/unique/AI-ready.gif";
+import openSource from "public/images/unique/Hyperscale.gif";
 
 export const WhyUnique = () => {
   return (
@@ -113,10 +107,11 @@ export const WhyUnique = () => {
                     </div>
                   </div>
 
-                  <Lottie
-                    animationData={hyperscale}
-                    loop={true}
-                    style={{ marginTop: "20px", width: "100%", height: "100%" }}
+                  <Image
+                    src={openSource}
+                    className={classNames("mt-5 w-full")}
+                    alt="logo"
+                    priority
                   />
                 </div>
               </div>
@@ -156,11 +151,19 @@ export const WhyUnique = () => {
                     </div>
                   </div>
 
-                  <Lottie
-                    animationData={incentivized}
-                    loop={true}
-                    style={{ marginTop: "20px", width: "100%", height: "100%" }}
-                  />
+                  <div
+                    className={classNames(
+                      "flex justify-center md:block",
+                      "md:mt-5"
+                    )}
+                  >
+                    <Image
+                      src={applicationDriven}
+                      className={classNames("mt-[32px] w-full")}
+                      alt="logo"
+                      priority
+                    />
+                  </div>
                 </div>
               </div>
 
@@ -197,10 +200,18 @@ export const WhyUnique = () => {
                     </div>
                   </div>
 
-                  <Lottie
-                    animationData={aiReady}
-                    loop={true}
-                    style={{ marginTop: "20px", width: "100%", height: "100%" }}
+                  <Image
+                    src={dataCentric}
+                    className={classNames(
+                      "mt-5",
+                      "w-full"
+                      // "w-[112px] min-w-[112px]",
+                      // "md:w-[180px] md:min-w-[180px]",
+                      // "lg:w-[200px] lg:min-w-[200px]",
+                      // "xl:w-[242px] xl:min-w-[242px]"
+                    )}
+                    alt="logo"
+                    priority
                   />
                 </div>
               </div>

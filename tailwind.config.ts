@@ -9,18 +9,18 @@ const config: Config = {
   theme: {
     colors: {
       white: "#ffffff",
-      black: "#131313",
+      black: "#121212",
       primary: "#37D8FA",
       primaryDark: "#07AAFF",
       secondary: "#FF7A00",
       lightButtonBg: "#C3F4F4",
       secondaryButtonBg: "#FFEDEB",
       borderLight: "#EEEEEE",
-      bgPage: "#131313",
+      bgPage: "#121212",
       text1: "#ffffff",
       text2: "#D9D9D9",
       text3: "#D9D9D9",
-      textBlack: "#131313",
+      textBlack: "#121212",
     },
     fontSize: {
       xs: "0.65rem",
