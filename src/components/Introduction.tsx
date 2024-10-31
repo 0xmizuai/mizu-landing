@@ -2,12 +2,9 @@
 
 import { boldFont, semiBoldFont } from "@/utils/fontUtils";
 import classNames from "classnames";
-import Lottie from "lottie-react";
 import Image from "next/image";
 import Link from "next/link";
 import introduction from "public/images/introduction.gif";
-import introductionSmall from "public/images/introduction_small.svg";
-import heroSection from "public/lotties/hero-section/data.json";
 
 export const Introduction = () => {
   return (
