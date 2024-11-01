@@ -41,7 +41,7 @@ export const Roadmap = () => {
           Roadmap
         </div>
 
-        <div className="mt-[20px] h-[1px] bg-white" />
+        <div className="mt-[20px] h-[1px] bg-white hidden md:block" />
 
         <Image
           src={roadmapVertical}
@@ -60,6 +60,7 @@ export const Roadmap = () => {
           src={roadmap}
           alt="icon"
           className="absolute top-[140px] w-full h-auto hidden md:block"
+          objectFit="cover"
         />
 
         <div className="p-2 md:p-3 md:pl-0 md:pb-0 border border-white border-l-0 border-b-0">

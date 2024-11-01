@@ -50,11 +50,11 @@ export const Introduction = () => {
               "border border-white"
             )}
           >
-            <div className="flex flex-col items-start mr-0 ">
+            <div className="flex flex-col items-start mr-0 max-w-[635px]">
               <div
                 className={classNames(
                   "leading-tight text-text1",
-                  "text-start text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[55px]"
+                  "text-start text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[48px]"
                 )}
               >
                 The DePIN for
@@ -63,22 +63,22 @@ export const Introduction = () => {
                   Hyperscale
                 </span>
                 <div className="md:hidden" />
-                <span className="md:ml-2">AI Dataset</span>
+                <span className="md:ml-2">AI Dataset.</span>
               </div>
 
               <div
                 className={classNames(
-                  "mt-[20px] lg:mt-[28px] text-[16px] md:text-[18px] leading-normal text-text1 text-start"
+                  "mt-[20px] lg:mt-[28px] text-[16px] md:text-[18px] lg:text-[24px] 2xl:text-[32px] leading-normal text-text1 text-start"
                 )}
               >
-                Shape the future of AI with us
+                Shape the future of AI with us.
               </div>
 
-              <div className="mt-[36px] lg:mt-[55px] flex flex-col lg:flex-row items-start lg:items-center">
+              <div className="hidden md:flex mt-[24px] lg:mt-[40px] flex-col lg:flex-row items-start lg:items-center">
                 <Link href="https://docs.mizu.global/overview" target="_blank">
                   <div
                     className={classNames(
-                      "primary-button text-textBlack text-[16px] md:text-[18px] xl:text-[24px] px-[12px] lg:px-[24px] xl:px-[33px] h-[36px] md:h-[40px] lg:h-[50px] xl:h-[60px] 2xl:h-[70px]",
+                      "primary-button text-textBlack text-[16px] md:text-[17px] xl:text-[18px] px-[12px] lg:px-[24px] xl:px-[30px] h-[32px] lg:h-[36px] 2xl:h-[48px]",
                       semiBoldFont.className
                     )}
                   >
@@ -89,7 +89,8 @@ export const Introduction = () => {
                 <Link href={"https://t.me/mizuai_bot"} target="_blank">
                   <div
                     className={classNames(
-                      "mt-6 lg:mt-0 lg:ml-8 stroke-button text-textBlack text-[16px] md:text-[18px] xl:text-[24px] px-[12px]  lg:px-[24px] xl:px-[33px] h-[36px] md:h-[40px] lg:h-[50px] xl:h-[60px] 2xl:h-[70px]"
+                      "mt-4 lg:mt-0 lg:ml-6 stroke-button text-textBlack text-[16px] md:text-[17px] xl:text-[18px] px-[12px] lg:px-[24px] xl:px-[30px] h-[32px] lg:h-[36px] 2xl:h-[48px]",
+                      "hover:primary-button hover:text-textBlack"
                     )}
                   >
                     Telegram Bot
@@ -103,7 +104,7 @@ export const Introduction = () => {
               className={classNames(
                 "hidden md:block",
                 "relative self-start mt-8 lg:mt-4",
-                "md:ml-[-10px] lg:ml-[-10px] xl:ml-[-10px] 2xl:ml-[-100px]",
+                // "md:ml-[-10px] lg:ml-[-10px] xl:ml-[-10px] 2xl:ml-[-100px]",
                 "w-[200px] min-w-[200px]",
                 "md:w-[260px] md:min-w-[260px]",
                 "lg:w-[320px] lg:min-w-[320px]",
@@ -126,6 +127,30 @@ export const Introduction = () => {
               alt="logo"
               priority
             />
+
+            <div className="flex md:hidden mt-[24px] lg:mt-[40px] flex-col lg:flex-row items-start lg:items-center">
+              <Link href="https://docs.mizu.global/overview" target="_blank">
+                <div
+                  className={classNames(
+                    "primary-button text-textBlack text-[16px] md:text-[17px] xl:text-[18px] px-[12px] lg:px-[24px] xl:px-[30px] h-[32px] lg:h-[36px] 2xl:h-[48px]",
+                    semiBoldFont.className
+                  )}
+                >
+                  Developer Resources
+                </div>
+              </Link>
+
+              <Link href={"https://t.me/mizuai_bot"} target="_blank">
+                <div
+                  className={classNames(
+                    "mt-4 lg:mt-0 lg:ml-6 stroke-button text-textBlack text-[16px] md:text-[17px] xl:text-[18px] px-[12px] lg:px-[24px] xl:px-[30px] h-[32px] lg:h-[36px] 2xl:h-[48px]",
+                    "hover:primary-button hover:text-textBlack"
+                  )}
+                >
+                  Telegram Bot
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
 

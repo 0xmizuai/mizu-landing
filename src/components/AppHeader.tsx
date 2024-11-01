@@ -5,15 +5,52 @@ import classNames from "classnames";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Drawer from "react-modern-drawer";
 import logo from "public/images/logo.svg";
 
 export const AppHeader = () => {
+  const [hide, setHide] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
+  useEffect(() => {
+    var lastScrollTop = 0;
+
+    const scrollListener = () => {
+      // or window.addEventListener("scroll"....
+      var st = window.pageYOffset || document.documentElement.scrollTop;
+      if (st > lastScrollTop) {
+        // console.log("downscroll");
+        setHide(true);
+        // downscroll code
+      } else if (st < lastScrollTop) {
+        // console.log("upscroll");
+        setHide(false);
+        // upscroll code
+      } // else was horizontal scroll
+      lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+    };
+
+    // element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
+    window.addEventListener("scroll", scrollListener, false);
+
+    return () => {
+      window.removeEventListener("scroll", scrollListener);
+    };
+  }, []);
+
   return (
-    <div className="z-20 h-headerHeight md:h-headerHeightLarge fixed left-0 right-0 top-0 bg-bgPage flex items-center justify-center">
+    <div
+      className={classNames(
+        "z-20 h-headerHeight md:h-headerHeightLarge fixed left-0 right-0 top-0 bg-bgPage flex items-center justify-center",
+        hide
+          ? "-translate-y-headerHeight md:-translate-y-headerHeightLarge"
+          : ""
+      )}
+      style={{
+        transition: "all ease-out .25s",
+      }}
+    >
       <div
         className={classNames(
           "px-5 w-full flex justify-between items-center flex-row lg:flex-row",
@@ -24,7 +61,7 @@ export const AppHeader = () => {
           <Image
             src={logo}
             alt="MIZU Logo"
-            className="cursor-pointer w-[83px] h-[30px]"
+            className="cursor-pointer w-[70px] md:w-[120px]"
             priority
           />
         </Link>
@@ -53,7 +90,7 @@ export const AppHeader = () => {
           <Link href="#what-is-MIZU">
             <div
               className={classNames(
-                "stroke-button active:primary-button text-[16px] px-[14px] py-[6px]"
+                "cursor-pointer text-[#C5C5C5] hover:text-white text-[16px] px-[14px] py-[6px]"
               )}
             >
               What Is MIZU
@@ -63,7 +100,7 @@ export const AppHeader = () => {
           <Link href="#why-different">
             <div
               className={classNames(
-                "ml-8 stroke-button active:primary-button text-[16px] px-[14px] py-[6px]"
+                "ml-8 cursor-pointer text-[#C5C5C5] hover:text-white  text-[16px] px-[14px] py-[6px]"
               )}
             >
               Why We Are Different
@@ -73,7 +110,7 @@ export const AppHeader = () => {
           <Link href="#roadmap">
             <div
               className={classNames(
-                "ml-8 stroke-button active:primary-button text-[16px] px-[14px] py-[6px]"
+                "ml-8 cursor-pointer text-[#C5C5C5] hover:text-white  text-[16px] px-[14px] py-[6px]"
               )}
               // onClick={() => {
               //   document
@@ -88,7 +125,7 @@ export const AppHeader = () => {
           <Link href={"https://docs.mizu.global/overview"} target="_blank">
             <div
               className={classNames(
-                "ml-8 stroke-button active:primary-button text-[16px] px-[14px] py-[6px]"
+                "ml-8 cursor-pointer text-[#C5C5C5] hover:text-white  text-[16px] px-[14px] py-[6px]"
               )}
               onClick={() => {
                 setDrawerOpen(false);
@@ -101,7 +138,7 @@ export const AppHeader = () => {
           <Link href={"https://medium.com/@0xmizu_ai"} target="_blank">
             <div
               className={classNames(
-                "ml-8 stroke-button text-[16px] px-[14px] py-[6px]"
+                "ml-8 cursor-pointer text-[#C5C5C5] hover:text-white  text-[16px] px-[14px] py-[6px]"
               )}
               onClick={() => {
                 setDrawerOpen(false);

@@ -2,6 +2,7 @@ import { boldFont, lightFont } from "@/utils/fontUtils";
 import classNames from "classnames";
 import Image from "next/image";
 import detail from "public/images/dataset/detail.svg";
+import detailMobile from "public/images/dataset/detail_mobile.svg";
 import datasetExplain from "public/images/dataset/dataset_explain.svg";
 
 export const MizuDataset = () => {
@@ -46,7 +47,7 @@ export const MizuDataset = () => {
                 "md:content-wrapper"
               )}
             >
-              <div className="mx-[20px] md:mx-0 flex flex-col items-start md:items-center">
+              <div className="mt-8 mx-[20px] md:mx-0 flex flex-col items-start md:items-center">
                 <div
                   className={classNames(
                     "text-[32px] leading-tight text-text1",
@@ -54,10 +55,10 @@ export const MizuDataset = () => {
                     boldFont.className
                   )}
                 >
-                  The Community-built AI Dataset
+                  The Community-Built AI Dataset.
                 </div>
 
-                <div className="mt-[36px] md:mt-[45px] lg:mt-[56px] flex flex-col xl:flex-row items-center">
+                <div className="mt-6  flex flex-col xl:flex-row items-center">
                   <Image
                     src={datasetExplain}
                     className={classNames(
@@ -72,9 +73,23 @@ export const MizuDataset = () => {
                     priority
                   />
 
+                  <Image
+                    src={detailMobile}
+                    className={classNames(
+                      "md:hidden",
+                      "mt-[26px]",
+                      "relative self-stretch",
+                      "w-full",
+                      "md:border-t-0 md:border-b-0"
+                      // "md:border md:border-white"
+                    )}
+                    alt="logo"
+                    priority
+                  />
+
                   <div
                     className={classNames(
-                      "mt-[16px] xl:mt-0 xl:ml-[30px] 2xl:ml-[40px] text-[16px] md:text-[18px] leading-normal text-text2 text-start",
+                      "mt-[16px] xl:mt-0 xl:ml-[30px] 2xl:ml-[40px] text-[12px] md:text-[16px] leading-normal text-text2 text-start",
                       lightFont.className
                     )}
                   >
@@ -91,10 +106,10 @@ export const MizuDataset = () => {
               <Image
                 src={detail}
                 className={classNames(
+                  "hidden md:block",
                   "mt-[56px] md:mt-[36px] lg:mt-[40px] xl:mt-[44px]",
                   "relative self-stretch",
                   "w-full",
-                  "border-t border-t-white border-b border-b-white",
                   "md:border-t-0 md:border-b-0"
                   // "md:border md:border-white"
                 )}
@@ -108,7 +123,20 @@ export const MizuDataset = () => {
         <div className=""></div>
       </div>
 
-      <div className={classNames("mt-3 h-[1px] bg-white")}></div>
+      <div
+        className={classNames(
+          "h-[43px] md:h-[50px] lg:h-[60px] xl:h-[70px] 2xl:h-[78px]",
+          "grid items-stretch",
+          "layout-panel",
+          "border-b border-b-white"
+        )}
+      >
+        <div className="crossed-left"></div>
+
+        <div className={classNames("md:content-wrapper")}></div>
+
+        <div className="crossed-right"></div>
+      </div>
     </div>
   );
 };

@@ -149,7 +149,7 @@ export const WhyDifferent = () => {
                 semiBoldFont.className
               )}
             >
-              AI-ready
+              AI-Ready
             </div>
 
             <div

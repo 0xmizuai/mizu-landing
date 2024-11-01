@@ -53,7 +53,7 @@ export const WhyUnique = () => {
               "md:content-wrapper"
             )}
           >
-            <div className="mx-[20px] md:mx-0 flex flex-col items-center">
+            <div className="mt-8 mx-[20px] md:mx-0 flex flex-col items-center">
               <div
                 className={classNames(
                   "leading-tight text-text1",
@@ -65,12 +65,12 @@ export const WhyUnique = () => {
               </div>
             </div>
 
-            <div className="mt-12 flex flex-col md:flex-row gap-10 px-6 md:px-0">
+            <div className="mt-8 flex flex-col md:flex-row gap-10 px-6 md:px-0">
               <div className="border border-white p-2 md:p-3 w-full md:w-[330px] bg-[#101010]">
                 <div
                   className={classNames(
-                    "self-stretch flex flex-col items-center justify-between",
-                    "border border-white",
+                    "self-stretch flex flex-col-reverse items-center justify-end",
+                    "md:border md:border-white",
                     "py-[24px] h-full"
                   )}
                 >
@@ -109,7 +109,7 @@ export const WhyUnique = () => {
 
                   <Image
                     src={openSource}
-                    className={classNames("mt-5 w-full")}
+                    className={classNames("md:mt-5 w-full")}
                     alt="logo"
                     priority
                   />
@@ -119,8 +119,8 @@ export const WhyUnique = () => {
               <div className="border border-white p-2 md:p-3 w-full md:w-[330px] bg-[#101010]">
                 <div
                   className={classNames(
-                    "self-stretch flex flex-col items-center justify-between",
-                    "border border-white",
+                    "self-stretch flex flex-col-reverse items-center justify-end",
+                    "md:border md:border-white",
                     "py-[24px] h-full"
                   )}
                 >
@@ -159,7 +159,7 @@ export const WhyUnique = () => {
                   >
                     <Image
                       src={applicationDriven}
-                      className={classNames("mt-[32px] w-full")}
+                      className={classNames(" w-full")}
                       alt="logo"
                       priority
                     />
@@ -170,12 +170,12 @@ export const WhyUnique = () => {
               <div className="border border-white p-2 md:p-3 w-full md:w-[330px] bg-[#101010]">
                 <div
                   className={classNames(
-                    "self-stretch flex flex-col items-center justify-between",
-                    "border border-white",
+                    "self-stretch flex flex-col-reverse items-center justify-end",
+                    "md:border md:border-white",
                     "py-[24px] h-full"
                   )}
                 >
-                  <div className={classNames("px-[24px] mt-[32px] md:mt-0 ")}>
+                  <div className={classNames("px-[24px]")}>
                     <div
                       className={classNames(
                         "text-[24px] leading-tight text-text1",
@@ -183,7 +183,7 @@ export const WhyUnique = () => {
                         boldFont.className
                       )}
                     >
-                      AI-ready
+                      AI-Ready
                     </div>
 
                     <div
@@ -203,7 +203,7 @@ export const WhyUnique = () => {
                   <Image
                     src={dataCentric}
                     className={classNames(
-                      "mt-5",
+                      "md:mt-5",
                       "w-full"
                       // "w-[112px] min-w-[112px]",
                       // "md:w-[180px] md:min-w-[180px]",
