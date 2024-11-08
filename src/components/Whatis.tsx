@@ -37,7 +37,7 @@ export const Whatis = () => {
 
         <div className={classNames("md:content-wrapper", "")}></div>
 
-        <div className=""></div>
+        <div className="crossed-left"></div>
       </div>
 
       {/* <div className="absolute top-0 left-0 bottom-[100px] right-[100px]"></div> */}
@@ -57,7 +57,7 @@ export const Whatis = () => {
           </div>
         </div>
 
-        <div className="border-t border-t-white"></div>
+        <div className=""></div>
       </div>
 
       <div
@@ -71,7 +71,7 @@ export const Whatis = () => {
 
         <div className={classNames("md:content-wrapper")}></div>
 
-        <div className=""></div>
+        <div className="crossed-right"></div>
       </div>
     </div>
   );
@@ -210,7 +210,7 @@ const ContentCarousel = () => {
         <div
           className={classNames(
             "h-[500px] max-h-[500px]",
-            "flex items-center",
+            "flex items-center justify-center",
             "justify-center text-sm",
             "px-[20px] md:px-[50px] lg:px-[80px] 2xl:px-[100px]",
             "md:content-wrapper"
@@ -221,10 +221,10 @@ const ContentCarousel = () => {
             className={classNames(
               "relative",
               "w-full",
-              "md:w-[290px] md:min-w-[290px]",
-              "lg:w-[350px] lg:min-w-[350px]",
-              "xl:w-[430px] xl:min-w-[430px]",
-              "2xl:w-[490px] 2xl:min-w-[490px]"
+              "md:w-[320px] md:max-w-[320px]",
+              "lg:w-[380px] lg:max-w-[380px]",
+              "xl:w-[460px] xl:max-w-[460px]",
+              "2xl:w-[520px] 2xl:max-w-[520px]"
             )}
           >
             <Lottie
@@ -234,10 +234,18 @@ const ContentCarousel = () => {
             />
           </div>
 
-          <div className="mt-[24px] md:mt-0 flex flex-col items-start ml-0 md:ml-[30px] xl:ml-[70px]">
+          <div
+            className={classNames(
+              "mt-[24px] md:mt-0 flex flex-col items-start ml-0 md:ml-[30px] xl:ml-[70px]",
+              "md:w-[350px]",
+              "lg:w-[440px]",
+              "xl:w-[550px]",
+              "2xl:w-[720px]"
+            )}
+          >
             <div
               className={classNames(
-                "leading-tight text-text1",
+                "leading-tight text-text1 h-[140px]",
                 "title-text",
                 boldFont.className
               )}
@@ -247,7 +255,7 @@ const ContentCarousel = () => {
 
             <div
               className={classNames(
-                "mt-[16px] lg:mt-[28px] text-[16px] md:text-[18px] leading-normal text-text2 text-start",
+                "mt-[6px] text-[16px] md:text-[18px] leading-normal text-text2 text-start",
                 lightFont.className
               )}
             >
@@ -262,29 +270,24 @@ const ContentCarousel = () => {
         <div
           className={classNames(
             "h-[500px] max-h-[500px]",
-            "flex items-center",
+            "flex items-center justify-center",
             "text-sm",
             "px-[20px] md:px-[50px] lg:px-[80px] 2xl:px-[100px]",
             "md:content-wrapper"
           )}
         >
-          <Image
-            src={modelProgress}
+          <div
             className={classNames(
-              "relative",
-              "w-full",
-              "md:w-[300px] md:min-w-[300px]",
-              "lg:w-[360px] lg:min-w-[360px]",
-              "xl:w-[490px] xl:min-w-[490px]"
+              "flex flex-col items-start mr-0 md:mr-[30px] xl:mr-[70px]",
+              "md:w-[350px]",
+              "lg:w-[440px]",
+              "xl:w-[550px]",
+              "2xl:w-[690px]"
             )}
-            alt="logo"
-            priority
-          />
-
-          <div className="flex flex-col items-start mr-0 md:ml-[30px] xl:ml-[70px]">
+          >
             <div
               className={classNames(
-                "leading-tight text-text1",
+                "leading-tight text-text1 h-[140px]",
                 "title-text",
                 boldFont.className
               )}
@@ -294,7 +297,7 @@ const ContentCarousel = () => {
 
             <div
               className={classNames(
-                "mt-[16px] lg:mt-[28px] text-[16px] md:text-[18px] leading-normal text-text2 text-start",
+                "mt-[6px] text-[16px] md:text-[18px] leading-normal text-text2 text-start",
                 lightFont.className
               )}
             >
@@ -304,6 +307,19 @@ const ContentCarousel = () => {
               diverse, and unbiased data.
             </div>
           </div>
+
+          <Image
+            src={modelProgress}
+            className={classNames(
+              "relative",
+              "w-full",
+              "md:w-[300px] md:max-w-[300px]",
+              "lg:w-[360px] lg:max-w-[360px]",
+              "xl:w-[490px] xl:max-w-[490px]"
+            )}
+            alt="logo"
+            priority
+          />
         </div>
 
         <div
@@ -327,7 +343,7 @@ const ContentCarousel = () => {
           >
             <div
               className={classNames(
-                "leading-tight text-text1",
+                "leading-tight text-text1 h-[140px]",
                 "title-text",
                 boldFont.className
               )}
@@ -337,7 +353,7 @@ const ContentCarousel = () => {
 
             <div
               className={classNames(
-                "mt-[16px] lg:mt-[56px] text-[16px] md:text-[18px] leading-normal text-text2 text-start",
+                "mt-[6px] text-[16px] md:text-[18px] leading-normal text-text2 text-start",
                 lightFont.className
               )}
             >

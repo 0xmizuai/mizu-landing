@@ -78,7 +78,8 @@ export const Introduction = () => {
                 <Link href="https://docs.mizu.global/overview" target="_blank">
                   <div
                     className={classNames(
-                      "primary-button text-textBlack text-[16px] md:text-[17px] xl:text-[18px] px-[12px] lg:px-[24px] xl:px-[30px] h-[32px] lg:h-[36px] 2xl:h-[48px]",
+                      "stroke-button text-[16px] md:text-[17px] xl:text-[18px] px-[12px] lg:px-[24px] xl:px-[30px] h-[32px] lg:h-[36px] 2xl:h-[48px]",
+                      "hover:primary-button hover:text-textBlack",
                       semiBoldFont.className
                     )}
                   >
@@ -106,10 +107,10 @@ export const Introduction = () => {
                 "relative self-start mt-8 lg:mt-4",
                 // "md:ml-[-10px] lg:ml-[-10px] xl:ml-[-10px] 2xl:ml-[-100px]",
                 "w-[200px] min-w-[200px]",
-                "md:w-[260px] md:min-w-[260px]",
-                "lg:w-[320px] lg:min-w-[320px]",
-                "xl:w-[400px] xl:min-w-[400px]",
-                "2xl:w-[490px] 2xl:min-w-[490px]",
+                "md:w-[300px] md:min-w-[300px]",
+                "lg:w-[380px] lg:min-w-[380px]",
+                "xl:w-[450px] xl:min-w-[450px]",
+                "2xl:w-[550px] 2xl:min-w-[550px]",
                 "-z-10"
               )}
               alt="logo"

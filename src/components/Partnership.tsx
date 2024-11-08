@@ -82,7 +82,7 @@ export const Partnership = () => {
             <Image
               src={fraction}
               alt="icon"
-              className="w-[180px] md:w-[200px] xl:w-[250px] h-auto"
+              className="w-[160px] md:w-[180px] xl:w-[230px] h-auto"
               priority
             />
           </div>

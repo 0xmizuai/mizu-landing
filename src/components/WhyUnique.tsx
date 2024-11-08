@@ -22,16 +22,11 @@ export const WhyUnique = () => {
           "layout-panel"
         )}
       >
-        <div className=""></div>
+        <div className="crossed-right"></div>
 
-        <div
-          className={classNames(
-            "md:content-wrapper",
-            "border-r border-r-white"
-          )}
-        ></div>
+        <div className={classNames("md:content-wrapper")}></div>
 
-        <div className=""></div>
+        <div className="crossed-left"></div>
       </div>
 
       {/* <div className="absolute top-0 left-0 bottom-[100px] right-[100px]"></div> */}
@@ -87,7 +82,7 @@ export const WhyUnique = () => {
                     <div
                       className={classNames(
                         "text-[24px] leading-tight text-text1",
-                        "text-start md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
+                        "text-center md:text-center md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
                         boldFont.className
                       )}
                     >
@@ -128,7 +123,7 @@ export const WhyUnique = () => {
                     <div
                       className={classNames(
                         "text-[24px] leading-tight text-text1",
-                        "text-start md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
+                        "text-center md:text-center md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
                         boldFont.className
                       )}
                     >
@@ -179,7 +174,7 @@ export const WhyUnique = () => {
                     <div
                       className={classNames(
                         "text-[24px] leading-tight text-text1",
-                        "text-start md:text-start md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
+                        "text-center md:text-center md:text-[32px] lg:text-[40px] 2xl:text-[28px]",
                         boldFont.className
                       )}
                     >
@@ -219,7 +214,7 @@ export const WhyUnique = () => {
           </div>
         </div>
 
-        <div className="border-b border-b-white"></div>
+        <div className=""></div>
       </div>
 
       <div
@@ -233,7 +228,7 @@ export const WhyUnique = () => {
 
         <div className={classNames("md:content-wrapper")}></div>
 
-        <div className=""></div>
+        <div className="crossed-right"></div>
       </div>
     </div>
   );
