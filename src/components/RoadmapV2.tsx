@@ -101,7 +101,7 @@ export const Roadmap = () => {
                         boldFont.className
                       )}
                     >
-                      July 2024
+                      Stage1
                     </div>
                   </div>
 
@@ -135,7 +135,7 @@ export const Roadmap = () => {
                       boldFont.className
                     )}
                   >
-                    August 2024
+                    Stage2
                   </div>
                 </div>
 
@@ -195,7 +195,7 @@ export const Roadmap = () => {
                         boldFont.className
                       )}
                     >
-                      Q4 2024
+                      Stage3
                     </div>
                   </div>
 
@@ -231,7 +231,7 @@ export const Roadmap = () => {
                       boldFont.className
                     )}
                   >
-                    Q1 2025
+                    Stage4
                   </div>
                 </div>
 
@@ -282,7 +282,7 @@ export const Roadmap = () => {
                         boldFont.className
                       )}
                     >
-                      August 2024
+                      Stage2
                     </div>
                   </div>
 
@@ -316,7 +316,7 @@ export const Roadmap = () => {
                         boldFont.className
                       )}
                     >
-                      Q1 2025
+                      Stage4
                     </div>
                   </div>
 
@@ -347,7 +347,7 @@ export const Roadmap = () => {
                         boldFont.className
                       )}
                     >
-                      July 2024
+                      Stage1
                     </div>
                   </div>
 
@@ -382,7 +382,7 @@ export const Roadmap = () => {
                         boldFont.className
                       )}
                     >
-                      Q4 2024
+                      Stage3
                     </div>
                   </div>
 
