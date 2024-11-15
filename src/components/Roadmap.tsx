@@ -53,13 +53,12 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                August 2024
+                Stage2
               </div>
             </div>
 
             <div className="max-w-[200px] mt-2 text-[#898989] text-[12px] leading-snug text-end">
-              Release the testnet for the MIZU data network, featuring
-              capabilities for data hosting and data pre-processing
+              Launch the MIZU edge network, featuring capabilities for data processing
             </div>
           </div>
 
@@ -85,15 +84,13 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                Q1 2025
+                Stage4
               </div>
             </div>
 
             <div className="max-w-[200px] mt-2 text-[#898989] text-[12px] leading-snug text-end">
               Focus on ecosystem development, fostering the creation of AI
-              applications from the tailored datasets created from MIZU AI
-              data network and supporting developers in utilizing the
-              platform effectively
+              applications from the tailored datasets created from MIZU.
             </div>
           </div>
         </div>
@@ -113,13 +110,13 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                July 2024
+                Stage1
               </div>
             </div>
 
             <div className="mt-2 max-w-[200px] text-[#898989] text-[12px] leading-snug">
-              Launch the MIZU edge network and import initial open-source
-              datasets into the MIZU data network
+              Launch the MIZU data repository
+              and import initial datasets into the MIZU data network
             </div>
           </div>
 
@@ -145,7 +142,7 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                Q4 2024
+                Stage3
               </div>
             </div>
 
@@ -191,13 +188,13 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                August 2024
+                Stage2
               </div>
             </div>
 
             <div className="mt-4 text-[#898989] text-[14px] leading-snug  pr-5">
-              Release the testnet for the MIZU data network, featuring
-              capabilities for data hosting and data pre-processing
+              Launch the MIZU edge network, featuring
+              capabilities for decentralized data processing
             </div>
           </div>
 
@@ -221,14 +218,13 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                Q1 2025
+                Stage4
               </div>
             </div>
 
             <div className="mt-4 text-[#898989] text-[14px] leading-snug   pr-5">
               Focus on ecosystem development, fostering the creation of AI
-              applications directly from the data repository and supporting
-              developers in utilizing the platform effectively
+              applications from the tailored datasets created from MIZU.
             </div>
           </div>
         </div>
@@ -248,13 +244,13 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                July 2024
+                Stage1
               </div>
             </div>
 
             <div className="mt-4 text-[#898989] text-[14px] leading-snug   pr-5">
               Launch the MIZU data repository
-              <br /> and import initial open-source datasets into the MIZU data
+              <br /> and import initial datasets into the MIZU data
               network
             </div>
           </div>
@@ -279,7 +275,7 @@ export const Roadmap = () => {
                   boldFont.className
                 )}
               >
-                Q4 2024
+                Stage3
               </div>
             </div>
 

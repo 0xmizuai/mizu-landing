@@ -74,7 +74,7 @@ export const Whatis = () => {
                   boldFont.className
                 )}
               >
-                Decentralized Data Hosting
+                Decentralized Data Processing
               </div>
 
               <div
@@ -83,10 +83,11 @@ export const Whatis = () => {
                   lightFont.className
                 )}
               >
-                MIZU is the pioneering DePIN solution for hyperscale AI
-                datasets. By simply running a MIZU data node, any data holder
-                can effortlessly join our ecosystem, securely sharing their
-                valuable information.
+                MIZU is the pioneering DePIN solution for hyperscale AI data
+                processing. By running a MIZU data node, anyone can join our
+                ecosystem to power diverse data operations, including crawling,
+                cleaning, classification, and complex ETL workflows, enabling
+                seamless and scalable data processing.
               </div>
             </div>
           </div>
@@ -189,7 +190,7 @@ export const Whatis = () => {
                   boldFont.className
                 )}
               >
-                Application-driven Dataset
+                Rich-Application Data Platform
               </div>
 
               <div
@@ -198,10 +199,11 @@ export const Whatis = () => {
                   lightFont.className
                 )}
               >
-                MIZU’s AI-ready dataset is designed to serve various AI
-                applications, including foundation model training, fine-tuning
-                and RAG. Our dataset is meticulously curated to ensure
-                high-quality, diverse, and unbiased data.
+                MIZU’s AI-ready dataset empowers anyone, especially individual
+                developers, to access affordable, high-quality data for their AI
+                applications. Whether for RAG, fine-tuning, or content
+                generation, our network provides scalable and cost-effective
+                solutions to support diverse AI workflows.
               </div>
             </div>
           </div>

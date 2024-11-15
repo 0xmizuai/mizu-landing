@@ -55,13 +55,13 @@ export const Introduction = () => {
                 "text-start text-[24px] md:text-[30px] lg:text-[36px] 2xl:text-[55px]"
               )}
             >
-              The DePIN for
+              The Ultra-low-cost Data Processing DePIN for
               <span className={classNames("", boldFont.className)}>
                 {" "}
                 Hyperscale
               </span>
               <div className="md:hidden" />
-              <span className="md:ml-2">AI Dataset</span>
+              <span className="md:ml-2">AI Data</span>
             </div>
 
             <div
@@ -69,7 +69,7 @@ export const Introduction = () => {
                 "mt-[20px] lg:mt-[28px] text-[16px] md:text-[18px] leading-snug text-text1 text-start"
               )}
             >
-              Shape the future of AI with us
+              EdgeAI-Powered, Delivering AI Data at 1000x Lower Cost Than Centralized Solutions
             </div>
 
             <div className="mt-[36px] lg:mt-[55px] flex flex-col md:flex-row items-start md:items-center">

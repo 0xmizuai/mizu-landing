@@ -58,7 +58,7 @@ export const MizuDataset = () => {
                   boldFont.className
                 )}
               >
-                The Community-built AI Dataset
+                The Next-Gen Decentralized Data Processing Network
               </div>
 
               <div className="mt-[36px] md:mt-[45px] lg:mt-[56px] flex flex-col xl:flex-row items-center">
@@ -82,12 +82,12 @@ export const MizuDataset = () => {
                     lightFont.className
                   )}
                 >
-                  Data is the currency of AI, but existing datasets are
-                  fragmented, outdated, and limited in scale. MIZU addresses
-                  this by aggregating data from diverse sources using DePIN to
-                  build a comprehensive, fresh, and large-scale open-source
-                  dataset that's easily accessible and queryable by AI
-                  developers.
+                  Data is the currency of AI, yet existing datasets are
+                  fragmented, outdated, and costly to process. MIZU changes this
+                  by offering scalable, affordable AI data search through our
+                  DePIN—a powerful data processing network built on our
+                  hyperscale AI dataset, making data easily accessible and
+                  queryable for AI developers.
                 </div>
               </div>
             </div>

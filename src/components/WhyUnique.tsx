@@ -99,10 +99,11 @@ export const WhyUnique = () => {
                     lightFont.className
                   )}
                 >
-                  With MIZU data DePIN, we can seamlessly merge and host vast
-                  amounts of data at an exceptionally low cost. Simply by
-                  running a MIZU data node and importing their data, any data
-                  provider can become part of this expansive ecosystem.
+                  While traditional cloud services offer scalability, MIZU's
+                  Data DePIN delivers true hyperscale capabilities. By
+                  leveraging our innovative data DePIN, we can seamlessly merge,
+                  host and process vast amounts of data at an exceptionally low
+                  cost.
                 </div>
               </div>
 
@@ -169,12 +170,10 @@ export const WhyUnique = () => {
                     lightFont.className
                   )}
                 >
-                  Data providers are incentivized through a comprehensive
-                  three-metric system. The first metric, new data imported,
-                  encourages continuous data growth and fresh inputs. The
-                  second, total data hosted, rewards the scale and breadth of
-                  data maintained. The third, data query frequency, prioritizes
-                  high-quality, relevant data that meets user needs.
+                  Edge device owners, from laptops to mobiles, earn token rewards by
+                  processing data. AI developers pay tokens to access ultra-low-cost
+                  services like querying, crawling, and cleaning, creating a
+                  scalable and efficient AI data ecosystem.”
                 </div>
               </div>
             </div>
@@ -214,11 +213,10 @@ export const WhyUnique = () => {
                     lightFont.className
                   )}
                 >
-                  All data integrated into the MIZU data network undergoes
-                  comprehensive pre-processing, including precise data tagging
-                  and quality refinement. This streamlined approach empowers AI
-                  developers to effortlessly build customized datasets tailored
-                  to their specific needs.
+                  MIZU delivers clean, diverse, and structured data optimized for AI
+                  tasks like RAG, fine-tuning, and content generation. Designed for
+                  scalability and affordability, it empowers developers of all sizes
+                  to access high-quality data resources easily.
                 </div>
               </div>
 
