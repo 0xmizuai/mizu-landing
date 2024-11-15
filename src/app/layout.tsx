@@ -3,7 +3,6 @@ import { AppHeader } from "@/components/AppHeader";
 import { regularFont } from "@/utils/fontUtils";
 import classNames from "classnames";
 import type { Metadata } from "next";
-import Image from "next/image";
 import "react-modern-drawer/dist/index.css";
 import "./globals.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
