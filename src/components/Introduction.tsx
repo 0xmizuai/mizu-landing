@@ -73,7 +73,7 @@ export const Introduction = () => {
             </div>
 
             <div className="mt-[36px] lg:mt-[55px] flex flex-col md:flex-row items-start md:items-center">
-              {/* <Link href={"https://docs.mizu.global/overview"} target="_blank">
+              {/* <Link href={"https://docs.mizu.technology/overview"} target="_blank">
                 <div
                   className={classNames(
                     "bg-lightButtonBg rounded-lg w-[210px] lg:w-[210px] py-[14px] cursor-pointer text-[16px] lg:text-xl text-black leading-tight flex justify-center",
@@ -84,7 +84,7 @@ export const Introduction = () => {
                 </div>
               </Link> */}
 
-              <Link href="https://docs.mizu.global/overview" target="_blank">
+              <Link href="https://docs.mizu.technology/overview" target="_blank">
                 <div
                   className={classNames(
                     "primary-button text-textBlack text-[16px] md:text-[18px] lg:text-[20px] xl:text-[24px] px-[12px] lg:px-[24px] xl:px-[33px] h-[36px] md:h-[40px] lg:h-[50px] xl:h-[60px] 2xl:h-[70px]",

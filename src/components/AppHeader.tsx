@@ -80,7 +80,7 @@ export const AppHeader = () => {
             </div>
           </Link>
 
-          <Link href={"https://docs.mizu.global/overview"} target="_blank">
+          <Link href={"https://docs.mizu.technology/overview"} target="_blank">
             <div
               className={classNames(
                 "ml-8 stroke-button active:primary-button text-[16px] px-[14px] py-[6px]"
@@ -193,7 +193,7 @@ export const AppHeader = () => {
               </div>
             </Link>
 
-            <Link href={"https://docs.mizu.global/overview"} target="_blank">
+            <Link href={"https://docs.mizu.technology/overview"} target="_blank">
               <div
                 className={classNames(
                   "mt-12 stroke-button active:primary-button text-[16px] w-full h-[44px]"
